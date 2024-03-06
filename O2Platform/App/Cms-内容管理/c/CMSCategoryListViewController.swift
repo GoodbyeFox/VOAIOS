@@ -244,7 +244,7 @@ class CMSCategoryListViewController: UIViewController {
     //如果有权限就显示新建按钮
     private func addPublishBtn() {
         if self.canPublishCategories.count > 0 {
-            self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "新建", style: .plain, target: self, action: #selector(tapPublishBtn))
+            self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: L10n.new, style: .plain, target: self, action: #selector(tapPublishBtn))
         }
     }
     // 点击新建按钮显示需要发布的分类列表

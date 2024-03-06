@@ -50,7 +50,7 @@ class AttendanceV2CheckInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(closeParent))
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "返回老版", style: .plain, target: self, action: #selector(closeSelfOpenOld))
+        // self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "返回老版", style: .plain, target: self, action: #selector(closeSelfOpenOld))
         // 列表
         self.recordItemsCollectionView.delegate = self
         self.recordItemsCollectionView.dataSource = self

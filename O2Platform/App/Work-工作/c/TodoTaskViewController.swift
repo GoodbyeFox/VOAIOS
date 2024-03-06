@@ -275,7 +275,7 @@ class TodoTaskViewController: UITableViewController {
     
     //初始化控件
     func initSegmentedControl(){
-        let titleStrings = ["待办", "待阅", "已办", "已阅"]
+        let titleStrings = [L10n.todo, L10n.needRead, L10n.doned, L10n.readed]
         let titles: [NSAttributedString] = {
             let attributes = [NSAttributedString.Key.font: UIFont(name: "PingFangSC-Regular", size: 17.0)!
                 , NSAttributedString.Key.foregroundColor: UIColor.white]

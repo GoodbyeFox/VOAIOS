@@ -325,25 +325,25 @@ extension Date {
             if (hour == 0) {
                 let minuts = Int((nowMillisecond - millisecond) / 60000)
                 if minuts > 1 {
-                    returnTimeString = "\(minuts)分钟前"
+                    returnTimeString = "\(minuts)"+L10n.minuteAgo
                 }else {
-                    returnTimeString = "刚刚"
+                    returnTimeString = L10n.justNow
                 }
             }else {
-                returnTimeString = "\(hour)小时前"
+                returnTimeString = "\(hour)"+L10n.hoursAgo
             }
         }else if (days == 1) {
-            returnTimeString = "昨天";
+            returnTimeString = L10n.yesterday;
         } else if (days == 2) {
-            returnTimeString = "前天 ";
+            returnTimeString = L10n.twoDaysAgo;
         } else if (days > 2 && days < 31) {
-            returnTimeString = "\(days)天前";
+            returnTimeString = "\(days)"+L10n.daysAgo;
         } else if (days >= 31 && days <= 2 * 31) {
-            returnTimeString = "一个月前";
+            returnTimeString = L10n.monthAgo;
         } else if (days > 2 * 31 && days <= 3 * 31) {
-            returnTimeString = "2个月前";
+            returnTimeString = L10n.twoMonthAgo;
         } else if (days > 3 * 31 && days <= 4 * 31) {
-            returnTimeString = "3个月前";
+            returnTimeString = L10n.threeMonthAgo;
         } else {
             returnTimeString = self.formatterDate(formatter: "yyyy-MM-dd")
         }

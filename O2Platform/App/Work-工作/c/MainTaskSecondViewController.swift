@@ -178,7 +178,7 @@ class MainTaskSecondViewController: UIViewController {
     private func initSegumentControl() -> SegmentedControl{
         
         //返回一个分类头部
-        let titleStrings = ["信息中心", "办公中心"]
+        let titleStrings = [L10n.information, L10n.officeCenter]
         let titles: [NSAttributedString] = {
             let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16), NSAttributedString.Key.foregroundColor: UIColor.black]
             var titles = [NSAttributedString]()

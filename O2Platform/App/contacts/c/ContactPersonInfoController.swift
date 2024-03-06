@@ -91,7 +91,7 @@ class ContactPersonInfoController: FormViewController {
         
         form +++ Section()
             <<< ImageRow("icon"){ row in
-                row.title = "头像"
+                row.title = L10n.avatar
                 let urlstr = AppDelegate.o2Collect.generateURLWithAppContextKey(ContactContext.contactsContextKeyV2, query: ContactContext.personIconByNameQueryV2, parameter: ["##name##":contact?.unique as AnyObject])
                 let url = URL(string: urlstr!)
                 //从网络获取数据流
@@ -104,16 +104,16 @@ class ContactPersonInfoController: FormViewController {
                 row.disabled = true
             }
             <<< LabelRow("employee"){
-                $0.title = "工号"
+                $0.title = L10n.code
                 $0.value = contact!.employee
             }
             <<< LabelRow("display"){
-                $0.title = "名字"
+                $0.title = L10n.name
                 $0.value = contact!.name
             }
             <<< LabelRow("genderType"){
-                $0.title = "性别"
-                $0.value = contact!.genderType == "f" ? "女":"男"
+                $0.title = L10n.gender
+                $0.value = contact!.genderType == "f" ? L10n.female:L10n.male
             }
             
             +++ Section()
@@ -122,28 +122,28 @@ class ContactPersonInfoController: FormViewController {
                 $0.value = contact!.mail
             }
             <<< LabelRow("mobile"){
-                $0.title = "手机"
+                $0.title = L10n.mobile
                 $0.value = contact!.mobile
             }.onCellSelection({ (cell, row) in
                 if let phone = row.value {
-                let alertController = UIAlertController(title: "", message: "呼叫联系人？", preferredStyle: .alert)
-                let smsAction = UIAlertAction(title: "发短信", style: .default, handler: { _ in
+                    let alertController = UIAlertController(title: "", message: L10n.call, preferredStyle: .alert)
+                    let smsAction = UIAlertAction(title: L10n.sms, style: .default, handler: { _ in
                     let smsURL = URL(string: "sms://\(phone)")
                     if UIApplication.shared.canOpenURL(smsURL!) {
                         UIApplication.shared.openURL(smsURL!)
                     }else{
-                        self.showError(title: "发短信失败")
+                        self.showError(title: L10n.smsFail)
                     }
                 })
-                let phoneAction = UIAlertAction(title: "打电话", style: .default, handler: { _ in
+                    let phoneAction = UIAlertAction(title: L10n.call, style: .default, handler: { _ in
                    let phoneURL = URL(string: "tel://\(phone)")
                     if UIApplication.shared.canOpenURL(phoneURL!) {
                         UIApplication.shared.openURL(phoneURL!)
                     }else{
-                        self.showError(title: "打电话失败")
+                        self.showError(title: L10n.callFail)
                     }
                 })
-                let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+                    let cancelAction = UIAlertAction(title: L10n.cancel, style: .cancel, handler: nil)
                 alertController.addAction(phoneAction)
                 alertController.addAction(smsAction)
                 alertController.addAction(cancelAction)
@@ -151,7 +151,7 @@ class ContactPersonInfoController: FormViewController {
                 }
             })
             <<< LabelRow("weixin"){
-                $0.title = "微信"
+                $0.title = L10n.wechat
                 $0.value = contact!.weixin
             }
             <<< LabelRow("qq"){

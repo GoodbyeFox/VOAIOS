@@ -32,7 +32,7 @@ class OOMeetingFormViewController: FormViewController {
                                                       UIBarButtonItem(title: "取消会议", style: .plain, target: self, action: #selector(deleteMeeting))]
         } else { //申请会议
             title = "申请会议"
-            self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "创建", style: .plain, target: self, action: #selector(createOrUpdateMeetingAction))
+            self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: L10n.new, style: .plain, target: self, action: #selector(createOrUpdateMeetingAction))
             self.meetingInfo = OOMeetingInfo()
         }
         

@@ -38,7 +38,7 @@ class SEmpowerListViewController: UIViewController {
         self.title = "外出授权"
         
         //右边按钮
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "新建", style: .plain, target: self, action: #selector(self.gotoCreate))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: L10n.new, style: .plain, target: self, action: #selector(self.gotoCreate))
         
         self.tableView.delegate = self
         self.tableView.dataSource = self

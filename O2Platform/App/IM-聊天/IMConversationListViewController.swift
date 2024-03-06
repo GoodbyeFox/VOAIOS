@@ -26,7 +26,7 @@ class IMConversationListViewController: UIViewController {
         view.isHidden = true
         view.backgroundColor = .white
         let tips = UILabel()
-        tips.text = "暂无会话"
+        tips.text = L10n.noMessage
         tips.textColor = UIColor(netHex: 0x666666)
         tips.sizeToFit()
         tips.center = CGPoint(x: view.centerX, y: view.height / 2 - 60)
@@ -163,10 +163,10 @@ class IMConversationListViewController: UIViewController {
     
     @objc private func addConversation() {
         self.showSheetAction(title: nil, message: nil, actions: [
-            UIAlertAction(title: "创建单聊", style: .default, handler: { (action) in
+            UIAlertAction(title: L10n.createSingle, style: .default, handler: { (action) in
                 self.createSingleConversation()
             }),
-            UIAlertAction(title: "创建群聊", style: .default, handler: { (action) in
+            UIAlertAction(title: L10n.createGroup, style: .default, handler: { (action) in
                 self.createGroupConversation()
             })
         ])
@@ -178,7 +178,7 @@ class IMConversationListViewController: UIViewController {
                 self.viewModel.createConversation(type: o2_im_conversation_type_single, users: [users[0].distinguishedName!]).then { (con) in
                     self.createConversationSuccess(conv: con)
                 }.catch { (err) in
-                    self.showError(title: "创建单聊失败, \(err.localizedDescription)")
+                    self.showError(title: (L10n.createSingleError + ", \(err.localizedDescription)"))
                 }
                 
             }
@@ -194,7 +194,7 @@ class IMConversationListViewController: UIViewController {
                 self.viewModel.createConversation(type: o2_im_conversation_type_group, users: array).then { (conv) in
                     self.createConversationSuccess(conv: conv)
                 }.catch { (err) in
-                    self.showError(title: "创建群聊失败, \(err.localizedDescription)")
+                    self.showError(title: (L10n.createGroupError + ", \(err.localizedDescription)"))
                 }
             }
         })

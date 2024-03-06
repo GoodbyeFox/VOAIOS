@@ -111,6 +111,31 @@ class LoginViewController: UIViewController {
                 return
             }
             
+            //换皮肤
+            if let themeName = O2ThemeManager.currentTheme?["name"] as? String {
+
+                print("themeName:\(themeName)")
+
+                if themeName != "blue" {
+
+                    AppConfigSettings.shared.themeName = "blue"
+
+                    O2ThemeManager.setTheme(plistName: "blue", path: .mainBundle)
+
+                    //搜索框
+
+                    UISearchBar.appearance().theme_barTintColor = ThemeColorPicker(keyPath: "Base.base_color")
+
+                    UISearchBar.appearance().tintColor = UIColor.white
+
+                    UITextField.appearance(whenContainedInInstancesOf: [UISearchBar.self]).theme_tintColor = ThemeColorPicker(keyPath: "Base.base_color")
+
+                    OOTabBarHelper.initTabBarStyle()
+
+                }
+
+            }
+            
            // self.showLoading()
             O2AuthSDK.shared.launchInner(unit: unit) { (state, msg) in
                 switch state {

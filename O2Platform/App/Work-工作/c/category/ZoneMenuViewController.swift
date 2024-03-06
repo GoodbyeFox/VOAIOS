@@ -58,7 +58,7 @@ class ZoneMenuViewController: UIViewController {
     
     private func commonInit(){
         if self.chooseMode == ProcessApplicationChooseMode.taskCreateProcess {
-            self.title = "发起工作"
+            self.title = L10n.startWork
         } else {
             self.title = "选择"
         }

@@ -114,7 +114,7 @@ class CMSCreateDocViewController: FormViewController {
         
             +++ Section()
             <<< ButtonRow("createButton") { (row:ButtonRow) in
-                row.title = "创建"
+                row.title = L10n.new
                 }.onCellSelection({ (cell, row) in
                     let titleRow:TextRow = self.form.rowBy(tag:"title")!
                     let identityRow:ActionSheetRow<IdentityV2> = self.form.rowBy(tag:"selectedIdentity")!

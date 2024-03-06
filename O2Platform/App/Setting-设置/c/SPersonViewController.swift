@@ -33,7 +33,7 @@ class SPersonViewController: FormViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //右边按钮
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "更改", style: .plain, target: self, action: #selector(self.submitPersonUpdateAction(sender:)))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: L10n.change, style: .plain, target: self, action: #selector(self.submitPersonUpdateAction(sender:)))
         
         ImageRow.defaultCellUpdate = { cell, row in
             cell.accessoryView?.layer.cornerRadius = 17
@@ -86,7 +86,7 @@ class SPersonViewController: FormViewController {
     
     
     private func loadCurrentPersonInfo(){
-        self.showLoading(title: "加载中...")
+        self.showLoading(title: L10n.loading)
         self.viewModel.loadMyInfo().then { (person) in
                 DispatchQueue.main.async {
                     self.person = person
@@ -94,7 +94,7 @@ class SPersonViewController: FormViewController {
                 }
             }.catch { (error) in
                 DispatchQueue.main.async {
-                    self.showError(title: "\(error)\n个人信息载入出错!")
+                    self.showError(title: ("\(error)\n"+L10n.errorLoadProfile))
                 }
         }
     }
@@ -119,7 +119,7 @@ class SPersonViewController: FormViewController {
         form +++ Section()
             
             <<< ImageRow("myAvatar"){ row in
-                row.title = "头像"
+                row.title = L10n.avatar
                 row.sourceTypes = [.PhotoLibrary,.Camera]
                 row.clearAction = .no
                 row.value = avatarImage
@@ -131,18 +131,18 @@ class SPersonViewController: FormViewController {
                                 self.notifyReloadAvatar()
                             }).catch({ (error) in
                                 DDLogInfo("上传头像失败，\(error)")
-                                self.showError(title: "上传头像失败，\(error)")
+                                self.showError(title: "Error，\(error)")
                             })
                     }else {
                         row.value = UIImage(named: "personDefaultIcon")
                     }
                 })
             <<< LabelRow(){
-                $0.title = "工号"
+                $0.title = L10n.code
                 $0.value = person?.employee
             }
             <<< TextRow(){
-                $0.title = "名字"
+                $0.title = L10n.name
                 $0.value = person?.name
                 }.onChange({ (row) in
                     self.person?.name = row.value
@@ -150,15 +150,15 @@ class SPersonViewController: FormViewController {
                 })
             
             <<< ActionSheetRow<String>(){
-                $0.title = "性别"
-                $0.selectorTitle = "请选择性别"
-                $0.options = ["男","女"]
-                $0.cancelTitle = "取消"
-                $0.value = person?.genderType == "f" ? "女":"男"
+                $0.title = L10n.gender
+                $0.selectorTitle = L10n.selectGender
+                $0.options = [L10n.male,L10n.female]
+                $0.cancelTitle = L10n.cancel
+                $0.value = person?.genderType == "f" ? L10n.female:L10n.male
                 }.onChange({ (row:ActionSheetRow<String>) in
-                    if row.value == "男" {
+                    if row.value == L10n.male {
                         self.person?.genderType = "m"
-                    }else if row.value == "女"{
+                    }else if row.value == L10n.female{
                         self.person?.genderType = "f"
                     }
                     self.updateFlag = true
@@ -174,7 +174,7 @@ class SPersonViewController: FormViewController {
                 })
             
             <<< PhoneRow(){
-                $0.title = "手机"
+                $0.title = L10n.mobile
                 $0.value = person?.mobile
                 }.onChange({ (row) in
                     self.person?.mobile = row.value
@@ -182,7 +182,7 @@ class SPersonViewController: FormViewController {
                 })
             
             <<< TextRow(){
-                $0.title = "微信"
+                $0.title = L10n.wechat
                 $0.value = person?.weixin
                 }.onChange({ (row) in
                     self.person?.weixin = row.value
@@ -200,13 +200,13 @@ class SPersonViewController: FormViewController {
             
             +++ Section()
             <<< ButtonRow() {
-                $0.title = "退出登录"
+                $0.title = L10n.logout
                 }.onCellSelection({ (cell, row) in
-                    let alertController = UIAlertController(title: "退出登录", message: "确定要退出系统吗？", preferredStyle: .actionSheet)
-                    let okAction = UIAlertAction(title: "退出", style: .destructive, handler: { _ in
+                    let alertController = UIAlertController(title: L10n.logout, message: L10n.exitConfirmMessage, preferredStyle: .actionSheet)
+                    let okAction = UIAlertAction(title: L10n.exit, style: .destructive, handler: { _ in
                         self.logout()
                     })
-                    let cancelAction = UIAlertAction(title: "取消", style: .cancel, handler: nil)
+                    let cancelAction = UIAlertAction(title: L10n.cancel, style: .cancel, handler: nil)
                     alertController.addAction(okAction)
                     alertController.addAction(cancelAction)
                     self.present(alertController, animated: true, completion: nil)
@@ -235,10 +235,10 @@ class SPersonViewController: FormViewController {
         if updateFlag ==  true {
             self.viewModel.updateMyInfo(person: self.person!).then { (result) in
                 DDLogInfo("更新个人信息成功，\(result)")
-                self.showSuccess(title: "更新成功！")
+                self.showSuccess(title: L10n.applicationsUpdateSuccess)
                 }.catch { (error) in
                     DDLogError("更新个人信息失败，\(error)")
-                    self.showError(title: "更新个人信息失败，\(error)")
+                    self.showError(title: (L10n.updateError+"，\(error)"))
             }
         }
     }

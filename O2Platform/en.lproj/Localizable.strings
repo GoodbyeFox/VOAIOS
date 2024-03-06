@@ -1,96 +1,231 @@
+/* No comment provided by engineer. */
+"取消" = "Cancel";
+
+/* (No Comment) */
 "Alert" = "Alert";
 
+/* (No Comment) */
 "All File" = "All File";
 
 /* No comment provided by engineer. */
-"Alt" = "提示";
+"Alt" = "Alert";
+
+/* (No Comment) */
+"App" = "App";
+
+/* (No Comment) */
+"Applications Main App" = "Main App";
+
+/* (No Comment) */
+"Applications Native App" = "Native App";
+
+/* (No Comment) */
+"Applications Portal App" = "Portal App";
+
+/* No comment provided by engineer. */
+"Applications update success" = "Update Success";
+
+/* (No Comment) */
+"Applications Url is empty" = "URL Is Empty";
+
+/* (No Comment) */
+"Applications Url request error" = "URL Request Error";
+
+/* (No Comment) */
+"Attendance" = "Attendance";
 
 /* No comment provided by engineer. */
 "BG Color" = "BG Color";
 
+/* (No Comment) */
+"Calendar" = "Calendar";
+
+/* (No Comment) */
+"CALL" = "call";
+
+/* (No Comment) */
+"CALL Fail" = "call fail！";
+
 /* No comment provided by engineer. */
 "Cancel" = "Cancel";
 
+/* (No Comment) */
 "Choose" = "Choose";
 
+/* (No Comment) */
 "Choose Move Position" = "Move To";
 
 /* No comment provided by engineer. */
 "Clear Photo" = "Clear Photo";
 
+/* (No Comment) */
 "Cloud File My Share Files" = "My Share Files";
 
+/* (No Comment) */
 "Cloud File Share To Me" = "Share To Me";
 
+/* (No Comment) */
 "Cloud File Type Document" = "Document";
 
+/* (No Comment) */
 "Cloud File Type Image" = "Image";
 
+/* (No Comment) */
 "Cloud File Type Music" = "Music";
 
+/* (No Comment) */
 "Cloud File Type Other" = "Other";
 
+/* (No Comment) */
 "Cloud File Type Video" = "Video";
 
-"Cloud Files" = "Cloud File";
-
-"Create Folder Error Message" = "Create Folder Error Message !";
-
-"Delete" = "Delete";
-
-"Delete Items Confirm Message" = "Delete these items , are you sure ?";
-
-"Delete My Share File Confirm Message" = "Cancel these share items, are you sure ?";
-
-"Cloud File V3 Zone Name" = "Enterprise Shared Area";
-
-"Cloud File V3 My Favorite" = "My Favorite";
-
-"Cloud File V3 My Zone" = "My Zone";
-
-"Cloud File V3 Menu Add Favorite" = "Add Favorite";
-
-"Cloud File V3 Menu Cancel Favorite" = "Cancel Favorite";
-
-"Cloud File V3 Menu Rename" = "Rename";
-
-"Cloud File V3 Menu Edit Zone" = "Edit";
-
-"Cloud File V3 Menu Delete Zone" = "Delete";
-
+/* (No Comment) */
 "Cloud File V3 Confirm Delete Zone" = "Are you sure you want to delete this sharing area [%@], and the data in it will not be recovered?";
 
-"Cloud File V3 Rename Alert Message" = "Rename the shared area of the collection";
+/* (No Comment) */
+"Cloud File V3 Menu Add Favorite" = "Add Favorite";
 
+/* (No Comment) */
+"Cloud File V3 Menu Cancel Favorite" = "Cancel Favorite";
+
+/* (No Comment) */
+"Cloud File V3 Menu Delete Zone" = "Delete";
+
+/* (No Comment) */
+"Cloud File V3 Menu Edit Zone" = "Edit";
+
+/* (No Comment) */
+"Cloud File V3 Menu Rename" = "Rename";
+
+/* (No Comment) */
+"Cloud File V3 My Favorite" = "My Favorite";
+
+/* (No Comment) */
+"Cloud File V3 My Zone" = "My Zone";
+
+/* (No Comment) */
 "Cloud File V3 Name Not Empty Message" = "The Name is required!";
 
-"Cloud File V3 Zone Form Create Title" = "Create a shared workspace";
+/* (No Comment) */
+"Cloud File V3 Rename Alert Message" = "Rename the shared area of the collection";
 
-"Cloud File V3 Zone Form Update Title" = "Update Shared Workspace";
+/* (No Comment) */
+"Cloud File V3 Zone File No Permission Delete" = "There are not enough permissions to delete!";
 
-"Cloud File V3 Zone File Save To My Pan" = "Save To My Disk";
-
-
+/* (No Comment) */
 "Cloud File V3 Zone File No Permission Update" = "There are not enough permissions to be modified!";
 
-"Cloud File V3 Zone File No Permission Delete" = "There are not enough permissions to delete!";
-/* 
-  Localizable.strings
+/* (No Comment) */
+"Cloud File V3 Zone File Save To My Pan" = "Save To My Disk";
+
+/* (No Comment) */
+"Cloud File V3 Zone Form Create Title" = "Create a shared workspace";
+
+/* (No Comment) */
+"Cloud File V3 Zone Form Update Title" = "Update Shared Workspace";
+
+/* (No Comment) */
+"Cloud File V3 Zone Name" = "Enterprise Shared Area";
+
+/* (No Comment) */
+"Cloud Files" = "Cloud File";
+
+/* (No Comment) */
+"Cms" = "CMS";
+
+/* (No Comment) */
+"Contacts board date" = "Entry time";
+
+/* (No Comment) */
+"Contacts Contact number" = "Contact number";
+
+/* (No Comment) */
+"Contacts Dept" = "Dept";
+
+/* (No Comment) */
+"Contacts desc" = "Describe";
+
+/* (No Comment) */
+"Contacts Email" = "Email";
+
+/* (No Comment) */
+"Contacts Employee number" = "Employee number";
+
+/* (No Comment) */
+"Contacts Enterprise information" = "Enterprise information";
+
+/* (No Comment) */
+"Contacts Initiate chat" = "Initiate chat";
+
+/* (No Comment) */
+"Contacts My department" = "My department";
+
+/* (No Comment) */
+"Contacts officePhone" = "Office telephone";
+
+/* (No Comment) */
+"Contacts Org structure" = "Org structure";
+
+/* (No Comment) */
+"Contacts Person Attributes" = "Personal Attribute";
+
+/* (No Comment) */
+"Contacts Person name" = "Name";
+
+/* contactc */
+"Contacts Search placeholder" = "Please enter name or pinyin to search...";
+
+/* (No Comment) */
+"Contacts Send emails" = "Send emails";
+
+/* (No Comment) */
+"Contacts Send emails Error" = "email is error";
+
+/* (No Comment) */
+"Contacts superior" = "Superior";
+
+/* (No Comment) */
+"Contacts Top contacts" = "Top contacts";
+
+/* (No Comment) */
+"Contacts Unable to create chat" = "Unable to create chat!";
+
+/* (No Comment) */
+"Contacts Unique code" = "Unique code";
+
+/* (No Comment) */
+"Copy" = "Copy";
+
+/* (No Comment) */
+"Copy succeeded" = "Copy succeeded";
+
+/* (No Comment) */
+"Create Folder Error Message" = "Create Folder Error Message !";
+
+/* (No Comment) */
+"Delete" = "Delete";
+
+/* (No Comment) */
+"Delete Items Confirm Message" = "Delete these items , are you sure ?";
+
+/* (No Comment) */
+"Delete My Share File Confirm Message" = "Cancel these share items, are you sure ?";
+
+/* Localizable.strings
   O2Platform
 
   Created by FancyLou on 2019/4/18.
-  Copyright © 2019 zoneland. All rights reserved.
-*/
+  Copyright © 2019 zoneland. All rights reserved. */
 "Done" = "Done";
 
+/* (No Comment) */
 "Edit" = "Edit";
 
-"App" = "App";
-
-/* No comment provided by engineer. */
-"Title" = "Title";
-
+/* (No Comment) */
 "Empty name Error Message" = "name is not empty !";
+
+/* (No Comment) */
+"Error with info" = "Error！%@";
 
 /* Error description */
 "Failed to convert value from data at path %@" = "Failed to convert value from data at path %@";
@@ -119,10 +254,136 @@
 /* No comment provided by engineer. */
 "Insert Link" = "Insert Link";
 
+/* (No Comment) */
+"Login binding" = "Binding...";
+
+/* (No Comment) */
+"Login Bio auth locked" = "It has been locked. Please enter the password in the unlocking interface of the mobile phone!";
+
+/* (No Comment) */
+"Login Can not get server list" = "Did not get the server list, please confirm whether the server has been registered!";
+
+/* (No Comment) */
+"Login Captcha is empty" = "Login captcha cannot be empty！";
+
+/* (No Comment) */
+"Login Confirm rebind message" = "Error loading, rebind? error：%@";
+
+/* (No Comment) */
+"Login Do not screenshot" = "In order to protect the security of user name and password, please do not take a screenshot!";
+
+/* (No Comment) */
+"Login do not support bio" = "The mobile phone system is not on or does not support the recognition function";
+
+/* (No Comment) */
+"Login Error with info" = "Error! %@";
+
+/* (No Comment) */
+"Login Face recognition login" = "Face recognition login";
+
+/* (No Comment) */
+"Login Fingerprint identification login" = "Fingerprint identification login";
+
+/* (No Comment) */
+"Login Get verification code" = "Get verification code";
+
+/* (No Comment) */
+"Login Guide page" = "Guide page";
+
+/* Login */
+"Login Jailbroken alert message" = "The current running environment has been jailbroken, this application will not provide services!";
+
+/* (No Comment) */
+"Login Login" = "Login";
+
+/* (No Comment) */
+"Login Login fail error" = "Login failed, %@";
+
+/* (No Comment) */
+"Login Login fail use other method" = "Server authentication login failed, please try to login in another way";
+
+/* (No Comment) */
+"Login Login with user name" = "Login with user name";
+
+/* (No Comment) */
+"Login Mobile phone number or password is empty" = "Mobile phone number or password cannot be empty!";
+
+/* (No Comment) */
+"Login Mobile phone validate" = "Mobile phone verification";
+
+/* (No Comment) */
+"Login Next step" = "Next";
+
+/* (No Comment) */
+"Login Password login" = "Password login";
+
+/* (No Comment) */
+"Login Please enter mobile phone" = "Please input mobile phone number!";
+
+/* (No Comment) */
+"Login Please enter validation code" = "Please input verification code!";
+
+/* (No Comment) */
+"Login Rebind" = "Rebind";
+
+/* (No Comment) */
+"Login Rebind to the new service node" = "Rebind to the new service node, the original node information will be cleared, are you sure?";
+
+/* (No Comment) */
+"Login Recapture" = "Recapture";
+
+/* (No Comment) */
+"Login Select service node" = "Select service node";
+
+/* (No Comment) */
+"Login Select the following login method" = "Please select the following login method";
+
+/* (No Comment) */
+"Login Send code fail" = "Verification code sending failed!";
+
+/* (No Comment) */
+"Login Server config info error" = "Abnormal server configuration information!";
+
+/* (No Comment) */
+"Login Server config info is empty" = "No server information configured!";
+
+/* (No Comment) */
+"Login Unknown error" = "Unknown error!";
+
+/* (No Comment) */
+"Login Verification code login" = "Verification code login";
+
+/* (No Comment) */
+"Login Verification failed" = "Verification failed!";
+
+/* (No Comment) */
+"Login Verify login now" = "Verify login now";
+
+/* (No Comment) */
+"Main Bar App" = "Apps";
+
+/* (No Comment) */
+"Main Bar Contacts" = "Contacts";
+
+/* Main */
+"Main Bar IM" = "Messages";
+
+/* (No Comment) */
+"Main Bar Settings" = "Settings";
+
+/* (No Comment) */
+"Meeting" = "Meeting";
+
+/* (No Comment) */
 "Move" = "Move";
 
+/* (No Comment) */
+"Need Read" = "Read";
+
+/* (No Comment) */
 "New" = "New";
 
+/* (No Comment) */
 "New Folder" = "New Folder";
 
 /* Error description */
@@ -137,129 +398,144 @@
 /* No comment provided by engineer. */
 "Pick New Image" = "Pick New Image";
 
+/* (No Comment) */
+"Readed" = "Readed";
+
+/* (No Comment) */
 "Rename" = "Rename";
 
 /* Error description */
 "Request expected %ld bytes and received %ld bytes" = "Request expected %ld bytes and received %ld bytes";
 
+/* Search */
+"Search" = "Search";
+
+/* (No Comment) */
+"Search Cms category" = "Category: ";
+
+/* (No Comment) */
+"Search Delete all search history" = "Delete all search history";
+
+/* (No Comment) */
+"Search No Result" = "No relevant results were found";
+
+/* (No Comment) */
+"Search Placeholder" = "Please enter search keywords";
+
+/* (No Comment) */
+"Search Process Name" = "Process: ";
+
+/* (No Comment) */
 "Share" = "Share";
 
+/* (No Comment) */
 "Share Delete" = "Take Back";
 
+/* (No Comment) */
 "Shield Share" = "Shield Share";
 
+/* (No Comment) */
 "Shield Share File Confirm Message" = "Dismiss these share items, are you sure ?";
+
+/* (No Comment) */
+"SMS" = "send message";
+
+/* (No Comment) */
+"SMS Fail" = "send message fail！";
 
 /* No comment provided by engineer. */
 "Text Color" = "Text Color";
 
 /* No comment provided by engineer. */
+"Title" = "Title";
+
+/* 新增 */
+"Todo" = "Todo";
+
+/* No comment provided by engineer. */
 "Update" = "Update";
 
+/* (No Comment) */
 "Upload File" = "Upload File";
 
 /* No comment provided by engineer. */
 "URL (required)" = "URL (required)";
 
-/* No comment provided by engineer. */
-"取消" = "Cancel";
+/* (No Comment) */
+"VoiceAss" = "Voice Assistant";
 
-/* No comment provided by engineer. */
-"Applications update success" = "Update Success";
+"Calendar" = "Calendar";
+"Information" = "Info";
+"OfficeCenter" = "Office";
+"DeleteMessage" = " Delete";
+"Account Security" = "Account Security";
+"Personal Information" = "Information";
+"Skin" = "Skin";
+"Notification" = "Notification";
+"General" = "General";
+"About" = "About";
 
-"Applications Url request error" = "URL Request Error";
+"MinuteAgo" = "Minute Ago";
+"JustNow" = "JustNow";
+"HoursAgo" = "Hours Ago";
+"Yesterday" = "Yesterday";
+"TwoDaysAgo" = "2 Days Ago";
+"DaysAgo" = "Days Ago";
+"MonthAgo" = "1 Month Ago";
+"2MonthAgo" = "2 Month Ago";
+"3MonthAgo" = "3 Month Ago";
 
-"Applications Url is empty" = "URL Is Empty";
-
-"Applications Main App" = "Main App";
-"Applications Native App" = "Native App";
-"Applications Portal App" = "Portal App";
-
-"Error with info" = "Error！%@";
-
-/* Main */
-"Main Bar IM" = "Messages";
-"Main Bar Contacts" = "Contacts";
-"Main Bar App" = "Apps";
-"Main Bar Settings" = "Settings";
-
-/* Login */
-"Login Jailbroken alert message" = "The current running environment has been jailbroken, this application will not provide services!";
-"Login Server config info error" = "Abnormal server configuration information!";
-"Login Server config info is empty" = "No server information configured!";
-"Login Unknown error" = "Unknown error!";
-"Login Rebind" = "Rebind";
-"Login Confirm rebind message" ="Error loading, rebind? error：%@";
-"Login Mobile phone validate" = "Mobile phone verification";
-"Login Please enter mobile phone" = "Please input mobile phone number!";
-"Login Please enter validation code" = "Please input verification code!";
-"Login binding" = "Binding...";
-"Login Can not get server list" = "Did not get the server list, please confirm whether the server has been registered!";
-"Login Error with info" = "Error! %@";
-"Login Guide page" = "Guide page";
-"Login Next step" = "Next";
-"Login Select service node" = "Select service node";
-"Login Do not screenshot" = "In order to protect the security of user name and password, please do not take a screenshot!";
-"Login Face recognition login" = "Face recognition login";
-"Login Fingerprint identification login" = "Fingerprint identification login";
-"Login Rebind to the new service node" = "Rebind to the new service node, the original node information will be cleared, are you sure?";
-"Login Password login" = "Password login";
-"Login Verification code login" = "Verification code login";
-"Login Select the following login method" = "Please select the following login method";
-"Login Mobile phone number or password is empty" = "Mobile phone number or password cannot be empty!";
-"Login Captcha is empty" = "Login captcha cannot be empty！";
-"Login Login fail error" = "Login failed, %@";
-"Login Send code fail" = "Verification code sending failed!";
-"Login Verify login now" = "Verify login now";
-"Login Login" = "Login";
-"Login Login with user name" = "Login with user name";
-"Login Bio auth locked" = "It has been locked. Please enter the password in the unlocking interface of the mobile phone!";
-"Login Verification failed" = "Verification failed!";
-"Login do not support bio" = "The mobile phone system is not on or does not support the recognition function";
-"Login Login fail use other method" = "Server authentication login failed, please try to login in another way";
-"Login Get verification code" = "Get verification code";
-"Login Recapture" = "Recapture";
-
-/* contactc */
-"Contacts Search placeholder" = "Please enter name or pinyin to search...";
-"Contacts Top contacts" = "Top contacts";
-"Contacts My department" = "My department";
-"Contacts Org structure" = "Org structure";
-
-"Contacts Enterprise information" = "Enterprise information";
-"Contacts Person name" = "Name";
-"Contacts Employee number" = "Employee number";
-"Contacts Unique code" = "Unique code";
-"Contacts Contact number" = "Contact number";
-"Contacts Email" = "Email";
-"Contacts Dept" = "Dept";
-"Contacts Initiate chat" = "Initiate chat";
-"Contacts Unable to create chat" = "Unable to create chat!";
-"Contacts Send emails" = "Send emails";
-"Contacts Send emails Error" = "email is error";
-
-
-"Contacts officePhone" = "Office telephone";
-"Contacts superior" = "Superior";
-"Contacts board date" = "Entry time";
-"Contacts desc" = "Describe";
-
-"Contacts Person Attributes" = "个人属性";
-
-
-"Copy" = "Copy";
-"Copy succeeded" = "Copy succeeded";
-
-"SMS" = "send message";
-"SMS Fail" = "send message fail！";
-
-"CALL" = "call";
-"CALL Fail" = "call fail！";
-
-/* Search */
-"Search" = "Search";
-"Search No Result" = "No relevant results were found";
-"Search Delete all search history" = "Delete all search history";
-"Search Placeholder" = "Please enter search keywords";
-"Search Cms category" = "Category: ";
-"Search Process Name" = "Process: ";
+"change" = "Change";
+"avatar" = "Avatar";
+"code" = "Code";
+"name" = "Name";
+"gender" = "Gender";
+"male" = "Male";
+"female" = "Female";
+"mobile" = "Mobile";
+"wechat" = "Wechat";
+"qq" = "QQ";
+"logout" = "Logout";
+"loginAccount" = "Account";
+"password" = "Password";
+"changePasswod" = "Change Password";
+"outAuthorization" = "Out Authorization";
+"unOpened" = "UnOpend";
+"loading" = "Loading...";
+"errorLoadProfile" = "Error Load Profile!";
+"selectGender" = "Please Select Gender";
+"exitConfirmMessage" = "Exit Application?";
+"exit" = "Exit";
+"updateError" = "Update Failed";
+"cleanMessage" = "Clear Chat History";
+"editGroup" = "Edit Group Name";
+"editMember" = "Edit Member";
+"deleteGroup" = "Delete Group";
+"editItemConfirm" = "Please select a item to edit";
+"deleteGroupConfirm" = "Are you sure you want to delete the current group chat? Deletion will dissolve the current group and clear all chat records?";
+"deleteChatConfirm" = "Are you sure you want to delete the current conversation? Deletion will clear all chat history?";
+"deleteFailed" = "Failed To Delete";
+"cleanMessageConfirm" = "Are you sure you want to clear the chat history? After clearing, everyone in the current conversation will not be able to see the chat history?";
+"cleanSuccess" = "Cleared chat history successfully!";
+"cleanFailed" = "Clearing failed!";
+"groupNameComfirm" = "Please enter the group name";
+"editSuccess" = "Successfully modified";
+"editFailed" = "fail to modified";
+"memberNotEnough" = "Less than 3 people selected";
+"selectMemberTip" = "Please select person";
+"selectMemberError" = "Member list data error!";
+"sendMessageFailed" = "Failed to send message!";
+"uploadError" = "Upload error,";
+"withdraw" = "Withdraw";
+"withdrawMemberMessage" = "Withdraw Member Message";
+"withdrawalSuccessful" = "Withdrawal Successful!";
+"withdrawalFailed" = "Withdrawal Failed!";
+"loadFileFailed" = "Failed to read file";
+"noPermissionLoadFile" = "No permission to load file";
+"releaseToSendSwipeToCancel" = "Release to send, Swipe up to cancel";
+"releaseFToSendSwipeToCancel" = "Lift your finger to cancel sending";
+"playStart" = "Play Start";
+"playStop" = "Play Stop";
+"playPause" = "Play Pause";
+"cannotReview" = "The current file type does not support preview!";
+"getFileError" = "Exception in getting file!";

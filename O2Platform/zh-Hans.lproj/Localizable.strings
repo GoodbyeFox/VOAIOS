@@ -75,7 +75,7 @@
 
 "Cloud File V3 Zone File No Permission Delete" = "权限不足，无法删除！";
 
-/* 
+/*
   Localizable.strings
   O2Platform
 
@@ -267,3 +267,94 @@
 "Search Cms category" = "栏目: ";
 "Search Process Name" = "流程: ";
 
+/* 新增 */
+"Todo" = "待办";
+"Done" = "已办";
+"Need Read" = "待阅";
+"Readed" = "已阅";
+"Meeting" = "会议管理";
+"Attendance" = "考勤管理";
+"Cms" = "内容管理";
+"VoiceAss" = "语音助手";
+"Calendar" = "日程安排";
+"Information" = "信息中心";
+"OfficeCenter" = "办公中心";
+"DeleteMessage" = " 删除会话";
+"Account Security" = "账号与安全";
+"Personal Information" = "个人信息";
+"Skin" = "个性换肤";
+"Notification" = "新消息通知";
+"General" = "通用";
+"About" = "关于";
+
+"MinuteAgo" = "分钟前";
+"JustNow" = "刚刚";
+"HoursAgo" = "小时前";
+"Yesterday" = "昨天";
+"TwoDaysAgo" = "前天";
+"DaysAgo" = "天前";
+"MonthAgo" = "一个月前";
+"2MonthAgo" = "2个月前";
+"3MonthAgo" = "3个月前";
+
+"StartWork" = "发起工作";
+"CreateSingle" = "创建单聊";
+"CreateGroup" = "创建群聊";
+"CreateSingleError" = "创建单聊失败";
+"CreateGroupError" = "创建群聊失败";
+"noMessage" = "暂无会话";
+
+"change" = "更改";
+"avatar" = "头像";
+"code" = "工号";
+"name" = "名字";
+"gender" = "性别";
+"male" = "男";
+"female" = "女";
+"mobile" = "手机";
+"wechat" = "微信";
+"qq" = "QQ";
+"logout" = "退出登录";
+"loginAccount" = "登录账号";
+"password" = "登录密码";
+"changePasswod" = "修改密码";
+"outAuthorization" = "外出授权";
+"unOpened" = "未开启";
+"loading" = "加载中...";
+"errorLoadProfile" = "个人信息载入出错!";
+"selectGender" = "请选择性别";
+"exitConfirmMessage" = "确定要退出系统吗？";
+"exit" = "退出";
+"updateError" = "更新失败";
+"cleanMessage" = "清除聊天记录";
+"editGroup" = "修改群名";
+"editMember" = "修改成员";
+"deleteGroup" = "删除群聊";
+"editItemConfirm" = "选择要修改的项";
+"deleteGroupConfirm" = "确定要删除当前群聊吗，删除后会解散当前群并清空所有聊天记录？";
+"deleteChatConfirm" = "确定要删除当前会话吗，删除后会清空所有聊天记录？";
+"deleteFailed" = "删除失败";
+"cleanMessageConfirm" = "确定要清空聊天记录吗，清空后当前会话所有人都将看不到这些聊天记录？";
+"cleanSuccess" = "清空聊天记录成功！";
+"cleanFailed" = "清空失败！";
+"groupNameComfirm" = "请输入群名";
+"editSuccess" = "修改成功";
+"editFailed" = "修改失败";
+"memberNotEnough" = "选择人数不足3人";
+"selectMemberTip" = "请选择人员";
+"selectMemberError" = "成员列表数据错误！";
+"sendMessageFailed" = "发送消息失败!";
+"uploadError" = "上传错误，";
+"withdraw" = "撤回";
+"withdrawMemberMessage" = "撤回成员信息";
+"withdrawalSuccessful" = "撤回成功！";
+"withdrawalFailed" = "撤回失败！";
+"loadFileFailed" = "读取文件失败";
+"noPermissionLoadFile" = "没有获取文件的权限";
+"releaseToSendSwipeToCancel" = "松开发送，上滑取消";
+"releaseFToSendSwipeToCancel" = "松开手指，取消发送";
+"playStart" = "播放开始";
+"playStop" = "播放停止";
+"playPause" = "播放暂停";
+"cannotReview" = "当前文件类型不支持预览！";
+"getFileError" = "获取文件异常！";

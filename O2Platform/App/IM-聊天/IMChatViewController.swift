@@ -142,9 +142,9 @@ class IMChatViewController: UIViewController {
             navigationItem.rightBarButtonItem = UIBarButtonItem(title: "修改", style: .plain, target: self, action: #selector(clickUpdate))
         } else if self.conversation?.type == o2_im_conversation_type_single {
             if let vNo = imConfig.versionNo, vNo >= 200 {
-                navigationItem.rightBarButtonItem = UIBarButtonItem(title: "删除会话", style: .plain, target: self, action: #selector(deleteSingleChat))
+                navigationItem.rightBarButtonItem = UIBarButtonItem(title: L10n.deleteMessage, style: .plain, target: self, action: #selector(deleteSingleChat))
             } else if imConfig.enableClearMsg == true {
-                navigationItem.rightBarButtonItem = UIBarButtonItem(title: "清除聊天记录", style: .plain, target: self, action: #selector(clearAllChatMsg))
+                navigationItem.rightBarButtonItem = UIBarButtonItem(title: L10n.cleanMessage, style: .plain, target: self, action: #selector(clearAllChatMsg))
             }
         }
         
@@ -246,37 +246,37 @@ class IMChatViewController: UIViewController {
     
     @objc private func clickUpdate() {
         var arr = [
-            UIAlertAction(title: "修改群名", style: .default, handler: { (action) in
+            UIAlertAction(title: L10n.editGroup, style: .default, handler: { (action) in
                 self.updateTitle()
             }),
-            UIAlertAction(title: "修改成员", style: .default, handler: { (action) in
+            UIAlertAction(title: L10n.editMember, style: .default, handler: { (action) in
                 self.updatePeople()
             })
         ]
         
         if let vNo = imConfig.versionNo, vNo >= 200 {
-            arr.append(UIAlertAction(title: "删除群聊", style: .default, handler: { (action) in
+            arr.append(UIAlertAction(title: L10n.deleteGroup, style: .default, handler: { (action) in
                 self.deleteGroupChat()
             }))
         } else if imConfig.enableClearMsg == true {
-            arr.append(UIAlertAction(title: "清除聊天记录", style: .default, handler: { (action) in
+            arr.append(UIAlertAction(title: L10n.cleanMessage, style: .default, handler: { (action) in
                 self.clearAllChatMsg()
             }))
         }
         
-        self.showSheetAction(title: "", message: "选择要修改的项", actions: arr)
+        self.showSheetAction(title: "", message: L10n.editItemConfirm, actions: arr)
     }
     
     // 删除群聊
     @objc private func deleteGroupChat() {
-        self.showDefaultConfirm(title: "提示", message: "确定要删除当前群聊吗，删除后会解散当前群并清空所有聊天记录？") { action in
+        self.showDefaultConfirm(title: L10n.alert, message: L10n.deleteGroupConfirm) { action in
             if let id = self.conversation?.id {
                 self.viewModel.deleteGroupConversation(conversationId:  id).then { result in
                     if result {
                         DDLogDebug("删除成功！")
                         self.popVC()
                     } else {
-                        self.showError(title: "删除失败！")
+                        self.showError(title: L10n.deleteFailed)
                     }
                 }
             }
@@ -284,14 +284,14 @@ class IMChatViewController: UIViewController {
     }
     // 单聊 删除当前会话 个人删除
     @objc private func deleteSingleChat() {
-        self.showDefaultConfirm(title: "提示", message: "确定要删除当前会话吗，删除后会清空所有聊天记录？") { action in
+        self.showDefaultConfirm(title: L10n.alert, message: L10n.deleteChatConfirm) { action in
             if let id = self.conversation?.id {
                 self.viewModel.deleteSingleConversation(conversationId:  id).then { result in
                     if result {
                         DDLogDebug("删除成功！")
                         self.popVC()
                     } else {
-                        self.showError(title: "删除失败！")
+                        self.showError(title: L10n.deleteFailed)
                     }
                 }
             }
@@ -299,18 +299,18 @@ class IMChatViewController: UIViewController {
     }
     
     @objc private func clearAllChatMsg() {
-        self.showDefaultConfirm(title: "提示", message: "确定要清空聊天记录吗，清空后当前会话所有人都将看不到这些聊天记录？") { action in
+        self.showDefaultConfirm(title: L10n.alert, message: L10n.cleanMessageConfirm) { action in
             // 清空聊天记录
             if let id = self.conversation?.id {
                 self.viewModel.clearAllChatMsg(conversationId:  id).then { result in
                     if result {
-                        self.showMessage(msg: "清空聊天记录成功！")
+                        self.showMessage(msg: L10n.cleanSuccess)
                         self.chatMessageList.removeAll()
                         self.tableView.reloadData()
                         self.page = 0
                         self.loadMsgList()
                     } else {
-                        self.showError(title: "清空失败！")
+                        self.showError(title: L10n.cleanFailed)
                     }
                 }
             }
@@ -318,19 +318,19 @@ class IMChatViewController: UIViewController {
     }
     
     private func updateTitle() {
-        self.showPromptAlert(title: "", message: "修改群名", inputText: "") { (action, result) in
+        self.showPromptAlert(title: "", message: L10n.editGroup, inputText: "") { (action, result) in
             if result.isEmpty {
-                self.showError(title: "请输入群名")
+                self.showError(title: L10n.groupNameComfirm)
             }else {
                 self.showLoading()
                 self.viewModel.updateConversationTitle(id: (self.conversation?.id!)!, title: result)
                     .then { (c) in
                         self.title = result
                         self.conversation?.title = result
-                        self.showSuccess(title: "修改成功")
+                        self.showSuccess(title: L10n.editSuccess)
                 }.catch { (err) in
                     DDLogError(err.localizedDescription)
-                    self.showError(title: "修改失败")
+                    self.showError(title: L10n.editFailed)
                 }
             }
         }
@@ -357,20 +357,20 @@ class IMChatViewController: UIViewController {
                         self.viewModel.updateConversationPeople(id: (self.conversation?.id!)!, users: peopleDNs)
                             .then { (c)  in
                                 self.conversation?.personList = peopleDNs
-                                self.showSuccess(title: "修改成功")
+                                self.showSuccess(title: L10n.editSuccess)
                         }.catch { (err) in
                             DDLogError(err.localizedDescription)
-                            self.showError(title: "修改失败")
+                            self.showError(title: L10n.editFailed)
                         }
                     }else {
-                        self.showError(title: "选择人数不足3人")
+                        self.showError(title: L10n.memberNotEnough)
                     }
                 }else {
-                    self.showError(title: "请选择人员")
+                    self.showError(title: L10n.memberNotEnough)
                 }
             }, initUserPickedArray: users)
         }else {
-            self.showError(title: "成员列表数据错误！")
+            self.showError(title: L10n.selectMemberError)
         }
     }
 
@@ -462,7 +462,7 @@ class IMChatViewController: UIViewController {
                 self.viewModel.readConversation(conversationId: self.conversation?.id)
             }.catch { (error) in
                 DDLogError(error.localizedDescription)
-                self.showError(title: "发送消息失败!")
+                self.showError(title: L10n.sendMessageFailed)
         }
     }
 
@@ -472,7 +472,7 @@ class IMChatViewController: UIViewController {
             let localFilePath = self.storageLocalImage(imageData: newData, fileName: fileName)
             let msgId = self.prepareForSendImageMsg(filePath: localFilePath)
             self.uploadFileAndSendMsg(messageId: msgId, data: newData, fileName: fileName, type: o2_im_msg_type_image)
-        }         
+        }
     }
     //临时存储本地
     private func storageLocalImage(imageData: Data, fileName: String) -> String {
@@ -565,10 +565,10 @@ class IMChatViewController: UIViewController {
                     self.viewModel.readConversation(conversationId: self.conversation?.id)
                 }.catch { (error) in
                     DDLogError(error.localizedDescription)
-                    self.showError(title: "发送消息失败!")
+                    self.showError(title: L10n.sendMessageFailed)
             }
         }.catch { err in
-            self.showError(title: "上传错误，\(err.localizedDescription)")
+            self.showError(title: (L10n.uploadError+"，\(err.localizedDescription)"))
         }
     }
     
@@ -705,17 +705,17 @@ class IMChatViewController: UIViewController {
         if self.imConfig.enableRevokeMsg == true, let cp = msg?.createPerson {
             if cp == O2AuthSDK.shared.myInfo()?.distinguishedName {
                 //发送者
-                menus.append(UIMenuItem(title: "撤回", action: #selector(revokeMsg)))
+                menus.append(UIMenuItem(title: L10n.withdraw, action: #selector(revokeMsg)))
             } else if self.conversation?.type == o2_im_conversation_type_group &&
                     O2AuthSDK.shared.myInfo()?.distinguishedName == self.conversation?.adminPerson {
                 // 群主
-                menus.append(UIMenuItem(title: "撤回成员消息", action: #selector(revokeMsg)))
+                menus.append(UIMenuItem(title: L10n.withdrawMemberMessage, action: #selector(revokeMsg)))
             }
         }
         // 文字消息 添加复制按钮
         if let body = msg?.body, let bodyInfo = IMMessageBodyInfo.deserialize(from: body) {
             if bodyInfo.type == o2_im_msg_type_text {
-                menus.append(UIMenuItem(title: "复制", action: #selector(copyTextMsg)))
+                menus.append(UIMenuItem(title: L10n.copy, action: #selector(copyTextMsg)))
             }
         }
         if menus.count > 0 {
@@ -735,7 +735,7 @@ class IMChatViewController: UIViewController {
             DDLogDebug("撤回消息，id: \(id)")
             self.viewModel.revokeChatMsg(msgId:  id).then { result in
                 if result {
-                    self.showMessage(msg: "撤回成功！")
+                    self.showMessage(msg: L10n.withdrawalSuccessful)
                     var newList: [IMMessageInfo] = []
                     for item in self.chatMessageList {
                         if item.id != id {
@@ -745,7 +745,7 @@ class IMChatViewController: UIViewController {
                     self.chatMessageList = newList
                     self.tableView.reloadData()
                 } else {
-                    self.showError(title: "撤回失败！")
+                    self.showError(title: L10n.withdrawalFailed)
                 }
             }
         }
@@ -756,7 +756,7 @@ class IMChatViewController: UIViewController {
         DDLogDebug("复制文字消息")
         if let msg = self.currentSelectMsg, let body = msg.body, let bodyInfo = IMMessageBodyInfo.deserialize(from: body) {
             UIPasteboard.general.string = bodyInfo.body
-            self.showSuccess(title: "复制成功！")
+            self.showSuccess(title: L10n.copySuccess)
         }
     }
     
@@ -781,10 +781,10 @@ extension IMChatViewController: UIDocumentPickerDelegate {
                         self.uploadFileAndSendMsg(messageId: msgId, data: data, fileName: fileName, type: o2_im_msg_type_file)
                     }
                 } else {
-                    self.showError(title: "读取文件失败")
+                    self.showError(title: L10n.loadFileFailed)
                 }
             } else {
-                self.showError(title: "没有获取文件的权限")
+                self.showError(title: L10n.noPermissionLoadFile)
             }
         }
         
@@ -836,7 +836,7 @@ extension IMChatViewController: IMChatAudioViewDelegate {
             self.voiceIconImage?.addSubview(voiceIconTitleLabel)
             voiceIconTitleLabel.textColor = UIColor.white
             voiceIconTitleLabel.font = .systemFont(ofSize: 12)
-            voiceIconTitleLabel.text = "松开发送，上滑取消"
+            voiceIconTitleLabel.text = L10n.releaseToSendSwipeToCancel
             voiceIconTitleLabel.snp_makeConstraints { (make) in
                 make.bottom.equalTo(self.voiceImageSuperView!).offset(-15)
                 make.centerX.equalTo(self.voiceImageSuperView!)
@@ -848,7 +848,7 @@ extension IMChatViewController: IMChatAudioViewDelegate {
         }else {
             self.voiceIconImage?.image = UIImage(named: "chat_audio_voice")
         }
-        self.voiceIocnTitleLable?.text = "松开发送，上滑取消";
+        self.voiceIocnTitleLable?.text = L10n.releaseToSendSwipeToCancel;
        
     }
     
@@ -857,7 +857,7 @@ extension IMChatViewController: IMChatAudioViewDelegate {
     }
     
     func changeRecordingView2uplide() {
-        self.voiceIocnTitleLable?.text = "松开手指，取消发送";
+        self.voiceIocnTitleLable?.text = L10n.releaseFToSendSwipeToCancel;
         self.voiceIconImage?.image = UIImage(named: "chat_audio_cancel")
     }
     
@@ -867,7 +867,7 @@ extension IMChatViewController: IMChatAudioViewDelegate {
         }else {
             self.voiceIconImage?.image = UIImage(named: "chat_audio_voice")
         }
-        self.voiceIocnTitleLable?.text = "松开发送，上滑取消";
+        self.voiceIocnTitleLable?.text = L10n.releaseToSendSwipeToCancel;
     }
     
     func sendVoice(path: String, voice: Data, duration: String) {
@@ -1017,12 +1017,12 @@ extension IMChatViewController: IMChatMessageDelegate {
                         self.previewVC.reloadData()
                         self.pushVC(self.previewVC)
                     } else {
-                        self.showError(title: "当前文件类型不支持预览！")
+                        self.showError(title: L10n.cannotReview)
                     }
                 }
                 .catch { (error) in
                     DDLogError(error.localizedDescription)
-                    self.showError(title: "获取文件异常！")
+                    self.showError(title: L10n.getFileError)
             }
         } else if let temp = info.fileTempPath {
             let currentURL = NSURL(fileURLWithPath: temp)
@@ -1034,7 +1034,7 @@ extension IMChatViewController: IMChatMessageDelegate {
                 self.previewVC.reloadData()
                 self.pushVC(self.previewVC)
             } else {
-                self.showError(title: "当前文件类型不支持预览！")
+                self.showError(title: L10n.cannotReview)
             }
         }
     }

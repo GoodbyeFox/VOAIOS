@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
 	<key>CFBundleDisplayName</key>
-	<string>O2OA</string>
+	<string>VOA</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -258,7 +258,7 @@
 		<key>id</key>
 		<string>o2CenterServer</string>
 		<key>name</key>
-		<string>sample</string>
+		<string>product</string>
 		<key>urlMapping</key>
 		<string></string>
 	</dict>

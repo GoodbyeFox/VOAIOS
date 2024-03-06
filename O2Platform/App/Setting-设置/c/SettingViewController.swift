@@ -30,15 +30,17 @@ class SettingViewController: UIViewController,UITableViewDelegate,UITableViewDat
     
     
     var itemModels:[Int:[SettingHomeCellModel]] {
-        let item0 = SettingHomeCellModel(iconName: "person_avatar", title: "个人信息", status: nil,segueIdentifier:"showPersonSegue")
-        let item1 = SettingHomeCellModel(iconName: "setting_accout", title: "账号与安全", status: nil,segueIdentifier:"showInfoAndSecuritySegue")
-        let itemSkin = SettingHomeCellModel(iconName: "icon_skin", title: "个性换肤", status: nil,segueIdentifier:"showSkinViewSegue")
-        let item2 = SettingHomeCellModel(iconName: "setting_newMessage", title: "新消息通知", status: nil,segueIdentifier:"showMessageNotiSegue")
-        let item3 = SettingHomeCellModel(iconName: "setting_common", title: "通用", status: nil,segueIdentifier:"showCommonSegue")
+        let item0 = SettingHomeCellModel(iconName: "person_avatar", title: L10n.personalInformation, status: nil,segueIdentifier:"showPersonSegue")
+        let item1 = SettingHomeCellModel(iconName: "setting_accout", title: L10n.accountSecurity, status: nil,segueIdentifier:"showInfoAndSecuritySegue")
+        let itemSkin = SettingHomeCellModel(iconName: "icon_skin", title: L10n.skin, status: nil,segueIdentifier:"showSkinViewSegue")
+        let item2 = SettingHomeCellModel(iconName: "setting_newMessage", title: L10n.notification, status: nil,segueIdentifier:"showMessageNotiSegue")
+        let item3 = SettingHomeCellModel(iconName: "setting_common", title: L10n.general, status: nil,segueIdentifier:"showCommonSegue")
 //        let item4 = SettingHomeCellModel(iconName: "setting_myCRM", title: "我的客服", status: nil,segueIdentifier:"showServiceSegue")
 //        let item5 = SettingHomeCellModel(iconName: "setting_ideaback", title: "意见反馈", status: nil,segueIdentifier:"showIdeaBackSegue")
-        let item6 = SettingHomeCellModel(iconName: "setting_about", title: "关于", status: nil,segueIdentifier:"showAboutSegue")
-        return [0:[item0], 1:[item1], 2:[itemSkin, item2,item3], 3:[item6]]
+        let item6 = SettingHomeCellModel(iconName: "setting_about", title: L10n.about, status: nil,segueIdentifier:"showAboutSegue")
+        // return [0:[item0], 1:[item1], 2:[itemSkin, item2,item3], 3:[item6]]
+        // 隐藏换肤
+        return [0:[item0], 1:[item1], 2:[item2,item3], 3:[item6]]
     }
 //
 //    override func viewWillAppear(_ animated: Bool) {

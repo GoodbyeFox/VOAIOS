@@ -32,7 +32,7 @@ class TaskCreateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "创建", style: .plain, target: self, action: #selector(create))
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: L10n.new, style: .plain, target: self, action: #selector(create))
         title = process?.name
 //        showInputUI()
 
