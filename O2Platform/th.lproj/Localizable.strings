@@ -1,0 +1,542 @@
+/* No comment provided by engineer. */
+"取消" = "ຍົກເລີກ";
+
+/* (No Comment) */
+"Alert" = "ແຈ້ງເຕືອນ";
+
+/* (No Comment) */
+"All File" = "ໄຟລ໌ທັງໝົດ";
+
+/* No comment provided by engineer. */
+"Alt" = "ແຈ້ງເຕືອນ";
+
+/* (No Comment) */
+"App" = "App";
+
+/* (No Comment) */
+"Applications Main App" = "Main App";
+
+/* (No Comment) */
+"Applications Native App" = "Native App";
+
+/* (No Comment) */
+"Applications Portal App" = "Portal App";
+
+/* No comment provided by engineer. */
+"Applications update success" = "ອັບເດດສຳເລັດ";
+
+/* (No Comment) */
+"Applications Url is empty" = "URL Is Empty";
+
+/* (No Comment) */
+"Applications Url request error" = "URL Request Error";
+
+/* (No Comment) */
+"Attendance" = "Attendance";
+
+/* No comment provided by engineer. */
+"BG Color" = "ສີ BG";
+
+/* (No Comment) */
+"Calendar" = "Calendar";
+
+/* (No Comment) */
+"CALL" = "ໂທ";
+
+/* (No Comment) */
+"CALL Fail" = "ໂທລົ້ມເຫລວ!";
+
+/* No comment provided by engineer. */
+"Cancel" = "ຍົກເລີກ";
+
+/* (No Comment) */
+"Choose" = "ເລືອກ";
+
+/* (No Comment) */
+"Choose Move Position" = "ຍ້າຍໄປ";
+
+/* No comment provided by engineer. */
+"Clear Photo" = "ລຶບຮູບ";
+
+/* (No Comment) */
+"Cloud File My Share Files" = "ໄຟລ໌ແບ່ງປັນຂອງຂ້ອຍ";
+
+/* (No Comment) */
+"Cloud File Share To Me" = "ແບ່ງປັນໃຫ້ຂ້ອຍ";
+
+/* (No Comment) */
+"Cloud File Type Document" = "ເອກະສານ";
+
+/* (No Comment) */
+"Cloud File Type Image" = "ຮູບພາບ";
+
+/* (No Comment) */
+"Cloud File Type Music" = "ດົນຕີ";
+
+/* (No Comment) */
+"Cloud File Type Other" = "ອື່ນໆ";
+
+/* (No Comment) */
+"Cloud File Type Video" = "ວິດີໂອ";
+
+/* (No Comment) */
+"Cloud File V3 Confirm Delete Zone" = "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບພື້ນທີ່ການແບ່ງປັນນີ້ [%@], ແລະຂໍ້ມູນໃນມັນຈະບໍ່ຖືກກູ້ຄືນ?";
+
+/* (No Comment) */
+"Cloud File V3 Menu Add Favorite" = "ເພີ່ມລາຍການທີ່ມັກ";
+
+/* (No Comment) */
+"Cloud File V3 Menu Cancel Favorite" = "ຍົກເລີກລາຍການທີ່ມັກ";
+
+/* (No Comment) */
+"Cloud File V3 Menu Delete Zone" = "ລຶບ";
+
+/* (No Comment) */
+"Cloud File V3 Menu Edit Zone" = "ແກ້ໄຂ";
+
+/* (No Comment) */
+"Cloud File V3 Menu Rename" = "ປ່ຽນຊື່";
+
+/* (No Comment) */
+"Cloud File V3 My Favorite" = "ສິ່ງ​ທີ່​ຂ້ອຍ​ມັກ";
+
+/* (No Comment) */
+"Cloud File V3 My Zone" = "ເຂດຂອງຂ້ອຍ";
+
+/* (No Comment) */
+"Cloud File V3 Name Not Empty Message" = "ຕ້ອງລະບຸຊື່!";
+
+/* (No Comment) */
+"Cloud File V3 Rename Alert Message" = "ປ່ຽນຊື່ພື້ນທີ່ແບ່ງປັນຂອງຄໍເລັກຊັນ";
+
+/* (No Comment) */
+"Cloud File V3 Zone File No Permission Delete" = "ບໍ່ມີການອະນຸຍາດພຽງພໍທີ່ຈະລຶບ!";
+
+/* (No Comment) */
+"Cloud File V3 Zone File No Permission Update" = "ບໍ່​ມີ​ການ​ອະ​ນຸ​ຍາດ​ພຽງ​ພໍ​ທີ່​ຈະ​ແກ້​ໄຂ​!";
+
+/* (No Comment) */
+"Cloud File V3 Zone File Save To My Pan" = "ບັນທຶກໃສ່ແຜ່ນຂອງຂ້ອຍ";
+
+/* (No Comment) */
+"Cloud File V3 Zone Form Create Title" = "ສ້າງພື້ນທີ່ເຮັດວຽກຮ່ວມກັນ";
+
+/* (No Comment) */
+"Cloud File V3 Zone Form Update Title" = "ອັບເດດພື້ນທີ່ເຮັດວຽກທີ່ແບ່ງປັນ";
+
+/* (No Comment) */
+"Cloud File V3 Zone Name" = "ພື້ນທີ່ແບ່ງປັນວິສາຫະກິດ";
+
+/* (No Comment) */
+"Cloud Files" = "ໄຟລ໌ຄລາວ";
+
+/* (No Comment) */
+"Cms" = "CMS";
+
+/* (No Comment) */
+"Contacts board date" = "ເວລາເຂົ້າ";
+
+/* (No Comment) */
+"Contacts Contact number" = "ເບີໂທຕິດຕໍ່";
+
+/* (No Comment) */
+"Contacts Dept" = "ພະແນກ";
+
+/* (No Comment) */
+"Contacts desc" = "ອະທິບາຍ";
+
+/* (No Comment) */
+"Contacts Email" = "Email";
+
+/* (No Comment) */
+"Contacts Employee number" = "ໝາຍເລກພະນັກງານ";
+
+/* (No Comment) */
+"Contacts Enterprise information" = "ຂໍ້ມູນວິສາຫະກິດ";
+
+/* (No Comment) */
+"Contacts Initiate chat" = "ເລີ່ມການສົນທະນາ";
+
+/* (No Comment) */
+"Contacts My department" = "ພະແນກຂອງຂ້ອຍ";
+
+/* (No Comment) */
+"Contacts officePhone" = "ໂທລະສັບຫ້ອງການ";
+
+/* (No Comment) */
+"Contacts Org structure" = "ໂຄງສ້າງຂອງອົງການ";
+
+/* (No Comment) */
+"Contacts Person Attributes" = "ຄຸນລັກສະນະສ່ວນບຸກຄົນ";
+
+/* (No Comment) */
+"Contacts Person name" = "ຊື່";
+
+/* contactc */
+"Contacts Search placeholder" = "ກະລຸນາໃສ່ຊື່ ຫຼືພິນອິນເພື່ອຊອກຫາ...";
+
+/* (No Comment) */
+"Contacts Send emails" = "ສົ່ງອີເມວ";
+
+/* (No Comment) */
+"Contacts Send emails Error" = "ອີເມວມີຂໍ້ຜິດພາດ";
+
+/* (No Comment) */
+"Contacts superior" = "Superior";
+
+/* (No Comment) */
+"Contacts Top contacts" = "ຕິດຕໍ່ພົວພັນ";
+
+/* (No Comment) */
+"Contacts Unable to create chat" = "ບໍ່ສາມາດສ້າງການສົນທະນາໄດ້!";
+
+/* (No Comment) */
+"Contacts Unique code" = "ລະຫັດເປັນເອກະລັກ";
+
+/* (No Comment) */
+"Copy" = "Copy";
+
+/* (No Comment) */
+"Copy succeeded" = "Copy ສໍາເລັດ";
+
+/* (No Comment) */
+"Create Folder Error Message" = "ສ້າງ Folder ຂໍ້​ຄວາມ​ຜິດ​ພາດ!";
+
+/* (No Comment) */
+"Delete" = "ລຶບ";
+
+/* (No Comment) */
+"Delete Items Confirm Message" = "ລຶບລາຍການເຫຼົ່ານີ້, ທ່ານແນ່ໃຈບໍ?";
+
+/* (No Comment) */
+"Delete My Share File Confirm Message" = "ຍົກເລີກລາຍການແບ່ງປັນເຫຼົ່ານີ້, ທ່ານແນ່ໃຈບໍ?";
+
+/* Localizable.strings
+  O2Platform
+
+  Created by FancyLou on 2019/4/18.
+  Copyright © 2019 zoneland. All rights reserved. */
+"Done" = "Done";
+
+/* (No Comment) */
+"Edit" = "ແກ້ໄຂ";
+
+/* (No Comment) */
+"Empty name Error Message" = "ບໍ່ໃຫ້ຊື່ຫວ່າງ!";
+
+/* (No Comment) */
+"Error with info" = "Error！%@";
+
+/* Error description */
+"Failed to convert value from data at path %@" = "ລົ້ມເຫລວໃນການປ່ຽນຄ່າຈາກຂໍ້ມູນຢູ່ເສັ້ນທາງ %@";
+
+/* Error description */
+"Failed to convert value from data at URL %@" = "ລົ້ມເຫລວໃນການປ່ຽນຄ່າຈາກຂໍ້ມູນຢູ່ທີ່ URL %@";
+
+/* Error description */
+"Format %@ not found" = "ບໍ່ພົບຮູບແບບ %@";
+
+/* Identify failed */
+"Identify failed" = "Identify ລົ້ມເຫລວ";
+
+/* No comment provided by engineer. */
+"Image scale, 0.5 by default" = "ຂະໜາດຮູບ,0.5ຕາມຄ່າເລີ່ມຕົ້ນ";
+
+/* No comment provided by engineer. */
+"Insert" = "ແຊກ";
+
+/* No comment provided by engineer. */
+"Insert Image" = "ແຊກຮູບພາບ";
+
+/* No comment provided by engineer. */
+"Insert Image From Device" = "ແຊກຮູບພາບຈາກອຸປະກອນ";
+
+/* No comment provided by engineer. */
+"Insert Link" = "ໃສ່ລິ້ງ";
+
+/* (No Comment) */
+"Login binding" = "Binding...";
+
+/* (No Comment) */
+"Login Bio auth locked" = "ມັນໄດ້ຖືກລັອກ. ກະລຸນາໃສ່ລະຫັດຜ່ານໃນການໂຕ້ຕອບການປົດລັອກຂອງໂທລະສັບມືຖື!";
+
+/* (No Comment) */
+"Login Can not get server list" = "Did not get the server list, please confirm whether the server has been registered!";
+
+/* (No Comment) */
+"Login Captcha is empty" = "ເຂົ້າສູ່ລະບົບ captcha ບໍ່ສາມາດຫວ່າງເປົ່າໄດ້!";
+
+/* (No Comment) */
+"Login Confirm rebind message" = "Error loading, rebind? error：%@";
+
+/* (No Comment) */
+"Login Do not screenshot" = "ເພື່ອປົກປ້ອງຄວາມປອດໄພຂອງຊື່ຜູ້ໃຊ້ ແລະລະຫັດຜ່ານ, ກະລຸນາຢ່າຖ່າຍຮູບໜ້າຈໍ!";
+
+/* (No Comment) */
+"Login do not support bio" = "ລະບົບໂທລະສັບມືຖືບໍ່ເປີດຫຼືບໍ່ຮອງຮັບຟັງຊັນການຮັບຮູ້";
+
+/* (No Comment) */
+"Login Error with info" = "Error! %@";
+
+/* (No Comment) */
+"Login Face recognition login" = "ເຂົ້າສູ່ລະບົບການຮັບຮູ້ໃບໜ້າ";
+
+/* (No Comment) */
+"Login Fingerprint identification login" = "ເຂົ້າສູ່ລະບົບການລະບຸລາຍນິ້ວມື";
+
+/* (No Comment) */
+"Login Get verification code" = "ເອົາລະຫັດຢືນຢັນ";
+
+/* (No Comment) */
+"Login Guide page" = "Guide page";
+
+/* Login */
+"Login Jailbroken alert message" = "The current running environment has been jailbroken, this application will not provide services!";
+
+/* (No Comment) */
+"Login Login" = "ເຂົ້າ​ສູ່​ລະ​ບົບ";
+
+/* (No Comment) */
+"Login Login fail error" = "ເຂົ້າສູ່ລະບົບລົ້ມເຫລວ, %@";
+
+/* (No Comment) */
+"Login Login fail use other method" = "ການເຂົ້າສູ່ລະບົບການພິສູດຢືນຢັນເຊີບເວີລົ້ມເຫລວ, ກະລຸນາລອງເຂົ້າສູ່ລະບົບດ້ວຍວິທີອື່ນ";
+
+/* (No Comment) */
+"Login Login with user name" = "ເຂົ້າສູ່ລະບົບດ້ວຍຊື່ຜູ້ໃຊ້";
+
+/* (No Comment) */
+"Login Mobile phone number or password is empty" = "ເບີໂທລະສັບ ຫຼືລະຫັດຜ່ານບໍ່ສາມາດຫວ່າງເປົ່າໄດ້!";
+
+/* (No Comment) */
+"Login Mobile phone validate" = "ການຢັ້ງຢືນໂທລະສັບມືຖື";
+
+/* (No Comment) */
+"Login Next step" = "ຕໍ່ໄປ";
+
+/* (No Comment) */
+"Login Password login" = "ເຂົ້າສູ່ລະບົບລະຫັດຜ່ານ";
+
+/* (No Comment) */
+"Login Please enter mobile phone" = "ກະລຸນາໃສ່ເບີໂທລະສັບ!";
+
+/* (No Comment) */
+"Login Please enter validation code" = "ກະລຸນາໃສ່ລະຫັດຢືນຢັນ!";
+
+/* (No Comment) */
+"Login Rebind" = "Rebind";
+
+/* (No Comment) */
+"Login Rebind to the new service node" = "Rebind ກັບ node ບໍລິການໃຫມ່, ຂໍ້ມູນ node ຕົ້ນສະບັບຈະຖືກລຶບລ້າງ, ທ່ານແນ່ໃຈບໍ?";
+
+/* (No Comment) */
+"Login Recapture" = "ກູ້ຄືນ";
+
+/* (No Comment) */
+"Login Select service node" = "Select service node";
+
+/* (No Comment) */
+"Login Select the following login method" = "ກະລຸນາເລືອກວິທີການເຂົ້າສູ່ລະບົບຕໍ່ໄປນີ້";
+
+/* (No Comment) */
+"Login Send code fail" = "ການສົ່ງລະຫັດຢືນຢັນລົ້ມເຫລວ!";
+
+/* (No Comment) */
+"Login Server config info error" = "Abnormal server configuration information!";
+
+/* (No Comment) */
+"Login Server config info is empty" = "No server information configured!";
+
+/* (No Comment) */
+"Login Unknown error" = "Unknown error!";
+
+/* (No Comment) */
+"Login Verification code login" = "ເຂົ້າສູ່ລະບົບລະຫັດຢືນຢັນ";
+
+/* (No Comment) */
+"Login Verification failed" = "ການຢັ້ງຢືນລົ້ມເຫລວ!";
+
+/* (No Comment) */
+"Login Verify login now" = "ຢືນຢັນການເຂົ້າສູ່ລະບົບດຽວນີ້";
+
+/* (No Comment) */
+"Main Bar App" = "Apps";
+
+/* (No Comment) */
+"Main Bar Contacts" = "ລາຍຊື່ຕິດຕໍ່";
+
+/* Main */
+"Main Bar IM" = "ຂໍ້ຄວາມ";
+
+/* (No Comment) */
+"Main Bar Settings" = "ການຕັ້ງຄ່າ";
+
+/* (No Comment) */
+"Meeting" = "Meeting";
+
+/* (No Comment) */
+"Move" = "ຍ້າຍ";
+
+/* (No Comment) */
+"Need Read" = "Read";
+
+/* (No Comment) */
+"New" = "ໃຫມ່";
+
+/* (No Comment) */
+"New Folder" = "ແຟັມເອກະສານໃໝ່";
+
+/* Error description */
+"Object not found for key %@" = "ບໍ່ພົບ Object ໃນຄຳຫຼັກ %@";
+
+/* OK */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"Pick Image" = "ເລືອກຮູບ";
+
+/* No comment provided by engineer. */
+"Pick New Image" = "ເລືອກຮູບໃໝ່";
+
+/* (No Comment) */
+"Readed" = "Readed";
+
+/* (No Comment) */
+"Rename" = "ປ່ຽນຊື່";
+
+/* Error description */
+"Request expected %ld bytes and received %ld bytes" = "Request expected %ld bytes and received %ld bytes";
+
+/* Search */
+"Search" = "ຄົ້ນຫາ";
+
+/* (No Comment) */
+"Search Cms category" = "ປະເພດ:";
+
+/* (No Comment) */
+"Search Delete all search history" = "ລຶບປະຫວັດການຊອກຫາທັງໝົດ";
+
+/* (No Comment) */
+"Search No Result" = "ບໍ່ພົບຜົນການຊອກຫາທີ່ກ່ຽວຂ້ອງ";
+
+/* (No Comment) */
+"Search Placeholder" = "ກະລຸນາໃສ່ຄໍາຄົ້ນຫາ";
+
+/* (No Comment) */
+"Search Process Name" = "ຂະບວນການ:";
+
+/* (No Comment) */
+"Share" = "ແບ່ງປັນ";
+
+/* (No Comment) */
+"Share Delete" = "ເອົາ​ຄືນ";
+
+/* (No Comment) */
+"Shield Share" = "Shield Share";
+
+/* (No Comment) */
+"Shield Share File Confirm Message" = "ປິດລາຍການແບ່ງປັນເຫຼົ່ານີ້, ທ່ານແນ່ໃຈບໍ?";
+
+/* (No Comment) */
+"SMS" = "ສົ່ງ​ຂໍ້​ຄວາມ";
+
+/* (No Comment) */
+"SMS Fail" = "ສົ່ງຂໍ້ຄວາມລົ້ມເຫລວ!";
+
+/* No comment provided by engineer. */
+"Text Color" = "ສີຂໍ້ຄວາມ";
+
+/* No comment provided by engineer. */
+"Title" = "ຫົວຂໍ້";
+
+/* 新增 */
+"Todo" = "Todo";
+
+/* No comment provided by engineer. */
+"Update" = "ອັບເດດ";
+
+/* (No Comment) */
+"Upload File" = "ອັບໂຫຼດໄຟລ໌";
+
+/* No comment provided by engineer. */
+"URL (required)" = "URL (required)";
+
+/* (No Comment) */
+"VoiceAss" = "Voice Assistant";
+
+"Calendar" = "ປະຕິທິນ";
+"Information" = "ຂໍ້ມູນ";
+"OfficeCenter" = "ຫ້ອງການ";
+"DeleteMessage" = "ລົບ";
+"Account Security" = "ຄວາມປອດໄພບັນຊີ";
+"Personal Information" = "ຂໍ້ມູນ";
+"Skin" = "Skin";
+"Notification" = "ແຈ້ງເຕືອນ";
+"General" = "ທົ່ວໄປ";
+"About" = "ກ່ຽວກັບ";
+
+"MinuteAgo" = "ນາທີຜ່ານມາ";
+"JustNow" = "ເມື່ອກີ້";
+"HoursAgo" = "ຊົ່ວໂມງທີ່ແລ້ວ";
+"Yesterday" = "ມື້ວານ";
+"TwoDaysAgo" = "2ມື້ກ່ອນ";
+"DaysAgo" = "ມື້ກ່ອນ";
+"MonthAgo" = "1 ເດືອນກ່ອນ";
+"2MonthAgo" = "2 ເດືອນກ່ອນ";
+"3MonthAgo" = "3 ເດືອນກ່ອນ";
+
+
+"change" = "Change";
+"avatar" = "Avatar";
+"code" = "Code";
+"name" = "Name";
+"gender" = "Gender";
+"male" = "Male";
+"female" = "Female";
+"mobile" = "Mobile";
+"wechat" = "Wechat";
+"qq" = "QQ";
+"logout" = "Logout";
+"loginAccount" = "Account";
+"password" = "Password";
+"changePasswod" = "Change Password";
+"outAuthorization" = "Out Authorization";
+"unOpened" = "ບໍ່ເປີດ";
+"loading" = "ໂຫລດ...";
+"errorLoadProfile" = "ປ້ອນຂໍ້ມູນສ່ວນໂຕຜິດພາດ!";
+"selectGender" = "ກະລຸນາເລືອກເພດ";
+"exitConfirmMessage" = "ແນ່ໃຈບໍ່ວ່າຈະອອກຈາກລະບົບ？";
+"exit" = "ອອກ";
+"updateError" = "ອັບເດດລົ້ມເລວ";
+"cleanMessage" = "ລົບລ້າງປະຫວັດສົນທະນາ";
+"editGroup" = "ປ່ຽນຊື່ກຸ່ມ";
+"editMember" = "ປ່ຽນສະມາຊິກສຳເລັດ";
+"deleteGroup" = "ລົບກຸ່ມສົນທະນາ";
+"editItemConfirm" = "ເລືອກປ່ຽນ Item";
+"deleteGroupConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບກຸ່ມສົນທະນາປະຈຸບັນ，ປະຫວັດການສົນທະນາທັງໝົດຈະວ່າງເປົ່າວ່າງຫຼັງຈາກເຈົ້າລົບ？";
+"deleteChatConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບແຊັດປະບັນ，ຫຼັງຈາກລົບແລ້ວປະຫວັດການແຊັດທັງໝົດຈະວ່າງເປົ່າວ່າງ？";
+"deleteFailed" = "ລົບລົ້ມເລວ";
+"cleanMessageConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບລ້າງແຊັດປະບັນ，ຫຼັງຈາກລົບລ້າງແລ້ວປະຫວັດການແຊັດທັງໝົດຈະບໍສາມາດເບິ່ງປະຫວັດການແຊັດໄດ້？";
+"cleanSuccess" = "ລ້າງປະຫວັດການແຊັດສຳເລັດ！";
+"cleanFailed" = "ລົບລ້າງລົ້ມເລວ！";
+"groupNameComfirm" = "ກະລຸນາປ້ອນຊື່ກຸ່ມ";
+"editSuccess" = "ປ່ຽນສຳເລັດ";
+"editFailed" = "ປ່ຽນລົ້ມເລວ";
+"memberNotEnough" = "ເລືອກສະມາຊິກນ້ອຍກວ່າ 3 ຄົນ";
+"selectMemberTip" = "ກະລຸນາເລືອກສະມາຊິກ";
+"selectMemberError" = "ເລືອກສະມາຊິກລົ້ມເລວ！";
+"sendMessageFailed" = "ສົ່ງຂໍ້ຄວາມລົ້ມເລວ!";
+"uploadError" = "ອັບໂຫລດຜິດພາດ，";
+"withdraw" = "ຍົກເລີກການສົ່ງຂໍ້ຄວາມ";
+"withdrawMemberMessage" = "ຍົກເລີກຂໍ້ຄວາມສະມາຊິກ";
+"withdrawalSuccessful" = "ຍົກເລີກຂໍ້ຄວາມສຳເລັດ！";
+"withdrawalFailed" = "ຍົກເລີກລົ້ມເລວ！";
+"loadFileFailed" = "ໂຫລດເອກະສານລົ້ມເລວ";
+"noPermissionLoadFile" = "ບໍ່ມີສິດໄດ້ຮັບເອກະສານ";
+"releaseToSendSwipeToCancel" = "ປ່ອຍສົ່ງ，ຍົກຂຶ້ນເພື່ອຍົກເລີກ";
+"releaseFToSendSwipeToCancel" = "ປ່ອຍມື，ຍົກເລີກການສົ່ງ";
+"playStart" = "ເລີ່ມຫຼິ້ນ";
+"playStop" = "ຢຸດ";
+"playPause" = "ຢຸດຊົ່ວຄາວ";
+"cannotReview" = "ປະເພດເອກະສານປະຈຸບັນບໍ່ໄດ້ຮັບການສະໜັບສະໜູນ！";
+"getFileError" = "ໄດ້ຮັບເອກະສານຜິດປົກກະຕິ！";

@@ -1277,6 +1277,15 @@
 		4F1BA982094EC6172ACF8F99 /* Pods-O2Platform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-O2Platform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-O2Platform/Pods-O2Platform.debug.xcconfig"; sourceTree = "<group>"; };
 		8840A991248CDC9D005970A5 /* OOCalendarEditRemarkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OOCalendarEditRemarkViewController.swift; sourceTree = "<group>"; };
 		A043051A1F99CFD500740423 /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		A46E48A62B98169C004A8A13 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/login.strings; sourceTree = "<group>"; };
+		A46E48A72B98169C004A8A13 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/OORegisterTableView.strings; sourceTree = "<group>"; };
+		A46E48A82B98169C004A8A13 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/CloudFile.strings; sourceTree = "<group>"; };
+		A46E48A92B98169C004A8A13 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/contacts.strings; sourceTree = "<group>"; };
+		A46E48AA2B98169C004A8A13 /* th */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = th; path = th.lproj/apps.storyboard; sourceTree = "<group>"; };
+		A46E48AB2B98169D004A8A13 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A46E48AC2B9816FF004A8A13 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
+		A46E48AE2B98170D004A8A13 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = th; path = th.lproj/Info.plist; sourceTree = "<group>"; };
+		A46E48AF2B98170E004A8A13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		B100D2CF265B8E75003026E0 /* O2SearchHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O2SearchHistoryView.swift; sourceTree = "<group>"; };
 		B100D2FE265BA26F003026E0 /* O2SearchHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O2SearchHistoryCell.swift; sourceTree = "<group>"; };
 		B1015DDA2272B5DB00C1A7E6 /* O2BaseJsMessageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = O2BaseJsMessageHandler.swift; sourceTree = "<group>"; };
@@ -2053,7 +2062,6 @@
 		E4B7819F1DFA9B23007B58A9 /* CMSItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMSItemDetailViewController.swift; sourceTree = "<group>"; };
 		E4B887131D9D477A002E1A46 /* VOA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VOA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B8871D1D9D477A002E1A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E4B887221D9D477A002E1A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4B887271D9D477A002E1A46 /* VOATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B887321D9D477A002E1A46 /* VOAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VOAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B887441D9D48EF002E1A46 /* O2Platform-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "O2Platform-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -3985,7 +3993,7 @@
 				E4B887561D9D48F1002E1A46 /* config */,
 				E4B8871D1D9D477A002E1A46 /* Assets.xcassets */,
 				E4B887451D9D48F1002E1A46 /* AppDelegate.swift */,
-				E4B887221D9D477A002E1A46 /* Info.plist */,
+				A46E48AD2B9816FF004A8A13 /* Info.plist */,
 				E4B887441D9D48EF002E1A46 /* O2Platform-Bridging-Header.h */,
 				E484C00E1DA8ED7C003413DF /* O2Platform.entitlements */,
 				B1908E4E22687B1A00D75632 /* Localizable.strings */,
@@ -4817,6 +4825,7 @@
 				en,
 				Base,
 				"zh-Hans",
+				th,
 			);
 			mainGroup = E4B8870A1D9D477A002E1A46;
 			productRefGroup = E4B887141D9D477A002E1A46 /* Products */;
@@ -6236,12 +6245,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A46E48AD2B9816FF004A8A13 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46E48AC2B9816FF004A8A13 /* zh-Hans */,
+				A46E48AE2B98170D004A8A13 /* th */,
+				A46E48AF2B98170E004A8A13 /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		B15310FD2654D50E00B59447 /* login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B15310FC2654D50E00B59447 /* Base */,
 				B153112C2654D51F00B59447 /* en */,
 				B153112E2654D54E00B59447 /* zh-Hans */,
+				A46E48A62B98169C004A8A13 /* th */,
 			);
 			name = login.storyboard;
 			sourceTree = "<group>";
@@ -6252,6 +6272,7 @@
 				B15311302654F35C00B59447 /* Base */,
 				B15311332654F36C00B59447 /* en */,
 				B15311352654F3C100B59447 /* zh-Hans */,
+				A46E48A72B98169C004A8A13 /* th */,
 			);
 			name = OORegisterTableView.xib;
 			sourceTree = "<group>";
@@ -6262,6 +6283,7 @@
 				B1649D992653579400593504 /* en */,
 				B1649DA026535B4100593504 /* Base */,
 				B1649DA126535B4F00593504 /* zh-Hans */,
+				A46E48AA2B98169C004A8A13 /* th */,
 			);
 			name = apps.storyboard;
 			sourceTree = "<group>";
@@ -6271,6 +6293,7 @@
 			children = (
 				B1908E4D22687B1A00D75632 /* zh-Hans */,
 				B1DFFA81235E9CF400FEF9D6 /* en */,
+				A46E48AB2B98169D004A8A13 /* th */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -6281,6 +6304,7 @@
 				B1A47D952656574B00397212 /* Base */,
 				B1A47DC5265657A300397212 /* en */,
 				B1A47DC7265657D200397212 /* zh-Hans */,
+				A46E48A92B98169C004A8A13 /* th */,
 			);
 			name = contacts.storyboard;
 			sourceTree = "<group>";
@@ -6291,6 +6315,7 @@
 				B1DFFAB3235EB20500FEF9D6 /* zh-Hans */,
 				B15D26BF235EF0850092F8B8 /* Base */,
 				B15D26EA235EF0940092F8B8 /* en */,
+				A46E48A82B98169C004A8A13 /* th */,
 			);
 			name = CloudFile.storyboard;
 			sourceTree = "<group>";
@@ -6433,7 +6458,7 @@
 					"COCOAPODS=1",
 					"PROJECTMODE=0",
 				);
-				INFOPLIST_FILE = O2Platform/Info.plist;
+				INFOPLIST_FILE = "O2Platform/zh-Hans.lproj/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -6535,7 +6560,7 @@
 					"COCOAPODS=1",
 					"PROJECTMODE=0",
 				);
-				INFOPLIST_FILE = O2Platform/Info.plist;
+				INFOPLIST_FILE = "O2Platform/zh-Hans.lproj/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

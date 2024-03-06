@@ -13,7 +13,7 @@ import Foundation
 #if DEBUG
 let O2IsConnect2Collect = false
 #else
-let O2IsConnect2Collect = true
+let O2IsConnect2Collect = false
 #endif
 
 //一些常量
