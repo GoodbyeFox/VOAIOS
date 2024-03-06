@@ -20,10 +20,10 @@ let O2IsConnect2Collect = true
 //bugly
 let BUGLY_ID = "0bc87f457b"
 //极光
-let JPUSH_APP_KEY = "9aca7cc20fe0cc987cd913ca"
+let JPUSH_APP_KEY = "dcf84801a8beb827c2dcbfe7"
 let JPUSH_channel = "Publish channel"
 //百度
-let BAIDU_MAP_KEY = "5puNDSnNjRTOFyHB2YbLsxg7NzdwKLzi"
+let BAIDU_MAP_KEY = "rqb381zfi6VlPrDhRFtD8WbSKxs03moR"
 let BAIDU_ASR_APP_ID = "11168415"
 let BAIDU_ASR_APP_KEY = "5puNDSnNjRTOFyHB2YbLsxg7NzdwKLzi"
 let BAIDU_ASR_APP_SECRET = "hFIVZEFwA7HewvcRZdQGlGsQaDtYTPKN"

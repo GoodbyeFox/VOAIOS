@@ -27,7 +27,7 @@ class O2BioLocalAuth: NSObject {
                         return (O2BiometryType.FaceID)
                     case LABiometryType.touchID:
                         return  (O2BiometryType.TouchID)
-                    case LABiometryType.none:
+                    default:
                         return (O2BiometryType.None)
                     }
                 }else {
