@@ -103,7 +103,7 @@ class SAccoutSecViewController: FormViewController {
                     }
                     row?.updateCell()
                     
-                    self.showSystemAlert(title: "提示", message: "多次错误，已被锁定，请到手机解锁界面输入密码!", okHandler: { (action) in
+                    self.showSystemAlert(title: L10n.alt, message: "多次错误，已被锁定，请到手机解锁界面输入密码!", okHandler: { (action) in
                         //
                     })
                     break

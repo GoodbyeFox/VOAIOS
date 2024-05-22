@@ -127,7 +127,7 @@ class AttendanceV2ExceptionTableViewController: UITableViewController {
     private func startCheck(appeal: AttendanceV2AppealInfo) {
         if self.config != nil  && self.config?.appealEnable == true && !self.config!.processId.isEmpty {
             
-            self.showDefaultConfirm(title: "提示", message: "确定要发起申诉流程？") { action in
+            self.showDefaultConfirm(title: L10n.alt, message: "确定要发起申诉流程？") { action in
                 self.viewModel.appealCheckCanStartProcess(id: appeal.id).then { result in
                     if result.value == true {
                         let processData = AttendanceV2AppealInfoToProcessData()
@@ -162,7 +162,7 @@ class AttendanceV2ExceptionTableViewController: UITableViewController {
                     })
                     actions.append(action)
                 })
-                self.showSheetAction(title: "提示", message: "请选择启动流程的身份", actions: actions)
+                self.showSheetAction(title: L10n.alt, message: "请选择启动流程的身份", actions: actions)
             }
         }.catch { error in
             DDLogError("\(error.localizedDescription)")
@@ -233,7 +233,7 @@ class AttendanceV2ExceptionTableViewController: UITableViewController {
                         })
                         actions.append(action)
                     }
-                    self.showSheetAction(title: "提示", message: "请选择需要打开的工作", actions: actions)
+                    self.showSheetAction(title: L10n.alt, message: "请选择需要打开的工作", actions: actions)
                 } else {
                     let task = TodoTask.init(JSON: [:])
                     if workList[0].completed == true {

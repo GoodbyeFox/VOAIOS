@@ -109,7 +109,7 @@ class SEmpowerListViewController: UIViewController {
     }
     
     private func deleteEmpowerConfirm(item: EmpowerData) {
-        self.showDefaultConfirm(title: "提示", message: "确定要删除这个授权吗？") { action in
+        self.showDefaultConfirm(title: L10n.alt, message: "确定要删除这个授权吗？") { action in
             self.deleteEmpower(id: item.id)
         }
     }

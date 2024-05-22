@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "pic-lunbo-1.png",
+      "filename" : "banner1095 2.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "pic-lunbo-1@2x.png",
+      "filename" : "banner1095 1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "pic-lunbo-1@3x.png",
+      "filename" : "banner1095.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -39,11 +39,11 @@ class O2MindMapAddLinkDialog: UIView, NibLoadable {
     @IBAction func clickSubmitBtn(_ sender: UIButton) {
         let link = self.linkText.text ?? ""
         if link == "" || link.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
-            self.chrysan.show(.error ,message: "请输入链接地址", hideDelay: 2)
+            self.chrysan.show(.error ,message: L10n.nullLink, hideDelay: 2)
             return
         }
         if !Validate.URL(link).isRight {
-            self.chrysan.show(.error, message: "请输入正确的链接地址", hideDelay: 2)
+            self.chrysan.show(.error, message: L10n.errorLink, hideDelay: 2)
             return
         }
         let linkTitle = self.linkTitleText.text ?? ""

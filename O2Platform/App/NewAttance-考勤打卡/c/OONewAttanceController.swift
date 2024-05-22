@@ -48,26 +48,26 @@ public class OONewAttanceController: UITabBarController, UITabBarControllerDeleg
         if let value = StandDefaultUtil.share.userDefaultGetValue(key: O2.O2_Attendance_version_key) as? String, value == "2" { // V2 版本考勤
             DDLogInfo("有v2版本。。。。。。。。。")
             let vc1 = AttendanceV2CheckInViewController(nibName: "AttendanceV2CheckInViewController", bundle: nil)
-            vc1.title = "打卡"
+            vc1.title = L10n.checkIn//"打卡"
             let checkInVC = ZLNavigationController(rootViewController: vc1)
-            checkInVC.tabBarItem = UITabBarItem(title: "打卡", image: UIImage(named: "icon_daka_nor"), selectedImage: O2ThemeManager.image(for: "Icon.at_daka")!)
+            checkInVC.tabBarItem = UITabBarItem(title: L10n.checkIn, image: UIImage(named: "icon_daka_nor"), selectedImage: O2ThemeManager.image(for: "Icon.at_daka")!)
             
             let vc2 = AttendanceV2StatisticViewController(nibName: "AttendanceV2StatisticViewController", bundle: nil)
-            vc2.title = "统计"
+            vc2.title = L10n.statics
             let tongjiVC = ZLNavigationController(rootViewController: vc2)
-            tongjiVC.tabBarItem = UITabBarItem(title: "统计", image: UIImage(named: "icon_tongji_nor"), selectedImage: O2ThemeManager.image(for: "Icon.at_tongji")!)
+            tongjiVC.tabBarItem = UITabBarItem(title: L10n.statics, image: UIImage(named: "icon_tongji_nor"), selectedImage: O2ThemeManager.image(for: "Icon.at_tongji")!)
             
             self.viewControllers = [checkInVC, tongjiVC]
         } else {
             let vc1 = OOAttendanceCheckInNewController(nibName: "OOAttendanceCheckInNewController", bundle: nil)
-            vc1.title = "打卡"
+            vc1.title = L10n.checkIn
             let checkInVC = ZLNavigationController(rootViewController: vc1)
-            checkInVC.tabBarItem = UITabBarItem(title: "打卡", image: UIImage(named: "icon_daka_nor"), selectedImage: O2ThemeManager.image(for: "Icon.at_daka")!)
+            checkInVC.tabBarItem = UITabBarItem(title: L10n.checkIn, image: UIImage(named: "icon_daka_nor"), selectedImage: O2ThemeManager.image(for: "Icon.at_daka")!)
             
             let vc2 = OOAttanceTotalController(nibName: "OOAttanceTotalController", bundle: nil)
-            vc2.title = "统计"
+            vc2.title = L10n.statics
             let tongjiVC = ZLNavigationController(rootViewController: vc2)
-            tongjiVC.tabBarItem = UITabBarItem(title: "统计", image: UIImage(named: "icon_tongji_nor"), selectedImage: O2ThemeManager.image(for: "Icon.at_tongji")!)
+            tongjiVC.tabBarItem = UITabBarItem(title: L10n.statics, image: UIImage(named: "icon_tongji_nor"), selectedImage: O2ThemeManager.image(for: "Icon.at_tongji")!)
             //设置
             let vc3 = OOAttanceSettingController(nibName: "OOAttanceSettingController", bundle: nil)
             vc3.title = "设置"

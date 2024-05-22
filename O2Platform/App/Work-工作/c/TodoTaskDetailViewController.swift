@@ -400,7 +400,7 @@ class TodoTaskDetailViewController: BaseWebViewUIViewController {
 
     @objc func itemBtnDocDeleteAction() {
         DDLogDebug("btnDeleteDoc Click")
-        showDefaultConfirm(title: "提示", message: "确认要删除这个文档吗，删除后无法恢复？", okHandler: { (action) in
+        showDefaultConfirm(title: L10n.alt, message: "确认要删除这个文档吗，删除后无法恢复？", okHandler: { (action) in
             self.showLoading(title: "删除中...")
             self.viewModel.deleteWork(workId: self.workId!).then { (result) in
                 self.showSuccess(title: "删除成功")
@@ -1019,7 +1019,7 @@ extension TodoTaskDetailViewController: WKNavigationDelegate, WKUIDelegate {
     }
     // window.alert();
     func webView(_ webView: WKWebView, runJavaScriptAlertPanelWithMessage message: String, initiatedByFrame frame: WKFrameInfo, completionHandler: @escaping () -> Void) {
-        self.showSystemAlert(title: "提示", message: message) { action in
+        self.showSystemAlert(title: L10n.alt, message: message) { action in
             completionHandler()
         }
     }
@@ -1326,7 +1326,7 @@ extension TodoTaskDetailViewController: O2WKScriptMessageHandlerImplement {
 //            qlController.reloadData()
 //            if #available(iOS 10, *) {
 //                let navVC = ZLNormalNavViewController(rootViewController: qlController)
-//                qlController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: qlController, action: #selector(qlController.qlCloseWindow))
+//                qlController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: qlController, action: #selector(qlController.qlCloseWindow))
 //                self.presentVC(navVC)
 //            } else {
 //                self.pushVC(qlController)

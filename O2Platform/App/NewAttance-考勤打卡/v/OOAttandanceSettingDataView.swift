@@ -34,7 +34,7 @@ class OOAttandanceSettingDataView: UIView {
         button.addTarget(self, action: #selector(submitClicked(_:)), for: .touchUpInside)
 //        bar.addSubview(button)
         let button1 = UIButton.init(frame: CGRect(x: SCREEN_WIDTH -  60, y: 7, width: 50, height: 30))
-        button1.setTitle("关闭", for: .normal)
+        button1.setTitle(L10n.close, for: .normal)
         button1.theme_setTitleColor(ThemeColorPicker(keyPath: "Base.base_color"), forState: .normal)
         button1.addTarget(self, action: #selector(closwBtnClick(_:)), for: .touchUpInside)
 //        bar.addSubview(button1)

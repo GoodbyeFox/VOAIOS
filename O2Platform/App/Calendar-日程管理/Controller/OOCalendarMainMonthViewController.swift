@@ -49,7 +49,7 @@ class OOCalendarMainMonthViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(closeWindow))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(closeWindow))
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "add"), style: .plain, target: self, action: #selector(addEvent))
         // Do any additional setup after loading the view.
         self.tableView.delegate = self

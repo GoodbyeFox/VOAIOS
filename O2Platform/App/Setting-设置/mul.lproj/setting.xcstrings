@@ -1,0 +1,972 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0dg-7n-Hpr.title" : {
+      "comment" : "Class = \"UITableViewController\"; title = \"通用\"; ObjectID = \"0dg-7n-Hpr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "通用"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ທົ່ວໄປ"
+          }
+        }
+      }
+    },
+    "2eZ-64-zr5.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"18888888888\"; ObjectID = \"2eZ-64-zr5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "18888888888"
+          }
+        }
+      }
+    },
+    "3G3-gN-Bc1.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"接收新消息通知\"; ObjectID = \"3G3-gN-Bc1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "接收新消息通知"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໄດ້ຮັບແຈ້ງການລ້າສຸດ"
+          }
+        }
+      }
+    },
+    "3Ib-DS-E0c.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"委托人\"; ObjectID = \"3Ib-DS-E0c\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "委托人"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຜູ້ຮັບສິດ"
+          }
+        }
+      }
+    },
+    "4eH-hs-lzd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2023-04-11 09:00:00 - 2023-05-10 10:00:00\"; ObjectID = \"4eH-hs-lzd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2023-04-11 09:00:00 - 2023-05-10 10:00:00"
+          }
+        }
+      }
+    },
+    "6Pk-VZ-Azo.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"设备\"; ObjectID = \"6Pk-VZ-Azo\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "设备"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ອຸປະກອນ"
+          }
+        }
+      }
+    },
+    "8dM-Zq-gzE.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"客服丹丹\"; ObjectID = \"8dM-Zq-gzE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "客服丹丹"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແອັດມິນ fanfan"
+          }
+        }
+      }
+    },
+    "9IQ-aZ-ZWy.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"解绑手机号码后，你需要重新绑定服务器和手机号码后才能继续使用。\"; ObjectID = \"9IQ-aZ-ZWy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "解绑手机号码后，你需要重新绑定服务器和手机号码后才能继续使用。"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫຼັງຈາກຍົກເລີກຜູກມັດເບີໂທລະສັບ, ທ່ານຕ້ອງຜູ້ມັດກັບເຄື່ອງອຸປະກອນ ແລະ ເບີໂທລະສັບໃໝ່ກ່ອນຈັ່ງສາມາດນຳໃຊ້ໄດ້. "
+          }
+        }
+      }
+    },
+    "9Us-M0-fqy.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"9Us-M0-fqy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "32b-Bl-Xo8.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"提交\"; ObjectID = \"32b-Bl-Xo8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "提交"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສົ່ງ"
+          }
+        }
+      }
+    },
+    "74x-vb-Xk6.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"呼叫\"; ObjectID = \"74x-vb-Xk6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "呼叫"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໂທ"
+          }
+        }
+      }
+    },
+    "76e-0x-pDf.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"姓名\"; ObjectID = \"76e-0x-pDf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "姓名"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຊື່ ແລະ ນາມສະກຸນ"
+          }
+        }
+      }
+    },
+    "83n-nj-fKm.text" : {
+      "comment" : "Class = \"UITextView\"; text = \"请留下您的保贵建议...\"; ObjectID = \"83n-nj-fKm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "请留下您的保贵建议..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກະລຸນາຕື່ມຄຳເຫັນຂອງທ່ານ"
+          }
+        }
+      }
+    },
+    "bZ4-OE-Qy0.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"解除绑定\"; ObjectID = \"bZ4-OE-Qy0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "解除绑定"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຍົກເລີກການຜູກມັດ"
+          }
+        }
+      }
+    },
+    "C3B-sf-dLA.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"授权开始时间\"; ObjectID = \"C3B-sf-dLA\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "授权开始时间"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເວລາເລີ່ມຕົ້ນ"
+          }
+        }
+      }
+    },
+    "c9r-gW-UUk.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"未保护\"; ObjectID = \"c9r-gW-UUk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "未保护"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຍັງບໍ່ທັນບັນທຶກ"
+          }
+        }
+      }
+    },
+    "cdf-lE-mGx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Label\"; ObjectID = \"cdf-lE-mGx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "d30-tZ-BfE.title" : {
+      "comment" : "Class = \"UITableViewController\"; title = \"新消息通知\"; ObjectID = \"d30-tZ-BfE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "新消息通知"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂໍ້ຄວາມການແຈ້ງເຕືອນໃໝ່"
+          }
+        }
+      }
+    },
+    "Dlp-1b-QhT.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"帐号保护\"; ObjectID = \"Dlp-1b-QhT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "帐号保护"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຮັກສາບັນຊີ"
+          }
+        }
+      }
+    },
+    "dmV-1a-0h9.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"客服电话（周一至周日 8:00-20:00）\"; ObjectID = \"dmV-1a-0h9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "客服电话（周一至周日 8:00-20:00）"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເວລາພະນັກງານເຂົ້າວຽກ( ວັນຈັນຫາວັຍອາທິດ 8:00-20:00 ) "
+          }
+        }
+      }
+    },
+    "DU1-Fh-vMH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"客服小凡\"; ObjectID = \"DU1-Fh-vMH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "客服小凡"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແອັດມິນ xiao fan"
+          }
+        }
+      }
+    },
+    "e6V-ps-7Vs.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"个人信息\"; ObjectID = \"e6V-ps-7Vs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "个人信息"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂໍ້ມູນສ່ວນຕົວ"
+          }
+        }
+      }
+    },
+    "EAa-VZ-81y.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"授权结束时间\"; ObjectID = \"EAa-VZ-81y\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "授权结束时间"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເວລາສິ້ນສຸດ"
+          }
+        }
+      }
+    },
+    "ftH-fP-ma0.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"信息与安全\"; ObjectID = \"ftH-fP-ma0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "信息与安全"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂໍ້ຄວາມ ແລະ ຄວາມປອດໄພ"
+          }
+        }
+      }
+    },
+    "fty-6l-YFO.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"解绑手机号码\"; ObjectID = \"fty-6l-YFO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "解绑手机号码"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຍົກເລີກການຜູ້ມັດເບີໂທລະສັບ"
+          }
+        }
+      }
+    },
+    "FVs-S9-fAy.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"官方蓝\"; ObjectID = \"FVs-S9-fAy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "官方蓝"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສີຟ້າ"
+          }
+        }
+      }
+    },
+    "GvS-Kf-Ahn.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"官方红\"; ObjectID = \"GvS-Kf-Ahn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "官方红"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສີແດງ"
+          }
+        }
+      }
+    },
+    "Hep-yA-OAs.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"账号与安全\"; ObjectID = \"Hep-yA-OAs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "账号与安全"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ບັນຊີ ແລະ ຄວາມປອດໄພ"
+          }
+        }
+      }
+    },
+    "Hps-me-o00.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"版本号\"; ObjectID = \"Hps-me-o00\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "版本号"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໝາຍເລກເວີຊັ່ນ"
+          }
+        }
+      }
+    },
+    "IPN-Wg-GAX.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"大小\"; ObjectID = \"IPN-Wg-GAX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "大小"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂະໜາດ"
+          }
+        }
+      }
+    },
+    "j5l-pZ-92D.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"收到的委托\"; ObjectID = \"j5l-pZ-92D\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "收到的委托"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໄດ້ຮັບ"
+          }
+        }
+      }
+    },
+    "JLV-Ik-8Og.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"诊断日志\"; ObjectID = \"JLV-Ik-8Og\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "诊断日志"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ບັນທຶກການສັນນິຖານ"
+          }
+        }
+      }
+    },
+    "JMy-te-3aC.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"意见反馈\"; ObjectID = \"JMy-te-3aC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "意见反馈"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂໍ້ສະເໜີແນະນຳ"
+          }
+        }
+      }
+    },
+    "JSP-7f-p9z.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"我的客服\"; ObjectID = \"JSP-7f-p9z\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "我的客服"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ບໍລິການຂອງຂ້ອຍ"
+          }
+        }
+      }
+    },
+    "KbB-IT-O4f.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"文件名\"; ObjectID = \"KbB-IT-O4f\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "文件名"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຊື່ເອກະສານ"
+          }
+        }
+      }
+    },
+    "kIi-Ni-N6i.footerTitle" : {
+      "comment" : "Class = \"UITableViewSection\"; footerTitle = \"要更改消息通知设置，请进入设置——通用——消息通知，找到智和，进入后进行启用或禁用\"; ObjectID = \"kIi-Ni-N6i\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "要更改消息通知设置，请进入设置——通用——消息通知，找到智和，进入后进行启用或禁用"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຖ້າຕ້ອງການແກ້ໄຂຕັ້ງຄ່າການແຈ້ງເຕືອນ, ກະລຸນາເຂົ້າໄປທີ່ການຕັ້ງຄ່າ-ທົ່ວໄປ-ການແຈ້ງເຕືອນຂໍ້ຄວາມ, ຫຼັງຈາກນັ້ນກໍສາມາດເປີດ ຫຼື ປິດນຳໃຊ້ການແຈ້ງເຕືອນຂໍ້ຄວາມໄດ້.  "
+          }
+        }
+      }
+    },
+    "mDS-MC-1gO.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"应用\"; ObjectID = \"mDS-MC-1gO\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "应用"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ນຳໃຊ້"
+          }
+        }
+      }
+    },
+    "nTR-f9-edk.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"解绑手机号码\"; ObjectID = \"nTR-f9-edk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "解绑手机号码"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຍົກເລີການຜູກມັດເບີໂທລະສັບ"
+          }
+        }
+      }
+    },
+    "Oi2-dE-wii.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"日志记录\"; ObjectID = \"Oi2-dE-wii\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "日志记录"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ການບັນທຶກ"
+          }
+        }
+      }
+    },
+    "S90-RW-wHI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"我的委托\"; ObjectID = \"S90-RW-wHI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "我的委托"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "my commission"
+          }
+        }
+      }
+    },
+    "tbQ-uK-tMb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"客服红红\"; ObjectID = \"tbQ-uK-tMb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "客服红红"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແອັດມິນ Hong"
+          }
+        }
+      }
+    },
+    "TLP-vm-Kte.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"流程\"; ObjectID = \"TLP-vm-Kte\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "流程"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂະບວນການ"
+          }
+        }
+      }
+    },
+    "UDf-zx-8Tv.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"关于\"; ObjectID = \"UDf-zx-8Tv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关于"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກ່ຽວກັບ"
+          }
+        }
+      }
+    },
+    "unQ-kT-Gst.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"呼叫\"; ObjectID = \"unQ-kT-Gst\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "呼叫"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "呼叫"
+          }
+        }
+      }
+    },
+    "VXT-xP-16j.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"全部\"; ObjectID = \"VXT-xP-16j\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "全部"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ທັງໝົດ"
+          }
+        }
+      }
+    },
+    "W5K-PL-bDN.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"修改手机号码\"; ObjectID = \"W5K-PL-bDN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "修改手机号码"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແກ້ໄຂເບີໂທລະສັບ"
+          }
+        }
+      }
+    },
+    "wgi-xG-niX.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"修改密码\"; ObjectID = \"wgi-xG-niX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "修改密码"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແກ້ໄຂລະຫັດ"
+          }
+        }
+      }
+    },
+    "X3H-tk-H6Z.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"当前手机号码\"; ObjectID = \"X3H-tk-H6Z\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "当前手机号码"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເບີໂທລະສັບປັດຈຸບັນ"
+          }
+        }
+      }
+    },
+    "y5r-st-gYK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"官方推荐\"; ObjectID = \"y5r-st-gYK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "官方推荐"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໂຄສະນາ"
+          }
+        }
+      }
+    },
+    "Yh9-lt-3r1.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"呼叫\"; ObjectID = \"Yh9-lt-3r1\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "呼叫"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໂທ"
+          }
+        }
+      }
+    },
+    "yvO-hQ-yNX.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"检查更新\"; ObjectID = \"yvO-hQ-yNX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "检查更新"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຄົ້ນຫາລ້າສຸດ"
+          }
+        }
+      }
+    },
+    "YzR-Ao-24p.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"清除缓存\"; ObjectID = \"YzR-Ao-24p\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "清除缓存"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ລົບລ້າງແຄັສ"
+          }
+        }
+      }
+    },
+    "Z0B-Vn-kXm.segmentTitles[0]" : {
+      "comment" : "Class = \"UISegmentedControl\"; Z0B-Vn-kXm.segmentTitles[0] = \"全部\"; ObjectID = \"Z0B-Vn-kXm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "全部"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ທັງໝົດ"
+          }
+        }
+      }
+    },
+    "Z0B-Vn-kXm.segmentTitles[1]" : {
+      "comment" : "Class = \"UISegmentedControl\"; Z0B-Vn-kXm.segmentTitles[1] = \"应用\"; ObjectID = \"Z0B-Vn-kXm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "应用"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ນຳໃຊ້"
+          }
+        }
+      }
+    },
+    "Z0B-Vn-kXm.segmentTitles[2]" : {
+      "comment" : "Class = \"UISegmentedControl\"; Z0B-Vn-kXm.segmentTitles[2] = \"流程\"; ObjectID = \"Z0B-Vn-kXm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "流程"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂະບວນການ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

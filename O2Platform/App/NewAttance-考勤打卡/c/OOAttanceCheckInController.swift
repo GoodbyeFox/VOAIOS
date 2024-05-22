@@ -63,7 +63,7 @@ class OOAttanceCheckInController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib.init(nibName: "OOAttanceItemCell", bundle: nil), forCellReuseIdentifier: "OOAttanceItemCell")
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(closeParent))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(closeParent))
 
         getCurrentCheckinList()
         getMyRecords()
@@ -81,8 +81,8 @@ class OOAttanceCheckInController: UITableViewController {
         let window = UIApplication.shared.windows[0]
         myButton = UIButton(type: .custom)
         myButton?.frame = CGRect(x: kScreenW - 90, y: kScreenH - 150, width: 70, height: 70)
-        myButton?.setTitle("打卡", for: .normal)
-        myButton?.setTitle("打卡", for: .disabled)
+        myButton?.setTitle(L10n.checkIn, for: .normal)
+        myButton?.setTitle(L10n.checkIn, for: .disabled)
         myButton?.titleLabel?.font = UIFont(name: "PingFangSC-Medium", size: 14.0)!
         myButton?.theme_backgroundColor = ThemeColorPicker(keyPath: "Base.base_color")
         myButton?.setBackgroundColor(UIColor.gray, forState: .disabled)

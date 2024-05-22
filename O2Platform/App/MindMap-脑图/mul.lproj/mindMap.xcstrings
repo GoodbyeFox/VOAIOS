@@ -1,0 +1,96 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "3XE-s1-EGl.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"3XE-s1-EGl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ດ້ານລຸ່ມ"
+          }
+        }
+      }
+    },
+    "9A3-Kx-rmV.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"根目录\"; ObjectID = \"9A3-Kx-rmV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "根目录"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Root directory"
+          }
+        }
+      }
+    },
+    "CM1-61-yBc.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"标题\"; ObjectID = \"CM1-61-yBc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "iwX-cN-E9E.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"12-04 09:11\"; ObjectID = \"iwX-cN-E9E\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "12-04 09:11"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "12-04 19:00"
+          }
+        }
+      }
+    },
+    "ovk-oj-PA0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"版本：1.0\"; ObjectID = \"ovk-oj-PA0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "版本：1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເວີຊັ່ນ : 1.0"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

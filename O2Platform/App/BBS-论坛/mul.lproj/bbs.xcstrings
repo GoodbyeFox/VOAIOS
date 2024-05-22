@@ -1,0 +1,546 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "5GC-HD-4qb.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"创建新帖\"; ObjectID = \"5GC-HD-4qb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "创建新帖"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສ້າງໂພ໊ສໃໝ່"
+          }
+        }
+      }
+    },
+    "5NA-G9-NMb.headerTitle" : {
+      "comment" : "Class = \"UITableViewSection\"; headerTitle = \"主题内容\"; ObjectID = \"5NA-G9-NMb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "主题内容"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເນື້ອໃນ"
+          }
+        }
+      }
+    },
+    "9q8-ZA-rPN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"文件.pdf\"; ObjectID = \"9q8-ZA-rPN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "文件.pdf"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເອກະສານ.pdf"
+          }
+        }
+      }
+    },
+    "44b-Jk-OK6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"分区标题\"; ObjectID = \"44b-Jk-OK6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "分区标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈັດແບ່ງຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "475-d0-s44.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"标题\"; ObjectID = \"475-d0-s44\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "656-PG-YGn.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"回帖\"; ObjectID = \"656-PG-YGn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "回帖"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕອບ"
+          }
+        }
+      }
+    },
+    "ad6-Es-Z2s.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"0\"; ObjectID = \"ad6-Es-Z2s\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0"
+          }
+        }
+      }
+    },
+    "Ay2-kD-eE6.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"帖子详细\"; ObjectID = \"Ay2-kD-eE6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "帖子详细"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂຽນລາຍລະອຽດ"
+          }
+        }
+      }
+    },
+    "bq6-o8-XQc.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"主题分类\"; ObjectID = \"bq6-o8-XQc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "主题分类"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປະເພດເນື້ອຫາ"
+          }
+        }
+      }
+    },
+    "c5v-yv-12W.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"发帖版块\"; ObjectID = \"c5v-yv-12W\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "发帖版块"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສົ່ງອອກໂພ໊ສ"
+          }
+        }
+      }
+    },
+    "cBt-Fa-0Bf.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"关闭\"; ObjectID = \"cBt-Fa-0Bf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关闭"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປິດ"
+          }
+        }
+      }
+    },
+    "eKF-8f-lk7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"主题\"; ObjectID = \"eKF-8f-lk7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "主题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເນື້ອຫາ"
+          }
+        }
+      }
+    },
+    "EkU-72-yXz.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"论坛\"; ObjectID = \"EkU-72-yXz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "论坛"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຟໍລັ້ມ"
+          }
+        }
+      }
+    },
+    "FMp-w7-Rnb.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"主题内容\"; ObjectID = \"FMp-w7-Rnb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "主题内容"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເນື້ອໃນ"
+          }
+        }
+      }
+    },
+    "Iez-5d-ovd.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"确定\"; ObjectID = \"Iez-5d-ovd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "确定"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຢືນຢັນ"
+          }
+        }
+      }
+    },
+    "j89-tM-Che.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"摘要\"; ObjectID = \"j89-tM-Che\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "摘要"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໃຈຄວາມສຳຄັນ"
+          }
+        }
+      }
+    },
+    "JJE-49-7e0.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"关闭\"; ObjectID = \"JJE-49-7e0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关闭"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປິດ"
+          }
+        }
+      }
+    },
+    "kik-Ss-LkJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"[分类] 标题\"; ObjectID = \"kik-Ss-LkJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "[分类] 标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແບ່ງປະເພດຂອງຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "lpP-Ih-8sT.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1个\"; ObjectID = \"lpP-Ih-8sT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1个"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 ອັນ "
+          }
+        }
+      }
+    },
+    "lue-5t-S3f.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"关闭\"; ObjectID = \"lue-5t-S3f\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关闭"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປິດ"
+          }
+        }
+      }
+    },
+    "m5F-2L-UB0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"发帖版块\"; ObjectID = \"m5F-2L-UB0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "发帖版块"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສົ່ງອອກໂພ໊ສ"
+          }
+        }
+      }
+    },
+    "OQZ-wY-Eqd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"000\"; ObjectID = \"OQZ-wY-Eqd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "000"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "000"
+          }
+        }
+      }
+    },
+    "OTR-Rg-Xlz.headerTitle" : {
+      "comment" : "Class = \"UITableViewSection\"; headerTitle = \"发帖信息\"; ObjectID = \"OTR-Rg-Xlz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "发帖信息"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສົ່ງຂໍ້ຄວາມ"
+          }
+        }
+      }
+    },
+    "Pg7-o1-Tzm.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"06-09\"; ObjectID = \"Pg7-o1-Tzm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "06-09"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "06-09"
+          }
+        }
+      }
+    },
+    "qFB-Cm-LUx.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"板块帖子列表\"; ObjectID = \"qFB-Cm-LUx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "板块帖子列表"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ລາຍການທີ່ໂພ໊ສ"
+          }
+        }
+      }
+    },
+    "Tal-mN-hrK.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"附件列表\"; ObjectID = \"Tal-mN-hrK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "附件列表"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕົວຢ່າງຕາຕະລາງ"
+          }
+        }
+      }
+    },
+    "U1z-XC-6Do.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"关闭\"; ObjectID = \"U1z-XC-6Do\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关闭"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປິດ"
+          }
+        }
+      }
+    },
+    "v8A-H1-kpy.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"发帖人\"; ObjectID = \"v8A-H1-kpy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "发帖人"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສົ່ງອອກໂດຍ"
+          }
+        }
+      }
+    },
+    "xcv-tG-eaX.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"写评论\"; ObjectID = \"xcv-tG-eaX\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "写评论"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂຽນບົດວິຈານ"
+          }
+        }
+      }
+    },
+    "zed-8e-goT.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2020-09-10\"; ObjectID = \"zed-8e-goT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2020-09-10"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2020-09-10"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

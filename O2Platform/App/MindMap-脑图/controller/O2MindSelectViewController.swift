@@ -99,7 +99,7 @@ class O2MindSelectViewController: UITableViewController {
     
     private func deleteFolder(folder: MindFolder) {
         DDLogInfo("删除目录")
-        self.showDefaultConfirm(title: "提示", message: "确定要删除目录【\(folder.name ?? "")】?") { action in
+        self.showDefaultConfirm(title: L10n.alt, message: "确定要删除目录【\(folder.name ?? "")】?") { action in
             self.showLoading()
             self.viewModel.deleteFolder(id: folder.id!)
                 .then { id in

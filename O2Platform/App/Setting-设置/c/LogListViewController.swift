@@ -93,7 +93,7 @@ extension LogListViewController:UITableViewDelegate,UITableViewDataSource {
             self.qlController.reloadData()
             if #available(iOS 10, *) {
                 let navVC = ZLNormalNavViewController(rootViewController: self.qlController)
-                self.qlController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(self.qlCloseWindow))
+                self.qlController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(self.qlCloseWindow))
                 self.presentVC(navVC)
             }else{
                 //if #available(iOS 9, *){

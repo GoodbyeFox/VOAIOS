@@ -102,7 +102,7 @@ class OOMeetingFormViewController: FormViewController {
     /// 删除会议
     @objc private func deleteMeeting() {
         if let meeting = self.meetingInfo {
-            self.showDefaultConfirm(title: "提示", message: "确定要取消当前会议，数据会被删除？") { (action) in
+            self.showDefaultConfirm(title: L10n.alt, message: "确定要取消当前会议，数据会被删除？") { (action) in
                 self.viewModel.deleteMeeting(meetingId: meeting.id!) { (err) in
                     if let message = err {
                         self.showError(title: message)

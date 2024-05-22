@@ -92,7 +92,7 @@ class ScanQRViewController: UIViewController {
         }
         let authStatus = AVCaptureDevice.authorizationStatus(for: .video)
         if authStatus == .restricted {
-            let alertC = UIAlertController(title: "提示", message: "无法访问相机，请检查权限", preferredStyle: .alert)
+            let alertC = UIAlertController(title: L10n.alt, message: "无法访问相机，请检查权限", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "确定", style: .default, handler: { action in
 
             })
@@ -109,7 +109,7 @@ class ScanQRViewController: UIViewController {
                 }
             }
             let message = "[前往：设置 - 隐私 - 相机 - \(name ?? "")] 允许应用访问"
-            let alertC = UIAlertController(title: "提示", message: message, preferredStyle: .alert)
+            let alertC = UIAlertController(title: L10n.alt, message: message, preferredStyle: .alert)
             let okAction = UIAlertAction(title: "确定", style: .default, handler: { action in
 
             })
@@ -264,7 +264,7 @@ class ScanQRViewController: UIViewController {
     @objc private func photosAction() {
         let authStatus = PHPhotoLibrary.authorizationStatus()
         if authStatus == .restricted {
-            let alertC = UIAlertController(title: "提示", message: "无法访问相册，请检查权限", preferredStyle: .alert)
+            let alertC = UIAlertController(title: L10n.alt, message: "无法访问相册，请检查权限", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "确定", style: .default, handler: { action in
 
             })
@@ -281,7 +281,7 @@ class ScanQRViewController: UIViewController {
                 }
             }
             let message = "[前往：设置 - 隐私 - 照片 - \(name ?? "")] 允许应用访问"
-            let alertC = UIAlertController(title: "提示", message: message, preferredStyle: .alert)
+            let alertC = UIAlertController(title: L10n.alt, message: message, preferredStyle: .alert)
             let okAction = UIAlertAction(title: "确定", style: .default, handler: { action in
 
             })

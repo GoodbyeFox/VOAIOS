@@ -1,0 +1,96 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "5cl-UJ-ob5.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"邀请\"; ObjectID = \"5cl-UJ-ob5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "邀请"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຮຽນເຊີນ"
+          }
+        }
+      }
+    },
+    "jA7-36-vgt.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"会议室\"; ObjectID = \"jA7-36-vgt\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "会议室"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫ້ອງປະຊຸມ"
+          }
+        }
+      }
+    },
+    "TkH-d1-ljz.title" : {
+      "comment" : "Class = \"UITabBarItem\"; title = \"会议\"; ObjectID = \"TkH-d1-ljz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "会议"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປະຊຸມ"
+          }
+        }
+      }
+    },
+    "VTD-mP-cJf.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"会议室\"; ObjectID = \"VTD-mP-cJf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "会议室"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫ້ອງປະຊຸມ"
+          }
+        }
+      }
+    },
+    "wSi-n3-2Nh.title" : {
+      "comment" : "Class = \"UITabBarController\"; title = \"会议管理\"; ObjectID = \"wSi-n3-2Nh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "会议管理"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຜູ້ຈັດການປະຊຸມ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

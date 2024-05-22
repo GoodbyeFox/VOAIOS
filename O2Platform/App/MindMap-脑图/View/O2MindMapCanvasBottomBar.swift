@@ -11,13 +11,13 @@ import CocoaLumberjack
 import RxCocoa
 
 enum O2MindMapCanvasBottomBtnType: String {
-    case createSubNode = "下级" // 创建下级
-    case createSameLevelNode = "同级" // 创建同级
-    case editNode = "编辑" // 编辑
-    case deleteNode = "删除" // 删除
-    case addIcon = "图标" // 添加图标 进度图标 优先级图标
-    case addImg =  "图片" // 添加图片
-    case addLink = "超链接" // 添加超链接
+    case createSubNode = "Sub" // 创建下级
+    case createSameLevelNode = "Same" // 创建同级
+    case editNode = "Edit" // 编辑
+    case deleteNode = "Del" // 删除
+    case addIcon = "Icon" // 添加图标 进度图标 优先级图标
+    case addImg =  "Pic" // 添加图片
+    case addLink = "Link" // 添加超链接
 }
 
 protocol O2MindMapCanvasBottomBtnDelegate {

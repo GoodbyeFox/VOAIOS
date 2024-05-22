@@ -12,7 +12,7 @@ import QuickLook
 class CMSQLViewController: QLPreviewController {
     
     override func viewWillAppear(_ animated: Bool) {
-        let item = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(qlCloseWindow))
+        let item = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(qlCloseWindow))
 //        self.navigationItem.setRightBarButton(item, animated: true)
         self.navigationItem.setLeftBarButton(item, animated: true)
     }

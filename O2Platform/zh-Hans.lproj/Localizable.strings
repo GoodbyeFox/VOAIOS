@@ -269,7 +269,6 @@
 
 /* 新增 */
 "Todo" = "待办";
-"Done" = "已办";
 "Need Read" = "待阅";
 "Readed" = "已阅";
 "Meeting" = "会议管理";
@@ -279,7 +278,7 @@
 "Calendar" = "日程安排";
 "Information" = "信息中心";
 "OfficeCenter" = "办公中心";
-"DeleteMessage" = " 删除会话";
+"DeleteMessage" = "删除会话";
 "Account Security" = "账号与安全";
 "Personal Information" = "个人信息";
 "Skin" = "个性换肤";
@@ -358,3 +357,31 @@
 "playPause" = "播放暂停";
 "cannotReview" = "当前文件类型不支持预览！";
 "getFileError" = "获取文件异常！";
+"img" = "图片为空";
+
+"createSubNode" = "下级";
+"createSameLevelNode" = "同级";
+"editNode" = "编辑";
+"deleteNode" = "删除";
+"addIcon" = "图标";
+"addImg" =  "图片";
+"addLink" = "超链接";
+"nullLink" = "请输入链接地址";
+"errorLink" = "请输入正确的链接地址";
+"close" = "关闭";
+"onDutyCheckIn" = "上班打卡";
+"outDutyCheckIn" = "下班打卡";
+"outCheckIn" = "外勤打卡";
+"process" = "处理 >";
+"showrPocess" = "查看流程 >";
+"needCheckIn" = "待打卡";
+"hasCheckIn" = "已打卡";
+"updateCheckIn" = "更新打卡";
+"locationError" = "无法获取到当前位置信息，请确认是否开启定位权限！";
+"updateProt" = "确定要更新当前打卡信息";
+"outCheckTips" = "当前不在打卡范围内，你确定要进行外勤打卡吗？";
+"outCheckProt" = "请输入外勤打卡说明";
+"checkInTimeError" = "当前时间不在可打卡范围内！";
+"submitCheckError" = "打卡提交失败！";
+"checkIn" = "打卡";
+"statics" = "统计";

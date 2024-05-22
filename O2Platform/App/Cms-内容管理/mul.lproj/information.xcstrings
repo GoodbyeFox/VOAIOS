@@ -1,0 +1,258 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "2bN-kO-7o6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"描述\"; ObjectID = \"2bN-kO-7o6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "描述"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ອະທິບາຍ"
+          }
+        }
+      }
+    },
+    "2ib-gX-E1U.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"详细内容\"; ObjectID = \"2ib-gX-E1U\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "详细内容"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ລາຍລະອຽດເນື້ອໃນ"
+          }
+        }
+      }
+    },
+    "106-xT-UBw.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"内容管理\"; ObjectID = \"106-xT-UBw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "内容管理"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈັດການເນື້ອໃນ"
+          }
+        }
+      }
+    },
+    "ACt-c2-0jq.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"标题\"; ObjectID = \"ACt-c2-0jq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "bs6-6i-FUl.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"专区列表\"; ObjectID = \"bs6-6i-FUl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "专区列表"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແຖບລາຍການ"
+          }
+        }
+      }
+    },
+    "Hif-fO-1Dt.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"关闭\"; ObjectID = \"Hif-fO-1Dt\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关闭"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປິດ"
+          }
+        }
+      }
+    },
+    "hM4-5Q-bhQ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"标题\"; ObjectID = \"hM4-5Q-bhQ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "K4k-o3-k4f.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"关闭\"; ObjectID = \"K4k-o3-k4f\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关闭"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປິດ"
+          }
+        }
+      }
+    },
+    "Lbt-p7-TCx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"栏目名称\"; ObjectID = \"Lbt-p7-TCx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "栏目名称"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຊື່ຄໍລັ້ມ"
+          }
+        }
+      }
+    },
+    "NKD-PT-oKe.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2019-07-02\"; ObjectID = \"NKD-PT-oKe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2019-07-02"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປີ 2019 ເດືອນ 07 ວັນທີ 02"
+          }
+        }
+      }
+    },
+    "p11-yi-hx0.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"信息中心\"; ObjectID = \"p11-yi-hx0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "信息中心"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສູນປະຕິບັດການຂໍ້ຄວາມ"
+          }
+        }
+      }
+    },
+    "pN7-SH-0a7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"分类：0\"; ObjectID = \"pN7-SH-0a7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "分类：0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແຍກປະເພດ : 0"
+          }
+        }
+      }
+    },
+    "rfp-U5-bAk.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"关闭\"; ObjectID = \"rfp-U5-bAk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关闭"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປິດ"
+          }
+        }
+      }
+    },
+    "Yjm-NY-CJ8.title" : {
+      "comment" : "Class = \"UITableViewController\"; title = \"内容管理\"; ObjectID = \"Yjm-NY-CJ8\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "内容管理"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈັດການເນື້ອໃນ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

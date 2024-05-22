@@ -36,7 +36,7 @@ class OOAttanceTotalController: UITableViewController {
         super.viewDidLoad()
         NotificationCenter.default.addObserver(self, selector: #selector(showDatePicker(_:)), name: OONotification.staticsTotal.notificationName, object: nil)
         
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(closeParent))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(closeParent))
 
         
         tableView.register(UINib.init(nibName: "OOAttandanceTotalItemCell", bundle: nil), forCellReuseIdentifier: "OOAttandanceTotalItemCell")

@@ -43,7 +43,7 @@ class MindMapItemTableViewCell: UITableViewCell {
         self.moreBtnView.tintColor = UIColor(hex: "#999999")
         self.item = item
         self.titleLabel.text = item.name
-        self.versionLabel.text = "版本：\(item.fileVersion ?? 1)"
+        self.versionLabel.text = "V：\(item.fileVersion ?? 1)"
         self.timeLabel.text = timeFormat(time: item.updateTime)
         // todo 图片
         if let icon = item.icon, icon != "" {

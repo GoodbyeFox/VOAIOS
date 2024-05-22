@@ -1,0 +1,24 @@
+/* Privacy - Calendars Usage Description */
+"NSCalendarsUsageDescription" = "ແອັບພິເຄເຊິນຕ້ອງຫານເຂົ້າເຖິງປະຕິທິນເພື່ອຕິດຕາມວັນທີໃຫ້ຖືກຕ້ອງ. ຖ້າບໍ່ໄດ້ອະນຸຍາດມັນຈະບໍ່ຖືກຂຽນລົງໃນປະຕິທິນຂອງທ່ານ.";
+
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "ແອັບພິເຄຊັ່ນຕ້ອງໄດ້ຮັບອະນຸຍາດການເຂົ້າເຖິງກ້ອງຖ່າຍຮູບຈຶ່ງຈະສາມາດສະແກນຄິວອາໂຄ໊ສໄດ້. ຖ້າຫາກບໍ່ອະນຸຍາດຈະບໍ່ສາມາດນຳໃຊ້ຟັ່ງຊັ່ນສະແກນຄິວອາໂຄ໊ສໄດ້. ";
+
+/* Privacy - Contacts Usage Description */
+"NSContactsUsageDescription" = "ແອັບພິເຄຊັ່ນຕ້ອງໄດ້ຮັບອະນຸຍາດການເຂົ້າເຖິງລາຍຊື່ຕິດຕໍ່. ຖ້າຫາກບໍ່ອະນຸຍາດຈະບໍ່ສາມາດນຳໃຊ້ຂໍ້ມູນຕິດຕໍ່ໄດ້.";
+
+/* Privacy - Face ID Usage Description */
+"NSFaceIDUsageDescription" = "ແອັບພິເຄຊັ່ນຕ້ອງໄດ້ຮັບອະນຸຍາດການເຂົ້າເຖິງການສະແກນໃບໜ້າຈຶ່ງສາມາດເຂົ້າສູ່ລະບົບໄດ້. ຖ້າບໍ່ອະນຸຍາດແມ່ນຈະບໍ່ສາມາດນຳໃຊ້ຟັ່ງຊັ່ນສະແກນໃບໜ້າໄດ້.  ";
+
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "ແອັບພິເຄຊັ່ນຕ້ອງໄດ້ຮັບອະນຸຍາດການເຂົ້າເຖິງຕຳແໜ໋ງທີ່ຢູ່ຈຶ່ງຈະສາມາດນຳໃຊ້ຟັ່ງຊັ້ນກົດບັດໄດ້. ຖ້າຫາກບໍ່ອະນຸຍາດຈະບໍສາມາດກົດບັດໄດ້.";
+
+/* Privacy - Microphone Usage Description */
+"NSMicrophoneUsageDescription" = "ແອັບພິເຄຊັ່ນຕ້ອງໄດ້ຮັບອະນຸຍາດການເຂົ້າເຖິງໄມໂຄໂຟນສຳລັບການບັນທຶກສຽງ. ຖ້າບໍ່ອະນຸຍາດແມ່ນຈະບໍ່ສາມາດນຳໃຊ້ຟັ່ງຊັ່ນບັນທຶກສຽງໄດ້.  ";
+
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "ແອັບພິເຄຊັ່ນຕ້ອງການເຂົ້າເຖິງຄັງຮູບພາບຂອງທ່ານເພື່ອອັບໂຫຼດຮູບພາບ. ຖ້າບໍ່ອະນຸຍາດຈະບໍ່ສາມາດອັບໂຫຼດຮູບພາບໄດ້. ";
+
+/* Privacy - Speech Recognition Usage Description */
+"NSSpeechRecognitionUsageDescription" = "ແອັບພິເຄຊັ່ນຕ້ອງການເຂົ້າເຖິງການບັນທຶກສຽງ.ຖ້າບໍ່ອະນຸຍາດຈະບໍ່ສາມາດນຳໃຊ້ຟັ່ງຊັ້ນຟັງສຽງ/ ບັນທຶກສຽງໄດ້. ";
+

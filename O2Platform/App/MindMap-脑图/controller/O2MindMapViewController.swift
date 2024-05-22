@@ -38,7 +38,7 @@ class O2MindMapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "脑图"
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(closeWindow))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(closeWindow))
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: L10n.new, style: .plain, target: self, action: #selector(addMenus))
         
         self.tableView.tableFooterView = UIView(frame: CGRect.zero)
@@ -121,7 +121,7 @@ class O2MindMapViewController: UIViewController {
     
     //新建脑图
     private func createNewMindMap() {
-        self.showDefaultConfirm(title: "提示", message: "确定要在当前目录【\(self.currentFolder.name ?? "")】中创建一个脑图？") { action in
+        self.showDefaultConfirm(title: L10n.alt, message: "确定要在当前目录【\(self.currentFolder.name ?? "")】中创建一个脑图？") { action in
             self.showPromptAlert(title: L10n.new, message: "请输入脑图名称", inputText: "") { action, result in
                 if result == "" || result.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
                     self.showError(title: "请输入脑图名称！")
@@ -141,7 +141,7 @@ class O2MindMapViewController: UIViewController {
     }
     
     private func createNewFolder() {
-        self.showDefaultConfirm(title: "提示", message: "确定要在当前目录【\(self.currentFolder.name ?? "")】下创建一个子目录？") { action in
+        self.showDefaultConfirm(title: L10n.alt, message: "确定要在当前目录【\(self.currentFolder.name ?? "")】下创建一个子目录？") { action in
             self.showPromptAlert(title: L10n.new, message: "请输入目录名称", inputText: "") { action, result in
                 if result == "" || result.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
                     self.showError(title: "请输入目录名称！")
@@ -254,7 +254,7 @@ class O2MindMapViewController: UIViewController {
     }
     // 删除脑图
     private func deleteMindMap(item: MindMapItem) {
-        self.showDefaultConfirm(title: "提示", message: "确定要删除脑图【\(item.name ?? "")】?") { action in
+        self.showDefaultConfirm(title: L10n.alt, message: "确定要删除脑图【\(item.name ?? "")】?") { action in
             self.showLoading()
             self.viewModel.deleteMindMap(id: item.id!)
                 .then { id in

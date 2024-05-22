@@ -71,9 +71,34 @@ class O2AppViewController: UIViewController{
         var nativeApps:[O2App] = []
         var portalApps:[O2App] = []
         allApps.forEach { (app) in
+            DDLogDebug(app.title! + ":" + app.appId!)
             if app.storyBoard == "webview" {
                 portalApps.append(app)
             } else  {
+                switch app.appId {
+                case "task":
+                    app.title = L10n.todo
+                case "taskcompleted":
+                    app.title = L10n.done
+                case "read":
+                    app.title = L10n.needRead
+                case "readcompleted":
+                    app.title = L10n.readed
+                case "meeting":
+                    app.title = L10n.meeting
+                case "yunpan":
+                    app.title = L10n.cloudFiles
+                case "bbs":
+                    app.title = "BBS"
+                case "attendance":
+                    app.title = L10n.attendance
+                case "calendar":
+                    app.title = L10n.calendar
+                case "mindMap":
+                    app.title = "MIND"
+                default:
+                    app.title = title
+                }
                 nativeApps.append(app)
             }
         }

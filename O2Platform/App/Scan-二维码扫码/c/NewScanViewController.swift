@@ -121,7 +121,7 @@ class NewScanViewController: LBXScanViewController {
                 case .success(let val):
                     DispatchQueue.main.async {
                         DDLogDebug(String(describing:val))
-                        let alertController = UIAlertController(title: "提示", message: "签到成功", preferredStyle: .alert)
+                        let alertController = UIAlertController(title: L10n.alt, message: "签到成功", preferredStyle: .alert)
                         let okAction = UIAlertAction(title: "确定", style: .default) {
                             action in
                             self.popVC()
@@ -132,7 +132,7 @@ class NewScanViewController: LBXScanViewController {
                 case .failure(let err):
                     DispatchQueue.main.async {
                         DDLogError(err.localizedDescription)
-                        let alertController = UIAlertController(title: "提示", message: "签到失败", preferredStyle: .alert)
+                        let alertController = UIAlertController(title: L10n.alt, message: "签到失败", preferredStyle: .alert)
                         let okAction = UIAlertAction(title: "确定", style: .destructive) {
                             action in
                             self.popVC()
@@ -144,7 +144,7 @@ class NewScanViewController: LBXScanViewController {
             })
         } else {
             DispatchQueue.main.async {
-                let alertController = UIAlertController(title: "提示", message: "参数获取异常！", preferredStyle: .alert)
+                let alertController = UIAlertController(title: L10n.alt, message: "参数获取异常！", preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "确定", style: .destructive) {
                     action in
                     self.popVC()

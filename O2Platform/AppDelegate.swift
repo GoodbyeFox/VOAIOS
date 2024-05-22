@@ -145,7 +145,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, JPUSHRegisterDelegate, UN
 //        } else if self.rightRotation {
 //            return .landscapeRight
 //        }
-        return .allButUpsideDown
+//        return .allButUpsideDown
+        return .portrait
     }
  
     

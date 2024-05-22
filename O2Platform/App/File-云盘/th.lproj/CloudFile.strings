@@ -1,84 +1,84 @@
-
 /* Class = "UILabel"; text = "企业文件"; ObjectID = "3lT-Ew-KKq"; */
-"3lT-Ew-KKq.text" = "企业文件";
+"3lT-Ew-KKq.text" = "ເອກະສານ";
 
 /* Class = "UILabel"; text = "描述"; ObjectID = "AIS-3b-Ei6"; */
-"AIS-3b-Ei6.text" = "描述";
+"AIS-3b-Ei6.text" = "ອະທິບາຍ";
 
 /* Class = "UITextField"; placeholder = "请输入共享区描述"; ObjectID = "ASW-Le-E7R"; */
-"ASW-Le-E7R.placeholder" = "请输入共享区描述";
+"ASW-Le-E7R.placeholder" = "ກະລຸນາໃສ່ຄຳອະທິບາຍ";
+
+/* Class = "UIViewController"; title = "企业网盘"; ObjectID = "bc2-g7-54J"; */
+"bc2-g7-54J.title" = "ເຄືອຂ່າຍອົງກອນ";
+
+/* Class = "UICollectionViewController"; title = "图片网格VC"; ObjectID = "bew-Pg-Jcf"; */
+"bew-Pg-Jcf.title" = "ຮູບພາບຕາຕະລາງ";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "CWY-nv-b9T"; */
 "CWY-nv-b9T.text" = "Title";
 
-/* Class = "UILabel"; text = "内部共享区"; ObjectID = "JAe-yI-dpC"; */
-"JAe-yI-dpC.text" = "内部共享区";
-
-/* Class = "UILabel"; text = "Share"; ObjectID = "LdN-Iz-R2W"; */
-"LdN-Iz-R2W.text" = "Share";
-
-/* Class = "UILabel"; text = "我的文件"; ObjectID = "Nv6-pn-c0r"; */
-"Nv6-pn-c0r.text" = "我的文件";
-
-/* Class = "UILabel"; text = "Other"; ObjectID = "Qzp-9l-DNq"; */
-"Qzp-9l-DNq.text" = "Other";
-
-/* Class = "UIViewController"; title = "企业网盘文件夹选择器"; ObjectID = "RgK-3T-d5U"; */
-"RgK-3T-d5U.title" = "企业网盘文件夹选择器";
-
-/* Class = "UIViewController"; title = "主页"; ObjectID = "SL1-BE-wsG"; */
-"SL1-BE-wsG.title" = "主页";
-
-/* Class = "UILabel"; text = "Music"; ObjectID = "X5O-Qf-7hD"; */
-"X5O-Qf-7hD.text" = "Music";
-
-/* Class = "UILabel"; text = "All File"; ObjectID = "XF2-0D-yb1"; */
-"XF2-0D-yb1.text" = "All File";
-
-/* Class = "UIViewController"; title = "企业网盘"; ObjectID = "bc2-g7-54J"; */
-"bc2-g7-54J.title" = "企业网盘";
-
-/* Class = "UICollectionViewController"; title = "图片网格VC"; ObjectID = "bew-Pg-Jcf"; */
-"bew-Pg-Jcf.title" = "图片网格VC";
-
 /* Class = "UIViewController"; title = "分类VC容器"; ObjectID = "euC-t7-1n3"; */
-"euC-t7-1n3.title" = "分类VC容器";
-
-/* Class = "UITextField"; placeholder = "请输入共享区名称"; ObjectID = "hNi-Pe-oaK"; */
-"hNi-Pe-oaK.placeholder" = "请输入共享区名称";
+"euC-t7-1n3.title" = "ແບ່ງປະເພດພາຊະນະ";
 
 /* Class = "UINavigationItem"; title = "CloudFile"; ObjectID = "hae-9Y-hGS"; */
 "hae-9Y-hGS.title" = "CloudFile";
 
+/* Class = "UITextField"; placeholder = "请输入共享区名称"; ObjectID = "hNi-Pe-oaK"; */
+"hNi-Pe-oaK.placeholder" = "ກະລຸນາໃສ່ຊື່";
+
+/* Class = "UILabel"; text = "内部共享区"; ObjectID = "JAe-yI-dpC"; */
+"JAe-yI-dpC.text" = "ພື້ນທີ່ຮ່ວມກັນຢູ່ໃນພະແກນພາຍໃນ";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "LdN-Iz-R2W"; */
+"LdN-Iz-R2W.text" = "Share";
+
 /* Class = "UIViewController"; title = "列表VC"; ObjectID = "nmb-IO-kk7"; */
-"nmb-IO-kk7.title" = "列表VC";
+"nmb-IO-kk7.title" = "ຕາຕະລາງ";
+
+/* Class = "UILabel"; text = "我的文件"; ObjectID = "Nv6-pn-c0r"; */
+"Nv6-pn-c0r.text" = "ເອກະສານຂອງຂ້ອຍ";
 
 /* Class = "UILabel"; text = "Picture"; ObjectID = "pfT-T1-pf1"; */
-"pfT-T1-pf1.text" = "Picture";
+"pfT-T1-pf1.text" = "ຮູບພາບ";
+
+/* Class = "UILabel"; text = "Other"; ObjectID = "Qzp-9l-DNq"; */
+"Qzp-9l-DNq.text" = "ອື່ນໆ";
+
+/* Class = "UIViewController"; title = "企业网盘文件夹选择器"; ObjectID = "RgK-3T-d5U"; */
+"RgK-3T-d5U.title" = "ຕົວເລືອກໂຟເດີ້ເອກະສານ";
+
+/* Class = "UIViewController"; title = "主页"; ObjectID = "SL1-BE-wsG"; */
+"SL1-BE-wsG.title" = "ໜ້າຫຼັກ";
 
 /* Class = "UILabel"; text = "Video"; ObjectID = "sTU-0k-UMA"; */
 "sTU-0k-UMA.text" = "Video";
 
 /* Class = "UITableViewController"; title = "分类列表VC"; ObjectID = "t8P-Yb-g3f"; */
-"t8P-Yb-g3f.title" = "分类列表VC";
+"t8P-Yb-g3f.title" = "ແບ່ງຕາຕະລາງ";
 
 /* Class = "UIViewController"; title = "共享区Form"; ObjectID = "u1y-K2-mtO"; */
-"u1y-K2-mtO.title" = "共享区Form";
+"u1y-K2-mtO.title" = "ແບບຟອມຊຸມຊົນ";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "vHS-Wt-b3q"; */
-"vHS-Wt-b3q.title" = "Close";
+"vHS-Wt-b3q.title" = "ປິດ";
 
-/* Class = "UILabel"; text = "个人文件"; ObjectID = "yLB-GZ-xpZ"; */
-"yLB-GZ-xpZ.text" = "个人文件";
+/* Class = "UILabel"; text = "Music"; ObjectID = "X5O-Qf-7hD"; */
+"X5O-Qf-7hD.text" = "ເພງ";
+
+/* Class = "UILabel"; text = "All File"; ObjectID = "XF2-0D-yb1"; */
+"XF2-0D-yb1.text" = "ໄຟຣ໌ທັງໝົດ";
 
 /* Class = "UITableViewController"; title = "企业共享区"; ObjectID = "ybs-Jd-eBu"; */
-"ybs-Jd-eBu.title" = "企业共享区";
+"ybs-Jd-eBu.title" = "ພື້ນທີ່ທຸລະກິດ";
+
+/* Class = "UILabel"; text = "个人文件"; ObjectID = "yLB-GZ-xpZ"; */
+"yLB-GZ-xpZ.text" = "ເອກະສານສ່ວນຕົວ";
 
 /* Class = "UIButton"; configuration.title = "提交"; ObjectID = "z7G-fE-fR1"; */
-"z7G-fE-fR1.configuration.title" = "提交";
+"z7G-fE-fR1.configuration.title" = "ສົ່ງ";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "z7G-fE-fR1"; */
-"z7G-fE-fR1.normalTitle" = "Button";
+"z7G-fE-fR1.normalTitle" = "ດ້ານລຸ່ມ";
 
 /* Class = "UILabel"; text = "Document"; ObjectID = "zaI-cL-Qsf"; */
-"zaI-cL-Qsf.text" = "Document";
+"zaI-cL-Qsf.text" = "ໄຟຣ໌ເອກະສານ";
+

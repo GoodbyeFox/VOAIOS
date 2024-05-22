@@ -2,6 +2,7 @@
   "images" : [
     {
       "extent" : "full-screen",
+      "filename" : "luanchImg_1242_2688.png",
       "idiom" : "iphone",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
@@ -10,6 +11,7 @@
     },
     {
       "extent" : "full-screen",
+      "filename" : "luanchImg_828_1792.png",
       "idiom" : "iphone",
       "minimum-system-version" : "12.0",
       "orientation" : "portrait",
@@ -18,7 +20,6 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "启动页-统一1125x2436.png",
       "idiom" : "iphone",
       "minimum-system-version" : "11.0",
       "orientation" : "portrait",
@@ -35,7 +36,6 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "启动页-统一1242x2208-1.png",
       "idiom" : "iphone",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
@@ -52,7 +52,6 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "启动页-统一750x1334.png",
       "idiom" : "iphone",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
@@ -61,7 +60,6 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "启动页-统一640x960.png",
       "idiom" : "iphone",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
@@ -69,7 +67,6 @@
     },
     {
       "extent" : "full-screen",
-      "filename" : "启动页-统一640x1136.png",
       "idiom" : "iphone",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",

@@ -392,7 +392,7 @@ class O2MindMapCanvasController: UIViewController {
             DDLogError("请先选择节点！！")
             return
         }
-        self.showDefaultConfirm(title: "提示", message: "确定要删除【\(self.selectedNode?.text ?? "")】这个节点吗") { action in
+        self.showDefaultConfirm(title: L10n.alt, message: "确定要删除【\(self.selectedNode?.text ?? "")】这个节点吗") { action in
             if let node = self.root?.root {
                 let newNode = self.deleteSelectNodeRecursion(node: node)
                 self.root?.root = newNode

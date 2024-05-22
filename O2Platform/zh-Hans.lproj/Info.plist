@@ -214,14 +214,14 @@
 	<string>APP需要您的同意，才能访问通讯录识别用户，如禁止将无法识别用户</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>App需要您的同意,才能访问人脸识别功能对应用进行解锁登录，如禁止将无法使用生物识别登录功能</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>APP需要您的同意，才能访问定位位置进行打卡签到，如禁止将无法使用打卡功能</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>App需要您的同意,才能访问麦克风进行语音识别转换/录制音频，如禁止将无法识别语音转换/录制音频发送</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>APP需要您的同意，才能访问相册进行选择照片上传/发布信息，如禁止将无法上传选择照片上传/发布信息</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>App需要您的同意,才能访问麦克风进行语音识别转换/录制音频，如禁止将无法识别语音转换/录制音频发送</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen.storyboard</string>
 	<key>UIMainStoryboardFile</key>
 	<string>login</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -236,10 +236,8 @@
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortrait</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>

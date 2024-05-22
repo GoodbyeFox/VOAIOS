@@ -218,7 +218,7 @@ class CMSItemDetailViewController: BaseWebViewUIViewController {
     
     //删除文档
     private func itemBtnDocDeleteAction() {
-        self.showDefaultConfirm(title: "提示", message: "你确定要删除当前文档？") { (action) in
+        self.showDefaultConfirm(title: L10n.alt, message: "你确定要删除当前文档？") { (action) in
             let callJS = "layout.appForm.deleteDocumentForMobile()"
             self.webView.evaluateJavaScript(callJS, completionHandler: { (result, err) in
                 //

@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "cCw-Rx-M5w.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"打卡\"; ObjectID = \"cCw-Rx-M5w\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "打卡"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກົດບັດ"
+          }
+        }
+      }
+    },
+    "isj-Jx-Wqq.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"位置信息还在查询中...\"; ObjectID = \"isj-Jx-Wqq\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "位置信息还在查询中..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກຳລັງຄົ້ນຫາຕຳແໜ່ງທີ່ຢູ່"
+          }
+        }
+      }
+    },
+    "R3F-cg-nSb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"00:00:00\"; ObjectID = \"R3F-cg-nSb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "00:00:00"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "00:00:00"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

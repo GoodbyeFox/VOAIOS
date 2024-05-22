@@ -80,7 +80,8 @@ extension O2MainViewModel {
                     if let data = response.model?.data {
                         fulfill(data.identityList ?? [])
                     } else {
-                        reject(O2APIError.o2ResponseError("数据为空"))
+                        //数据为空
+                        reject(O2APIError.o2ResponseError(L10n.selectMemberError))
                     }
                 }else {
                     reject(response.error!)

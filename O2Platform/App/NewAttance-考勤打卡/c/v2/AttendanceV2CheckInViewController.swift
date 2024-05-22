@@ -49,7 +49,7 @@ class AttendanceV2CheckInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(closeParent))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(closeParent))
         // self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "返回老版", style: .plain, target: self, action: #selector(closeSelfOpenOld))
         // 列表
         self.recordItemsCollectionView.delegate = self
@@ -103,7 +103,7 @@ class AttendanceV2CheckInViewController: UIViewController {
     private func clickCheckIn () {
         if self.bmkResult == nil {
             DDLogError("没有获取到当前位置信息，无法打卡。。。。。")
-            self.showError(title: "无法获取到当前位置信息，请确认是否开启定位权限！")
+            self.showError(title: L10n.locationError)
             return
         }
         if self.canCheckIn && self.nextCheckInRecord != nil {
@@ -126,12 +126,12 @@ class AttendanceV2CheckInViewController: UIViewController {
     private func updateCheckIn(record:AttendanceV2CheckItemData) {
         if self.bmkResult == nil {
             DDLogError("没有获取到当前位置信息，无法打卡。。。。。")
-            self.showError(title: "无法获取到当前位置信息，请确认是否开启定位权限！")
+            self.showError(title: L10n.locationError)
             return
         }
         
         if record.isLastRecord {
-            self.showDefaultConfirm(title: L10n.alert, message: "确定要更新当前打卡信息【\(record.recordTime ?? "")】？") { action in
+            self.showDefaultConfirm(title: L10n.alert, message: L10n.updateProt + "【\(record.recordTime ?? "")】？") { action in
                 if self.isInWorkPlace && self.currentWorkPlace != nil {
                     self.postCheckIn(record: record, workPlaceId: self.currentWorkPlace?.id, fieldWork: false,fieldWorkRemark: nil)
                 } else {
@@ -145,9 +145,9 @@ class AttendanceV2CheckInViewController: UIViewController {
     private func outSideCheckIn(record: AttendanceV2CheckItemData) {
         if self.allowFieldWork {
             if self.requiredFieldWorkRemarks {
-                self.showPromptAlert(title: "提示", message: "当前不在打卡范围内，你确定要进行外勤打卡吗？", inputText: "", placeholder: "请输入外勤打卡说明") { action, text in
+                self.showPromptAlert(title: L10n.alt, message: L10n.outCheckTips, inputText: "", placeholder: L10n.outCheckProt) { action, text in
                     if text.isBlank {
-                        self.showError(title: "请输入外勤打卡说明")
+                        self.showError(title: L10n.outCheckProt)
                     } else {
                         self.postCheckIn(record: record, workPlaceId: nil, fieldWork: true ,fieldWorkRemark: text)
                     }
@@ -166,7 +166,7 @@ class AttendanceV2CheckInViewController: UIViewController {
             let now = Date()
             let today = now.formatterDate(formatter: "yyyy-MM-dd")
             if let beforeTime = Date.date("\(today) \(preDutyTimeBeforeLimit):00"), now.isBefore(date: beforeTime) {
-                self.showError(title: "当前时间不在可打卡范围内！")
+                self.showError(title: L10n.checkInTimeError)
                 return false
             }
         }
@@ -174,7 +174,7 @@ class AttendanceV2CheckInViewController: UIViewController {
             let now = Date()
             let today = now.formatterDate(formatter: "yyyy-MM-dd")
             if let afterTime =  Date.date("\(today) \(preDutyTimeAfterLimit):00"), afterTime.isBefore(date: now) {
-                self.showError(title: "当前时间不在可打卡范围内！")
+                self.showError(title: L10n.checkInTimeError)
                 return false
             }
         }
@@ -197,7 +197,7 @@ class AttendanceV2CheckInViewController: UIViewController {
             self.loadPreCheckData()
         }.catch { error in
             DDLogError("打卡提交失败，\(error.localizedDescription)")
-            self.showError(title: "打卡提交失败！\(error.localizedDescription)")
+            self.showError(title: L10n.submitCheckError + (error.localizedDescription))
         }
     }
     
@@ -241,9 +241,9 @@ class AttendanceV2CheckInViewController: UIViewController {
                     item.isRecord = isRecord // 是否已经打卡
                     
                     if(item.checkInType == "OnDuty") {
-                        item.checkInTypeString = "上班打卡"
+                        item.checkInTypeString = L10n.onDutyCheckIn//"上班打卡"
                     } else{
-                        item.checkInTypeString = "下班打卡"
+                        item.checkInTypeString = L10n.outDutyCheckIn//"下班打卡"
                     }
                     var preDutyTime = item.preDutyTime
                     if (item.shiftId == nil || item.shiftId?.isEmpty == true) {
@@ -413,7 +413,7 @@ extension AttendanceV2CheckInViewController: BMKGeoCodeSearchDelegate {
     /// 计算所有位置是否有一个位置在误差范围内
     func calcErrorRange(_ checkinLocation: CLLocationCoordinate2D) -> (Bool, AttendanceV2WorkPlace?) {
         var result = false
-        for item in self.workPlaceList {
+        for item in self.workPlaceList{
             let longitude = Double((item.longitude)!)
             let latitude = Double((item.latitude)!)
             let eRange = item.errorRange!

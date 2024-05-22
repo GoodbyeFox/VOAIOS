@@ -28,7 +28,12 @@ class O2WebsocketManager {
         let request = URLRequest(url: URL(string: wsUrl)!)
         socket = WebSocket(request: request)
         socket?.delegate = delegate
-        socket?.connect()
+        do{
+            socket?.connect()
+        }catch{
+            DDLogError("socket 连接失败")
+            // ignore
+        }
     }
 
     //发送消息

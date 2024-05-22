@@ -51,7 +51,7 @@ class OOAttendanceCheckInNewController: UIViewController {
             UIBarButtonItem(title: "审批", style: .plain, target: self, action: #selector(gotoApproval)),
             UIBarButtonItem(title: "明细", style: .plain, target: self, action: #selector(gotoCheckList)),
         ]
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(closeParent))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(closeParent))
 
         self.schedulesView.delegate = self
         self.schedulesView.dataSource = self
@@ -135,7 +135,7 @@ class OOAttendanceCheckInNewController: UIViewController {
                 DDLogDebug("外勤打卡。。。")
                 self.checkinForm.isExternal = true
                 self.checkinForm.workAddress = ""
-                self.showPromptAlert(title: "提示", message: "当前不在打卡范围内，你确定要进行外勤打卡吗？", inputText: "", placeholder: "请输入外勤打卡说明") { action, text in
+                self.showPromptAlert(title: L10n.alt, message: "当前不在打卡范围内，你确定要进行外勤打卡吗？", inputText: "", placeholder: "请输入外勤打卡说明") { action, text in
                     if text.isBlank {
                         self.showError(title: "请输入外勤打卡说明")
                     } else {
@@ -143,12 +143,12 @@ class OOAttendanceCheckInNewController: UIViewController {
                         self.postMyCheckin(checkinForm: self.checkinForm)
                     }
                 }
-//                self.showDefaultConfirm(title: "提示", message: "当前不在打卡范围内，你确定要进行外勤打卡吗？", okHandler: { action in
+//                self.showDefaultConfirm(title: L10n.alt, message: "当前不在打卡范围内，你确定要进行外勤打卡吗？", okHandler: { action in
 //                    self.postMyCheckin(checkinForm: self.checkinForm)
 //                })
             }else {
                 DDLogDebug("更新打卡。。。22")
-                self.showDefaultConfirm(title: "更新打卡", message: "确定要更新这条打卡数据吗？") { (action) in
+                self.showDefaultConfirm(title: L10n.updateCheckIn,message: L10n.updateProt) { (action) in
                     self.checkinForm.isExternal = false
                     self.checkinForm.workAddress = self.currentWorkPlace?.placeName
                     self.postMyCheckin(checkinForm: self.checkinForm)
@@ -188,15 +188,15 @@ class OOAttendanceCheckInNewController: UIViewController {
             if !self.isInWorkPlace {
                 self.checkinForm.isExternal = true
                 self.checkinForm.workAddress = ""
-                self.showPromptAlert(title: "提示", message: "当前不在打卡范围内，你确定要进行外勤打卡吗？", inputText: "", placeholder: "请输入外勤打卡说明") { action, text in
+                self.showPromptAlert(title: L10n.alt, message: L10n.outCheckTips, inputText: "", placeholder: L10n.outCheckProt) { action, text in
                     if text.isBlank {
-                        self.showError(title: "请输入外勤打卡说明")
+                        self.showError(title: L10n.outCheckProt)
                     } else {
                         self.checkinForm.desc = text
                         self.postMyCheckin(checkinForm: self.checkinForm)
                     }
                 }
-//                self.showDefaultConfirm(title: "提示", message: "当前不在打卡范围内，你确定要进行外勤打卡吗？", okHandler: { action in
+//                self.showDefaultConfirm(title: L10n.alt, message: "当前不在打卡范围内，你确定要进行外勤打卡吗？", okHandler: { action in
 //                    self.postMyCheckin(checkinForm: self.checkinForm)
 //                })
             }else {

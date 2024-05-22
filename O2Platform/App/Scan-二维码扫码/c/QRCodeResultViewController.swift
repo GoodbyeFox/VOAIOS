@@ -296,7 +296,7 @@ class QRCodeResultViewController: UIViewController {
                     DispatchQueue.main.async {
                         self.hideLoading()
                         DDLogDebug(String(describing:val))
-                        let alertController = UIAlertController(title: "提示", message: "签到成功", preferredStyle: .alert)
+                        let alertController = UIAlertController(title: L10n.alt, message: "签到成功", preferredStyle: .alert)
                         let okAction = UIAlertAction(title: "确定", style: .default) {
                             action in
                             self.popVC()
@@ -308,7 +308,7 @@ class QRCodeResultViewController: UIViewController {
                     DispatchQueue.main.async {
                         self.hideLoading()
                         DDLogError(err.localizedDescription)
-                        let alertController = UIAlertController(title: "提示", message: "签到失败", preferredStyle: .alert)
+                        let alertController = UIAlertController(title: L10n.alt, message: "签到失败", preferredStyle: .alert)
                         let okAction = UIAlertAction(title: "确定", style: .destructive) {
                             action in
                             self.popVC()
@@ -320,7 +320,7 @@ class QRCodeResultViewController: UIViewController {
             })
         }else {
             DispatchQueue.main.async {
-                let alertController = UIAlertController(title: "提示", message: "参数获取异常！", preferredStyle: .alert)
+                let alertController = UIAlertController(title: L10n.alt, message: "参数获取异常！", preferredStyle: .alert)
                 let okAction = UIAlertAction(title: "确定", style: .destructive) {
                     action in
                     self.popVC()

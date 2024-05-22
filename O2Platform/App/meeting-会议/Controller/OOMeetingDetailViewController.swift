@@ -173,7 +173,7 @@ extension OOMeetingDetailViewController: PersonListCellDelegate {
     
     func clickReject(_ completedBlock: @escaping () -> Void) {
         if let meeting = self.meetingInfo {
-            self.showDefaultConfirm(title: "提示", message: "确定要拒绝当前会议邀请？") { (action) in
+            self.showDefaultConfirm(title: L10n.alt, message: "确定要拒绝当前会议邀请？") { (action) in
                 self.viewModel.rejectMeeting(meetingId: meeting.id!) { (err) in
                     if let message = err {
                         self.showError(title: message)

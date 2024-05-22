@@ -1,5 +1,17 @@
+/* (No Comment) */
+"2MonthAgo" = "2 ເດືອນກ່ອນ";
+
+/* (No Comment) */
+"3MonthAgo" = "3 ເດືອນກ່ອນ";
+
 /* No comment provided by engineer. */
 "取消" = "ຍົກເລີກ";
+
+/* (No Comment) */
+"About" = "ກ່ຽວກັບ";
+
+/* (No Comment) */
+"Account Security" = "ຄວາມປອດໄພບັນຊີ";
 
 /* (No Comment) */
 "Alert" = "ແຈ້ງເຕືອນ";
@@ -32,13 +44,16 @@
 "Applications Url request error" = "URL Request Error";
 
 /* (No Comment) */
-"Attendance" = "Attendance";
+"Attendance" = "ເຂົ້າວຽກ";
+
+/* (No Comment) */
+"avatar" = "Avatar";
 
 /* No comment provided by engineer. */
 "BG Color" = "ສີ BG";
 
 /* (No Comment) */
-"Calendar" = "Calendar";
+"Calendar" = "ປະຕິທິນ";
 
 /* (No Comment) */
 "CALL" = "ໂທ";
@@ -50,10 +65,31 @@
 "Cancel" = "ຍົກເລີກ";
 
 /* (No Comment) */
+"cannotReview" = "ປະເພດເອກະສານປະຈຸບັນບໍ່ໄດ້ຮັບການສະໜັບສະໜູນ！";
+
+/* (No Comment) */
+"change" = "Change";
+
+/* (No Comment) */
+"changePasswod" = "Change Password";
+
+/* (No Comment) */
 "Choose" = "ເລືອກ";
 
 /* (No Comment) */
 "Choose Move Position" = "ຍ້າຍໄປ";
+
+/* (No Comment) */
+"cleanFailed" = "ລົບລ້າງລົ້ມເລວ！";
+
+/* (No Comment) */
+"cleanMessage" = "ລົບລ້າງປະຫວັດສົນທະນາ";
+
+/* (No Comment) */
+"cleanMessageConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບລ້າງແຊັດປະບັນ，ຫຼັງຈາກລົບລ້າງແລ້ວປະຫວັດການແຊັດທັງໝົດຈະບໍສາມາດເບິ່ງປະຫວັດການແຊັດໄດ້？";
+
+/* (No Comment) */
+"cleanSuccess" = "ລ້າງປະຫວັດການແຊັດສຳເລັດ！";
 
 /* No comment provided by engineer. */
 "Clear Photo" = "ລຶບຮູບ";
@@ -128,10 +164,13 @@
 "Cloud File V3 Zone Name" = "ພື້ນທີ່ແບ່ງປັນວິສາຫະກິດ";
 
 /* (No Comment) */
-"Cloud Files" = "ໄຟລ໌ຄລາວ";
+"Cloud Files" = "ຄາວ";
 
 /* (No Comment) */
 "Cms" = "CMS";
+
+/* (No Comment) */
+"code" = "Code";
 
 /* (No Comment) */
 "Contacts board date" = "ເວລາເຂົ້າ";
@@ -203,6 +242,9 @@
 "Create Folder Error Message" = "ສ້າງ Folder ຂໍ້​ຄວາມ​ຜິດ​ພາດ!";
 
 /* (No Comment) */
+"DaysAgo" = "ມື້ກ່ອນ";
+
+/* (No Comment) */
 "Delete" = "ລຶບ";
 
 /* (No Comment) */
@@ -211,15 +253,45 @@
 /* (No Comment) */
 "Delete My Share File Confirm Message" = "ຍົກເລີກລາຍການແບ່ງປັນເຫຼົ່ານີ້, ທ່ານແນ່ໃຈບໍ?";
 
+/* (No Comment) */
+"deleteChatConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບແຊັດປະບັນ，ຫຼັງຈາກລົບແລ້ວປະຫວັດການແຊັດທັງໝົດຈະວ່າງເປົ່າວ່າງ？";
+
+/* (No Comment) */
+"deleteFailed" = "ລົບລົ້ມເລວ";
+
+/* (No Comment) */
+"deleteGroup" = "ລົບກຸ່ມສົນທະນາ";
+
+/* (No Comment) */
+"deleteGroupConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບກຸ່ມສົນທະນາປະຈຸບັນ，ປະຫວັດການສົນທະນາທັງໝົດຈະວ່າງເປົ່າວ່າງຫຼັງຈາກເຈົ້າລົບ？";
+
+/* (No Comment) */
+"DeleteMessage" = "ລົບ";
+
 /* Localizable.strings
   O2Platform
 
   Created by FancyLou on 2019/4/18.
   Copyright © 2019 zoneland. All rights reserved. */
-"Done" = "Done";
+"Done" = "ສຳເລັດ";
 
 /* (No Comment) */
 "Edit" = "ແກ້ໄຂ";
+
+/* (No Comment) */
+"editFailed" = "ປ່ຽນລົ້ມເລວ";
+
+/* (No Comment) */
+"editGroup" = "ປ່ຽນຊື່ກຸ່ມ";
+
+/* (No Comment) */
+"editItemConfirm" = "ເລືອກປ່ຽນ Item";
+
+/* (No Comment) */
+"editMember" = "ປ່ຽນສະມາຊິກສຳເລັດ";
+
+/* (No Comment) */
+"editSuccess" = "ປ່ຽນສຳເລັດ";
 
 /* (No Comment) */
 "Empty name Error Message" = "ບໍ່ໃຫ້ຊື່ຫວ່າງ!";
@@ -227,20 +299,50 @@
 /* (No Comment) */
 "Error with info" = "Error！%@";
 
+/* (No Comment) */
+"errorLoadProfile" = "ປ້ອນຂໍ້ມູນສ່ວນໂຕຜິດພາດ!";
+
+/* (No Comment) */
+"exit" = "ອອກ";
+
+/* (No Comment) */
+"exitConfirmMessage" = "ແນ່ໃຈບໍ່ວ່າຈະອອກຈາກລະບົບ？";
+
 /* Error description */
 "Failed to convert value from data at path %@" = "ລົ້ມເຫລວໃນການປ່ຽນຄ່າຈາກຂໍ້ມູນຢູ່ເສັ້ນທາງ %@";
 
 /* Error description */
 "Failed to convert value from data at URL %@" = "ລົ້ມເຫລວໃນການປ່ຽນຄ່າຈາກຂໍ້ມູນຢູ່ທີ່ URL %@";
 
+/* (No Comment) */
+"female" = "Female";
+
 /* Error description */
 "Format %@ not found" = "ບໍ່ພົບຮູບແບບ %@";
+
+/* (No Comment) */
+"gender" = "Gender";
+
+/* (No Comment) */
+"General" = "ທົ່ວໄປ";
+
+/* (No Comment) */
+"getFileError" = "ໄດ້ຮັບເອກະສານຜິດປົກກະຕິ！";
+
+/* (No Comment) */
+"groupNameComfirm" = "ກະລຸນາປ້ອນຊື່ກຸ່ມ";
+
+/* (No Comment) */
+"HoursAgo" = "ຊົ່ວໂມງທີ່ແລ້ວ";
 
 /* Identify failed */
 "Identify failed" = "Identify ລົ້ມເຫລວ";
 
 /* No comment provided by engineer. */
 "Image scale, 0.5 by default" = "ຂະໜາດຮູບ,0.5ຕາມຄ່າເລີ່ມຕົ້ນ";
+
+/* (No Comment) */
+"Information" = "ຂໍ້ມູນ";
 
 /* No comment provided by engineer. */
 "Insert" = "ແຊກ";
@@ -253,6 +355,15 @@
 
 /* No comment provided by engineer. */
 "Insert Link" = "ໃສ່ລິ້ງ";
+
+/* (No Comment) */
+"JustNow" = "ເມື່ອກີ້";
+
+/* (No Comment) */
+"loadFileFailed" = "ໂຫລດເອກະສານລົ້ມເລວ";
+
+/* (No Comment) */
+"loading" = "ໂຫລດ...";
 
 /* (No Comment) */
 "Login binding" = "Binding...";
@@ -360,6 +471,12 @@
 "Login Verify login now" = "ຢືນຢັນການເຂົ້າສູ່ລະບົບດຽວນີ້";
 
 /* (No Comment) */
+"loginAccount" = "Account";
+
+/* (No Comment) */
+"logout" = "Logout";
+
+/* (No Comment) */
 "Main Bar App" = "Apps";
 
 /* (No Comment) */
@@ -372,13 +489,31 @@
 "Main Bar Settings" = "ການຕັ້ງຄ່າ";
 
 /* (No Comment) */
-"Meeting" = "Meeting";
+"male" = "Male";
+
+/* (No Comment) */
+"Meeting" = "ປະຊຸມ";
+
+/* (No Comment) */
+"memberNotEnough" = "ເລືອກສະມາຊິກນ້ອຍກວ່າ 3 ຄົນ";
+
+/* (No Comment) */
+"MinuteAgo" = "ນາທີຜ່ານມາ";
+
+/* (No Comment) */
+"mobile" = "Mobile";
+
+/* (No Comment) */
+"MonthAgo" = "1 ເດືອນກ່ອນ";
 
 /* (No Comment) */
 "Move" = "ຍ້າຍ";
 
 /* (No Comment) */
-"Need Read" = "Read";
+"name" = "Name";
+
+/* (No Comment) */
+"Need Read" = "ອ່ານ";
 
 /* (No Comment) */
 "New" = "ໃຫມ່";
@@ -386,11 +521,29 @@
 /* (No Comment) */
 "New Folder" = "ແຟັມເອກະສານໃໝ່";
 
+/* (No Comment) */
+"noPermissionLoadFile" = "ບໍ່ມີສິດໄດ້ຮັບເອກະສານ";
+
+/* (No Comment) */
+"Notification" = "ແຈ້ງເຕືອນ";
+
 /* Error description */
 "Object not found for key %@" = "ບໍ່ພົບ Object ໃນຄຳຫຼັກ %@";
 
+/* (No Comment) */
+"OfficeCenter" = "ຫ້ອງການ";
+
 /* OK */
 "OK" = "OK";
+
+/* (No Comment) */
+"outAuthorization" = "Out Authorization";
+
+/* (No Comment) */
+"password" = "Password";
+
+/* (No Comment) */
+"Personal Information" = "ຂໍ້ມູນ";
 
 /* No comment provided by engineer. */
 "Pick Image" = "ເລືອກຮູບ";
@@ -399,7 +552,25 @@
 "Pick New Image" = "ເລືອກຮູບໃໝ່";
 
 /* (No Comment) */
-"Readed" = "Readed";
+"playPause" = "ຢຸດຊົ່ວຄາວ";
+
+/* (No Comment) */
+"playStart" = "ເລີ່ມຫຼິ້ນ";
+
+/* (No Comment) */
+"playStop" = "ຢຸດ";
+
+/* (No Comment) */
+"qq" = "QQ";
+
+/* (No Comment) */
+"Readed" = "ອ່ານແລ້ວ";
+
+/* (No Comment) */
+"releaseFToSendSwipeToCancel" = "ປ່ອຍມື，ຍົກເລີກການສົ່ງ";
+
+/* (No Comment) */
+"releaseToSendSwipeToCancel" = "ປ່ອຍສົ່ງ，ຍົກຂຶ້ນເພື່ອຍົກເລີກ";
 
 /* (No Comment) */
 "Rename" = "ປ່ຽນຊື່";
@@ -426,6 +597,18 @@
 "Search Process Name" = "ຂະບວນການ:";
 
 /* (No Comment) */
+"selectGender" = "ກະລຸນາເລືອກເພດ";
+
+/* (No Comment) */
+"selectMemberError" = "ເລືອກສະມາຊິກລົ້ມເລວ！";
+
+/* (No Comment) */
+"selectMemberTip" = "ກະລຸນາເລືອກສະມາຊິກ";
+
+/* (No Comment) */
+"sendMessageFailed" = "ສົ່ງຂໍ້ຄວາມລົ້ມເລວ!";
+
+/* (No Comment) */
 "Share" = "ແບ່ງປັນ";
 
 /* (No Comment) */
@@ -436,6 +619,9 @@
 
 /* (No Comment) */
 "Shield Share File Confirm Message" = "ປິດລາຍການແບ່ງປັນເຫຼົ່ານີ້, ທ່ານແນ່ໃຈບໍ?";
+
+/* (No Comment) */
+"Skin" = "Skin";
 
 /* (No Comment) */
 "SMS" = "ສົ່ງ​ຂໍ້​ຄວາມ";
@@ -450,13 +636,25 @@
 "Title" = "ຫົວຂໍ້";
 
 /* 新增 */
-"Todo" = "Todo";
+"Todo" = "ວຽກ";
+
+/* (No Comment) */
+"TwoDaysAgo" = "2ມື້ກ່ອນ";
+
+/* (No Comment) */
+"unOpened" = "ບໍ່ເປີດ";
 
 /* No comment provided by engineer. */
 "Update" = "ອັບເດດ";
 
 /* (No Comment) */
+"updateError" = "ອັບເດດລົ້ມເລວ";
+
+/* (No Comment) */
 "Upload File" = "ອັບໂຫຼດໄຟລ໌";
+
+/* (No Comment) */
+"uploadError" = "ອັບໂຫລດຜິດພາດ，";
 
 /* No comment provided by engineer. */
 "URL (required)" = "URL (required)";
@@ -464,79 +662,47 @@
 /* (No Comment) */
 "VoiceAss" = "Voice Assistant";
 
-"Calendar" = "ປະຕິທິນ";
-"Information" = "ຂໍ້ມູນ";
-"OfficeCenter" = "ຫ້ອງການ";
-"DeleteMessage" = "ລົບ";
-"Account Security" = "ຄວາມປອດໄພບັນຊີ";
-"Personal Information" = "ຂໍ້ມູນ";
-"Skin" = "Skin";
-"Notification" = "ແຈ້ງເຕືອນ";
-"General" = "ທົ່ວໄປ";
-"About" = "ກ່ຽວກັບ";
-
-"MinuteAgo" = "ນາທີຜ່ານມາ";
-"JustNow" = "ເມື່ອກີ້";
-"HoursAgo" = "ຊົ່ວໂມງທີ່ແລ້ວ";
-"Yesterday" = "ມື້ວານ";
-"TwoDaysAgo" = "2ມື້ກ່ອນ";
-"DaysAgo" = "ມື້ກ່ອນ";
-"MonthAgo" = "1 ເດືອນກ່ອນ";
-"2MonthAgo" = "2 ເດືອນກ່ອນ";
-"3MonthAgo" = "3 ເດືອນກ່ອນ";
-
-
-"change" = "Change";
-"avatar" = "Avatar";
-"code" = "Code";
-"name" = "Name";
-"gender" = "Gender";
-"male" = "Male";
-"female" = "Female";
-"mobile" = "Mobile";
+/* (No Comment) */
 "wechat" = "Wechat";
-"qq" = "QQ";
-"logout" = "Logout";
-"loginAccount" = "Account";
-"password" = "Password";
-"changePasswod" = "Change Password";
-"outAuthorization" = "Out Authorization";
-"unOpened" = "ບໍ່ເປີດ";
-"loading" = "ໂຫລດ...";
-"errorLoadProfile" = "ປ້ອນຂໍ້ມູນສ່ວນໂຕຜິດພາດ!";
-"selectGender" = "ກະລຸນາເລືອກເພດ";
-"exitConfirmMessage" = "ແນ່ໃຈບໍ່ວ່າຈະອອກຈາກລະບົບ？";
-"exit" = "ອອກ";
-"updateError" = "ອັບເດດລົ້ມເລວ";
-"cleanMessage" = "ລົບລ້າງປະຫວັດສົນທະນາ";
-"editGroup" = "ປ່ຽນຊື່ກຸ່ມ";
-"editMember" = "ປ່ຽນສະມາຊິກສຳເລັດ";
-"deleteGroup" = "ລົບກຸ່ມສົນທະນາ";
-"editItemConfirm" = "ເລືອກປ່ຽນ Item";
-"deleteGroupConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບກຸ່ມສົນທະນາປະຈຸບັນ，ປະຫວັດການສົນທະນາທັງໝົດຈະວ່າງເປົ່າວ່າງຫຼັງຈາກເຈົ້າລົບ？";
-"deleteChatConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບແຊັດປະບັນ，ຫຼັງຈາກລົບແລ້ວປະຫວັດການແຊັດທັງໝົດຈະວ່າງເປົ່າວ່າງ？";
-"deleteFailed" = "ລົບລົ້ມເລວ";
-"cleanMessageConfirm" = "ແນ່ໃຈວ່າຕ້ອງການລົບລ້າງແຊັດປະບັນ，ຫຼັງຈາກລົບລ້າງແລ້ວປະຫວັດການແຊັດທັງໝົດຈະບໍສາມາດເບິ່ງປະຫວັດການແຊັດໄດ້？";
-"cleanSuccess" = "ລ້າງປະຫວັດການແຊັດສຳເລັດ！";
-"cleanFailed" = "ລົບລ້າງລົ້ມເລວ！";
-"groupNameComfirm" = "ກະລຸນາປ້ອນຊື່ກຸ່ມ";
-"editSuccess" = "ປ່ຽນສຳເລັດ";
-"editFailed" = "ປ່ຽນລົ້ມເລວ";
-"memberNotEnough" = "ເລືອກສະມາຊິກນ້ອຍກວ່າ 3 ຄົນ";
-"selectMemberTip" = "ກະລຸນາເລືອກສະມາຊິກ";
-"selectMemberError" = "ເລືອກສະມາຊິກລົ້ມເລວ！";
-"sendMessageFailed" = "ສົ່ງຂໍ້ຄວາມລົ້ມເລວ!";
-"uploadError" = "ອັບໂຫລດຜິດພາດ，";
+
+/* (No Comment) */
 "withdraw" = "ຍົກເລີກການສົ່ງຂໍ້ຄວາມ";
-"withdrawMemberMessage" = "ຍົກເລີກຂໍ້ຄວາມສະມາຊິກ";
-"withdrawalSuccessful" = "ຍົກເລີກຂໍ້ຄວາມສຳເລັດ！";
+
+/* (No Comment) */
 "withdrawalFailed" = "ຍົກເລີກລົ້ມເລວ！";
-"loadFileFailed" = "ໂຫລດເອກະສານລົ້ມເລວ";
-"noPermissionLoadFile" = "ບໍ່ມີສິດໄດ້ຮັບເອກະສານ";
-"releaseToSendSwipeToCancel" = "ປ່ອຍສົ່ງ，ຍົກຂຶ້ນເພື່ອຍົກເລີກ";
-"releaseFToSendSwipeToCancel" = "ປ່ອຍມື，ຍົກເລີກການສົ່ງ";
-"playStart" = "ເລີ່ມຫຼິ້ນ";
-"playStop" = "ຢຸດ";
-"playPause" = "ຢຸດຊົ່ວຄາວ";
-"cannotReview" = "ປະເພດເອກະສານປະຈຸບັນບໍ່ໄດ້ຮັບການສະໜັບສະໜູນ！";
-"getFileError" = "ໄດ້ຮັບເອກະສານຜິດປົກກະຕິ！";
+
+/* (No Comment) */
+"withdrawalSuccessful" = "ຍົກເລີກຂໍ້ຄວາມສຳເລັດ！";
+
+/* (No Comment) */
+"withdrawMemberMessage" = "ຍົກເລີກຂໍ້ຄວາມສະມາຊິກ";
+
+/* (No Comment) */
+"Yesterday" = "ມື້ວານ";
+
+"createSubNode" = "ລະດັບຍ່ອຍ";
+"createSameLevelNode" = "ລະດັບດຽວກັນ";
+"editNode" = "ແກ້ໄຂ";
+"deleteNode" = "ລົບ";
+"addIcon" = "Icon";
+"addImg" =  "ຮູບພາບ";
+"addLink" = "ເພີ່ມລຶ້ງ";
+"nullLink" = "ກະລຸນາປ້ອນລິ້ງທີ່ຢູ່";
+"errorLink" = "ກະລຸນາປ້ອນລິ້ງທີ່ຢູ່ທີ່ຖືກຕ້ອງ";
+"close" = "ປິດ";
+"onDutyCheckIn" = "ກົດບັດເຂົ້າວຽກ";
+"outDutyCheckIn" = "ກົດບັດເລີກວຽກ";
+"outCheckIn" = "ກົດບັດນອກສະຖານທີ່";
+"process" = "process >";
+"showrPocess" = "ກວດສອບຂະບວນການ >";
+"needCheckIn" = "ລໍຖ້າກົດບັດ";
+"hasCheckIn" = "ກົດບັດສຳເລັດ";
+"updateCheckIn" = "ກົດບັດຄືນໃໝ່";
+"locationError" = "ບໍ່ໄດ້ຢູ່ໃນຂອບເຂດທີ່ກຳນົດ,ກະລຸນາອະນຸຍາດເປີດໃຊ້ຕຳແໜ່ງ.";
+"updateProt" = "ຢືນຢັນການອັບເດດກົດບັດ";
+"outCheckTips" = "ປັດຈຸບັນບໍ່ໄດ້ຢູ່ໃນຂອບເຂດທີ່ສາມາດກົດບັດໄດ້,ທ່ານແນ່ໃຈວ່າຕ້ອງການກົດບັດນອກສະຖານທິ່ບໍ່?";
+"outCheckProt" = "ກະລຸນາອະທິບາຍເຫດຜົນການກົດບັດນອກສະຖານທີ່.";
+"checkInTimeError" = "ປັດຈຸບັນບໍ່ໄດ້ຢູ່ໃນເວລາທີ່ສາມາດກົດບັດໄດ້!";
+"submitCheckError" = "ກົດບັດບໍ່ສຳເລັດ!";
+"checkIn" = "ກົດບັດ";
+"statics" = "ສະຖິຕິ";

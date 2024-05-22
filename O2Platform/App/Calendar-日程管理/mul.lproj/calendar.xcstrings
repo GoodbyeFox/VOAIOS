@@ -1,0 +1,780 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "0zU-2p-l4e.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"添加说明\"; ObjectID = \"0zU-2p-l4e\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "添加说明"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕື່ມລາຍລະອຽດ"
+          }
+        }
+      }
+    },
+    "5RB-dp-23j.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"选择可见范围\"; ObjectID = \"5RB-dp-23j\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择可见范围"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກຂອບເຂດທີ່ແນມເຫັນ"
+          }
+        }
+      }
+    },
+    "6Nq-Qx-KK4.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"请选择类型\"; ObjectID = \"6Nq-Qx-KK4\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "请选择类型"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກະລຸນາເລືອກປະເພດ"
+          }
+        }
+      }
+    },
+    "8m9-cj-hJa.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"编辑内容\"; ObjectID = \"8m9-cj-hJa\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "编辑内容"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແກ້ໄຂເນື້ອໃນ"
+          }
+        }
+      }
+    },
+    "71T-qf-T8Z.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"日历\"; ObjectID = \"71T-qf-T8Z\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "日历"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປະຕິທິນ"
+          }
+        }
+      }
+    },
+    "915-R7-0Ph.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"是否公开\"; ObjectID = \"915-R7-0Ph\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "是否公开"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເປີດເຜີຍຫຼືບໍ່"
+          }
+        }
+      }
+    },
+    "Bfb-e1-6Y0.title" : {
+      "comment" : "Class = \"UITableViewController\"; title = \"日历广场\"; ObjectID = \"Bfb-e1-6Y0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "日历广场"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕາຕະລາງປະຕິທິນ"
+          }
+        }
+      }
+    },
+    "bIB-vr-JmD.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"选择管理者\"; ObjectID = \"bIB-vr-JmD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择管理者"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກຜູ້ດູແລ"
+          }
+        }
+      }
+    },
+    "Dub-8d-dx7.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2018年07月30日 13:00\"; ObjectID = \"Dub-8d-dx7\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2018年07月30日 13:00"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປີ 2018 ເດືອນ 7 ວັນທີ 30 ເວລາ 13:00"
+          }
+        }
+      }
+    },
+    "E1I-tu-3OF.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"例如：我的日历\"; ObjectID = \"E1I-tu-3OF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "例如：我的日历"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕົວຢ່າງ: ປະຕິທິນຂອງຂ້ອຍ"
+          }
+        }
+      }
+    },
+    "gaP-Lw-V7E.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"例如：开会\"; ObjectID = \"gaP-Lw-V7E\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "例如：开会"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕົວຢ່າງ: ປະຊຸມ"
+          }
+        }
+      }
+    },
+    "GeN-7S-V8E.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"周三\"; ObjectID = \"GeN-7S-V8E\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "周三"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ວັນພຸດ"
+          }
+        }
+      }
+    },
+    "GjW-u2-fg5.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"选择\"; ObjectID = \"GjW-u2-fg5\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກ"
+          }
+        }
+      }
+    },
+    "hQt-nQ-yDV.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"周二\"; ObjectID = \"hQt-nQ-yDV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "周二"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ວັນອັງຄານ"
+          }
+        }
+      }
+    },
+    "HYK-cG-NOj.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"选择可新建范围\"; ObjectID = \"HYK-cG-NOj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择可新建范围"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກສ້າງຂອບເຂດໃໝ່"
+          }
+        }
+      }
+    },
+    "IMf-BA-twt.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"截至日期：\"; ObjectID = \"IMf-BA-twt\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "截至日期："
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ວັນຄົບກຳນົດ"
+          }
+        }
+      }
+    },
+    "jIB-o0-arB.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"19:00\"; ObjectID = \"jIB-o0-arB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "19:00"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "19:00"
+          }
+        }
+      }
+    },
+    "jle-N2-9Fg.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"创建人：xxx\"; ObjectID = \"jle-N2-9Fg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "创建人：xxx"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຜູ້ສ້າງຂຶ້ນ: xxx"
+          }
+        }
+      }
+    },
+    "kae-RP-FyB.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"选择\"; ObjectID = \"kae-RP-FyB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກ"
+          }
+        }
+      }
+    },
+    "KIV-kE-cmY.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"全天\"; ObjectID = \"KIV-kE-cmY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "全天"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ທຸກມື້"
+          }
+        }
+      }
+    },
+    "les-0j-Mxf.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"18:00\"; ObjectID = \"les-0j-Mxf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "18:00"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "18:00"
+          }
+        }
+      }
+    },
+    "Lgr-ZD-kXw.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"新增日历\"; ObjectID = \"Lgr-ZD-kXw\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "新增日历"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເພີ່ມປະຕິທິນ"
+          }
+        }
+      }
+    },
+    "LXv-Cs-Ybf.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"保存\"; ObjectID = \"LXv-Cs-Ybf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "保存"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ບັນທຶກ"
+          }
+        }
+      }
+    },
+    "m4R-gF-vOd.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"选择\"; ObjectID = \"m4R-gF-vOd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກ"
+          }
+        }
+      }
+    },
+    "Nbx-21-hlf.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"取消\"; ObjectID = \"Nbx-21-hlf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "取消"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຍົກເລີກ"
+          }
+        }
+      }
+    },
+    "OMA-Fp-nFl.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"删   除\"; ObjectID = \"OMA-Fp-nFl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "删   除"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ລົບ"
+          }
+        }
+      }
+    },
+    "onv-WL-BxB.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"我的日历\"; ObjectID = \"onv-WL-BxB\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "我的日历"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປະຕິທິນຂອງຂ້ອຍ"
+          }
+        }
+      }
+    },
+    "pZL-hd-WYm.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"编辑内容\"; ObjectID = \"pZL-hd-WYm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "编辑内容"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແກ້ໄຂເນື້ອໃນ"
+          }
+        }
+      }
+    },
+    "qf3-2G-kRZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"是否启用\"; ObjectID = \"qf3-2G-kRZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "是否启用"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລີ່ມໃຊ້ຫຼືບໍ່"
+          }
+        }
+      }
+    },
+    "Qxa-Na-eLg.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"周六\"; ObjectID = \"Qxa-Na-eLg\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "周六"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ວັນເສົາ"
+          }
+        }
+      }
+    },
+    "qy2-Ll-2FL.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"周一\"; ObjectID = \"qy2-Ll-2FL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "周一"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ວັນຈັນ"
+          }
+        }
+      }
+    },
+    "rdY-4r-1NV.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"全天\"; ObjectID = \"rdY-4r-1NV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "全天"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ທຸກມື້"
+          }
+        }
+      }
+    },
+    "Rqe-Vw-UzF.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2018年07月30日 13:00\"; ObjectID = \"Rqe-Vw-UzF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2018年07月30日 13:00"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປີ 2018 ເດືອນ 07 ວັນທີ 30 13:00"
+          }
+        }
+      }
+    },
+    "Szk-bc-YOL.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"周五\"; ObjectID = \"Szk-bc-YOL\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "周五"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ວັນສຸກ"
+          }
+        }
+      }
+    },
+    "To9-IU-AE6.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"周日\"; ObjectID = \"To9-IU-AE6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "周日"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ວັນອາທິດ"
+          }
+        }
+      }
+    },
+    "ueU-we-edj.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"选择\"; ObjectID = \"ueU-we-edj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກ"
+          }
+        }
+      }
+    },
+    "uuR-AT-jup.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"关注\"; ObjectID = \"uuR-AT-jup\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关注"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕິດຕາມ"
+          }
+        }
+      }
+    },
+    "VmY-o1-rF9.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"公开的日历\"; ObjectID = \"VmY-o1-rF9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "公开的日历"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເຜີຍແຜ່ປະຕິທິນ"
+          }
+        }
+      }
+    },
+    "vpF-O7-lvf.placeholder" : {
+      "comment" : "Class = \"UITextField\"; placeholder = \"选择所属组织\"; ObjectID = \"vpF-O7-lvf\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择所属组织"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກກຸມທັງໝົດ"
+          }
+        }
+      }
+    },
+    "wt1-wW-6mZ.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"今天\"; ObjectID = \"wt1-wW-6mZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "今天"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ມື້ນີ້"
+          }
+        }
+      }
+    },
+    "xOJ-cj-hMc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"周四\"; ObjectID = \"xOJ-cj-hMc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "周四"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ວັນພະຫັດ"
+          }
+        }
+      }
+    },
+    "Yrc-Ws-oZH.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"选择\"; ObjectID = \"Yrc-Ws-oZH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "选择"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເລືອກ"
+          }
+        }
+      }
+    },
+    "YuP-80-oar.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"这里是内容\"; ObjectID = \"YuP-80-oar\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "这里是内容"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໃນນີ້ແມ່ນເນື້ອໃນ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

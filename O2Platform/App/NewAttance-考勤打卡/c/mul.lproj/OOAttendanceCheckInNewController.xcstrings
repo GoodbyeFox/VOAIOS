@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "PfA-VZ-bun.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"00:00:00\"; ObjectID = \"PfA-VZ-bun\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "00:00:00"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "00:00:00"
+          }
+        }
+      }
+    },
+    "vtH-4m-Kff.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"位置信息还在查询中...\"; ObjectID = \"vtH-4m-Kff\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "位置信息还在查询中..."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກຳລັງຄົ້ນຫາຕຳແໜ່ງທີ່ຢູ່"
+          }
+        }
+      }
+    },
+    "X8B-av-xbY.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"打卡\"; ObjectID = \"X8B-av-xbY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "打卡"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກົດບັດ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

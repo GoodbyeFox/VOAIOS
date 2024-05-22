@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "5Ld-tZ-JIj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"扫码结果显示区域\"; ObjectID = \"5Ld-tZ-JIj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "扫码结果显示区域"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ພື້ນທີ່ສະແດງຜົນຂອງການສະແກນ"
+          }
+        }
+      }
+    },
+    "fjt-Bn-lCd.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"即将在电脑上登录VOA网页版\"; ObjectID = \"fjt-Bn-lCd\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "即将在电脑上登录VOA网页版"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເຂົ້າສູ່ລະບົບ VOA ເວີຊັ່ນຄອມພິວເຕີ້"
+          }
+        }
+      }
+    },
+    "Mlx-RO-T3c.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"确认登陆\"; ObjectID = \"Mlx-RO-T3c\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "确认登陆"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຄິກເພື່ອຢືນຢັນ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

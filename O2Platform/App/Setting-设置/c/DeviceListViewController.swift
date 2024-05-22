@@ -67,7 +67,7 @@ extension DeviceListViewController: DeviceUnbindBtnClickListener {
             return
         }
         if  token != deviceToken {
-            self.showDefaultConfirm(title: "提示", message: "确定要解绑 \(device.deviceType) 设备") { (action) in
+            self.showDefaultConfirm(title: L10n.alt, message: "确定要解绑 \(device.deviceType) 设备") { (action) in
                 self.viewModel.unbindDevice(token: deviceToken).then({ (result) in
                     if (result) {
                         self.loadDeviceList()

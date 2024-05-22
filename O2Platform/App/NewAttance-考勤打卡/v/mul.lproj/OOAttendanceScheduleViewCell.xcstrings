@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Cro-sW-eth.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"09:00未打卡\"; ObjectID = \"Cro-sW-eth\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "09:00未打卡"
+          }
+        }
+      }
+    },
+    "dBx-af-tVn.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"更新打卡\"; ObjectID = \"dBx-af-tVn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "更新打卡"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ກົດບັດຄືນໃໝ່"
+          }
+        }
+      }
+    },
+    "OCm-CU-8sx.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"09:00\"; ObjectID = \"OCm-CU-8sx\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "09:00"
+          }
+        }
+      }
+    },
+    "Qug-eg-7N2.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"上午上班打卡\"; ObjectID = \"Qug-eg-7N2\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "上午上班打卡"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

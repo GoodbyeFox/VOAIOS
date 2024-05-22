@@ -179,7 +179,7 @@ class O2MindMapViewModel  {
                     }
                 }
             } else {
-                reject(O2APIError.o2ResponseError("图片为空！"))
+                reject(O2APIError.o2ResponseError(L10n.imgNull))
             }
         }
     }

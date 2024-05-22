@@ -39,7 +39,7 @@ class OOVoiceAIController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "语音助手"
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "关闭", style: .plain, target: self, action: #selector(closeWindow))
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: L10n.close, style: .plain, target: self, action: #selector(closeWindow))
         SFSpeechRecognizer.requestAuthorization { (status) in
             if status != SFSpeechRecognizerAuthorizationStatus.authorized {
                 DDLogError("错误，没有权限！！！！！！")

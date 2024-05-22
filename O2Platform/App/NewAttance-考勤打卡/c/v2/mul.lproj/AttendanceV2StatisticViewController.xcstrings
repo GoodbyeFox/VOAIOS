@@ -1,0 +1,396 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "4Md-SY-s2X.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2023\"; ObjectID = \"4Md-SY-s2X\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2023"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "7xz-ES-EyD.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"迟到次数\"; ObjectID = \"7xz-ES-EyD\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "迟到次数"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈຳວນມາຊ້າ"
+          }
+        }
+      }
+    },
+    "a46-AQ-e9M.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"a46-AQ-e9M\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "aWa-Vf-tSZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"平均工时\"; ObjectID = \"aWa-Vf-tSZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "平均工时"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ສະເລ່ຍວັນງານ"
+          }
+        }
+      }
+    },
+    "b0i-ld-1vF.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"4月\"; ObjectID = \"b0i-ld-1vF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "4月"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ເດືອນ 4"
+          }
+        }
+      }
+    },
+    "bue-Sk-orj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"bue-Sk-orj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "Dz8-Tv-Rt0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"Dz8-Tv-Rt0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "0"
+          }
+        }
+      }
+    },
+    "eHz-GV-cYN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"eHz-GV-cYN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "ISX-ad-spn.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"ISX-ad-spn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "J5a-Qr-XqC.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"缺卡次数\"; ObjectID = \"J5a-Qr-XqC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "缺卡次数"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈຳນວນບໍ່ໄດ້ກົດບັດ"
+          }
+        }
+      }
+    },
+    "jZc-6A-Nhb.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"请假天数\"; ObjectID = \"jZc-6A-Nhb\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "请假天数"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈຳນວນວັນລາພັກ"
+          }
+        }
+      }
+    },
+    "KE4-yo-Wqj.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"KE4-yo-Wqj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.0"
+          }
+        }
+      }
+    },
+    "LAv-W9-PUV.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"休息天数\"; ObjectID = \"LAv-W9-PUV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "休息天数"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈຳນວນວັນພັກ"
+          }
+        }
+      }
+    },
+    "LCd-ow-0zU.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"外勤次数\"; ObjectID = \"LCd-ow-0zU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "外勤次数"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈຳນວນວັນອອກວຽກນອກ"
+          }
+        }
+      }
+    },
+    "Ld3-2E-WHj.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"异常打卡数据\"; ObjectID = \"Ld3-2E-WHj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "异常打卡数据"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຂໍ້ມູນການກົດບັດທີ່ຜິດປົກກະຕິ"
+          }
+        }
+      }
+    },
+    "Ld3-2E-WHj.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"Ld3-2E-WHj\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ດ້ານລຸ່ມ"
+          }
+        }
+      }
+    },
+    "n4j-lj-Exz.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"n4j-lj-Exz\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1"
+          }
+        }
+      }
+    },
+    "OPM-BU-7yr.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"旷工天数\"; ObjectID = \"OPM-BU-7yr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "旷工天数"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈຳນວນວັນຂາດວຽກ"
+          }
+        }
+      }
+    },
+    "qQm-RV-15T.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"出勤天数\"; ObjectID = \"qQm-RV-15T\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "出勤天数"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈຳນວນວັນງານ"
+          }
+        }
+      }
+    },
+    "stm-WP-Fuh.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"stm-WP-Fuh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        }
+      }
+    },
+    "u3h-mo-Cqs.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"早退次数\"; ObjectID = \"u3h-mo-Cqs\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "早退次数"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຈຳນວນເລີກວຽກກ່ອນໂມງ"
+          }
+        }
+      }
+    },
+    "xi6-0q-J84.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"1.0\"; ObjectID = \"xi6-0q-J84\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "1.0"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1.0"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

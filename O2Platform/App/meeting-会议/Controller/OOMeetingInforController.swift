@@ -241,7 +241,7 @@ extension OOMeetingInforController: O2BBSCreatorViewDelegate {
                         })
                         actions.append(action)
                     })
-                    self.showSheetAction(title: "提示", message: "请选择创建会议流程的身份", actions: actions)
+                    self.showSheetAction(title: L10n.alt, message: "请选择创建会议流程的身份", actions: actions)
                 }
             }.catch { (error) in
                 DDLogError("\(error)")

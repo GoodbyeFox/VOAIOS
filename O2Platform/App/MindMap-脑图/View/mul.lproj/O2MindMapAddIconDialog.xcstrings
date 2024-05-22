@@ -1,0 +1,132 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "cgW-GX-3jE.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"确定\"; ObjectID = \"cgW-GX-3jE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "确定"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຢືນຢັນ"
+          }
+        }
+      }
+    },
+    "cgW-GX-3jE.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"cgW-GX-3jE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "eWo-LD-4fJ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"进度：\"; ObjectID = \"eWo-LD-4fJ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "进度："
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ລະດັບ"
+          }
+        }
+      }
+    },
+    "fea-Ah-8oN.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"取消\"; ObjectID = \"fea-Ah-8oN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "取消"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຍົກເລີກ"
+          }
+        }
+      }
+    },
+    "fea-Ah-8oN.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"fea-Ah-8oN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "iAi-QY-kke.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"图标\"; ObjectID = \"iAi-QY-kke\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "图标"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "icon"
+          }
+        }
+      }
+    },
+    "xj1-2K-TXr.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"优先级：\"; ObjectID = \"xj1-2K-TXr\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "优先级："
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ອັນດັບແລກ : "
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

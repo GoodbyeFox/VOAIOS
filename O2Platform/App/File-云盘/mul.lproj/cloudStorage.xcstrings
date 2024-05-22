@@ -1,0 +1,294 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "4S5-jZ-Bub.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"云盘\"; ObjectID = \"4S5-jZ-Bub\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "云盘"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cloud"
+          }
+        }
+      }
+    },
+    "5gm-b9-SL2.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"关闭\"; ObjectID = \"5gm-b9-SL2\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "关闭"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ປິດ"
+          }
+        }
+      }
+    },
+    "6a6-Ch-gz0.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"云盘\"; ObjectID = \"6a6-Ch-gz0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "云盘"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cloud"
+          }
+        }
+      }
+    },
+    "69s-uG-o7K.title" : {
+      "comment" : "Class = \"UIViewController\"; title = \"我的分享\"; ObjectID = \"69s-uG-o7K\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "我的分享"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕົວເຜີຍແຜ່ຂອງຂ້ອຍ"
+          }
+        }
+      }
+    },
+    "d0q-qk-cZi.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"取消\"; ObjectID = \"d0q-qk-cZi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "取消"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຍົກເລີກ"
+          }
+        }
+      }
+    },
+    "GTk-aG-DyE.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"标题\"; ObjectID = \"GTk-aG-DyE\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "IxK-W7-f5c.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"标题\"; ObjectID = \"IxK-W7-f5c\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "iz4-xa-u3M.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"我的下载\"; ObjectID = \"iz4-xa-u3M\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "我的下载"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕົວດາວໂຫຼດຂອງ້ອຍ"
+          }
+        }
+      }
+    },
+    "Jkn-KV-2mI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"标题\"; ObjectID = \"Jkn-KV-2mI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "标题"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຫົວຂໍ້"
+          }
+        }
+      }
+    },
+    "L64-RP-Oy0.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"名称\"; ObjectID = \"L64-RP-Oy0\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "名称"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຊື່"
+          }
+        }
+      }
+    },
+    "LcL-nt-mEK.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"名称\"; ObjectID = \"LcL-nt-mEK\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "名称"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຊື່"
+          }
+        }
+      }
+    },
+    "oqT-tS-Y8a.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"oqT-tS-Y8a\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ດ້ານລຸ່ມ"
+          }
+        }
+      }
+    },
+    "rHW-Rw-5qY.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"目标文件夹\"; ObjectID = \"rHW-Rw-5qY\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "目标文件夹"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ໂຟເດີ້ເປົ້າໝາຍ"
+          }
+        }
+      }
+    },
+    "Uhj-jh-5eh.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"确定\"; ObjectID = \"Uhj-jh-5eh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "确定"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຢືນຢັນ"
+          }
+        }
+      }
+    },
+    "uJk-qb-Kt6.title" : {
+      "comment" : "Class = \"UINavigationItem\"; title = \"文件列表\"; ObjectID = \"uJk-qb-Kt6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "文件列表"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ຕາຕະລາງເອກະສານ"
+          }
+        }
+      }
+    },
+    "Ynd-pQ-5zv.title" : {
+      "comment" : "Class = \"UIBarButtonItem\"; title = \"编辑\"; ObjectID = \"Ynd-pQ-5zv\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "编辑"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ແກ້ໄຂ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
